@@ -1,8 +1,8 @@
 # open-source-guidance
 
-open-source-guidance is a Danish common public-sector guidance on the use of open source.
+open-source-guidance is the Danish common public-sector guidance on the use of open source.
 
-June 8th it was decided by the [Committee on Architecture and Standards](https://arkitektur.digst.dk/mandat-og-styring/governance/udvalget-arkitektur-og-standarder) under the [Danish Agency for Digitisation](https://en.digst.dk/) to establish a guidance on the use of open source in the Danish public sector.
+June 8th it was decided by the [Committee on Architecture and Standards](https://arkitektur.digst.dk/mandat-og-styring/governance/udvalget-arkitektur-og-standarder) under the [Danish Agency for Digitisation](https://en.digst.dk/) to provide guidance on the use of open source in the Danish public sector.
 
 The project and the first version of the guidance will be finished by the end of 2021.
 
@@ -14,7 +14,7 @@ Therefore there is a need to analyse the possible barriers to the use of open so
 
 Open source is particularly relevant now, as the methods supports more modular and agile ways of developing, sharing, and reusing components. For Denmark, open source can help in building digital solutions without or with less vendor lock-in. It is in coherence with the principles of the Danish common public-sector digital architecture and the EU guidelines for increased use of open source.
 
-There is currently no common guidance that public authorities in Denmark can rely on when it comes to using open source. As the EU has pointed to an increased use of open source as an obvious path to increased trust and transparency between authorities and citizens, work has begun creating a practical guidance on the use of open source.
+There is currently no common guidance that public authorities in Denmark can rely on when it comes to using open source. As the EU has pointed to an increased use of open source as an obvious path to increased trust and transparency between authorities and citizens, work has begun providing practical guidance on the use of open source.
 
 The guidance will include best practice recommendations as well as an overview of requirements and existing open source software.
 
@@ -22,7 +22,7 @@ The guidance will include best practice recommendations as well as an overview o
 
 The work is being led by Local Government Denmark, which is the association and interest organisation of the 98 Danish municipalities. A reference group of experts will follow the work and provide input.
 
-The guide is expected to include:
+The guidance is expected to include:
 
   * Recommendations about and potential gains from using open source
   * What to be aware of in relation to e.g. licenses
