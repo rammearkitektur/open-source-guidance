@@ -290,7 +290,7 @@ At kildekoden er åben og frit kan genbruges, betyder ikke blot at én myn-dighe
 
 Med alle typer af it-anskaffelser kan der være mange elementer man skal huske i løbet af processen. Nedenfor er derfor opstillet en tjekliste til brug ved anskaffelse af open source. Herunder til afklaring i forhold til licenser.  
 
-Licenser kan indeholde forskellige vilkår om f.eks., at videreudvikling ikke bare må, men også skal videregives (såkaldte copyleft-vilkår), eller at pro-grammet ikke må benyttes i kommercielle sammenhænge. Dette element kan være vigtigt i henhold til at sikre, at produktet ikke senere hen overgår fra open til closed source.
+Licenser kan indeholde forskellige vilkår om f.eks. at publicerede videreudviklinger skal videregives under samme vilkår (såkaldte copyleft-vilkår). Dette element kan være vigtigt i henhold til at sikre, at produktet ikke senere hen overgår fra open til closed source.
 
 Under hensyn til gennemsigtigheden må det derfor i alle tilfælde kræves, at ordregiver specificerer, hvilke open source-(mindste)krav, der stilles til det programmel, som skal (videre)udvikles.
 
