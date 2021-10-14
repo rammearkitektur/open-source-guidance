@@ -196,7 +196,7 @@ Modsætningen til open source er proprietære løsninger eller closed source. I 
 
 ## Hvorfor en fællesoffentlig vejledning om anvendelse af open source?
 
-Open source er ikke noget nyt begreb, eller ny metode/forretningsmodel. Det nye er, at der, udover et øget fokus i EU, sker en udvikling i andre EU-lande i retning af øgede krav om anvendelse af Open Source. I Italien er der indført et følg-eller-forklar princip for offentlige myndigheder i forhold til anvendelse af Open Source. Frankrig har det største marked for open source i Europa og høj efterspørgsel efter open source i deres myndighe-der. Ud over en egentlig EU open source-strategi gives der i EU-regi støtte til initiativer som Foundation for Public Code. I mange EU-projekter er open source obligatorisk.
+Open source er ikke noget nyt begreb, eller ny metode/forretningsmodel. Det nye er, at der, udover et øget fokus i EU, sker en generel samfundsudvikling i andre EU-lande i retning af øgede krav om anvendelse af Open Source. I Italien er der indført et følg-eller-forklar princip for offentlige myndigheder i forhold til anvendelse af Open Source. Frankrig har det største marked for open source i Europa og høj efterspørgsel efter open source i deres myndighe-der. Ud over en egentlig EU open source-strategi gives der i EU-regi støtte til initiativer som Foundation for Public Code. I mange EU-projekter er open source obligatorisk.
 
 Formålet med denne vejledning er ikke at opsætte et modsætningsforhold mellem brug af open source og closed source. Der er ikke tale om et enten-eller, men vejledningen har til derimod hensigt at belyse hvor open source kan give værdi samt skabe grundlaget for en strategisk beslutning for den enkelte myndighed. 
 
