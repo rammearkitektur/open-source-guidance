@@ -1,6 +1,6 @@
 # Anbefalinger om og potentielle gevinster ved brug af open source
 
-Anvendelse af open source-software kan bidrage til at understøtte yderlige-re innovation og konkurrence på softwaremarkedet, fordi softwaren kan genbruges, og videredistribueres med henblik på at andre kan få glæde af den. Dermed undgår skatteborgerne at skulle betale for udviklingen af den samme software flere gange.
+Anvendelse af open source-software kan bidrage til at understøtte yderligere innovation og konkurrence på softwaremarkedet, fordi softwaren kan genbruges, og videredistribueres med henblik på at andre kan få glæde af den. Dermed undgår fx en myndighed at skulle betale for udviklingen af den samme software flere gange.
 
 Open source-software kan bidrage til sammenhæng og fortsat digital udvik-ling på tværs af den offentlige sektor. Som nævnt i indledningen har der tidligere været fokus på et ønske om at anvende open source i offentlige myndigheder der, hvor det er relevant. I den forbindelse blev der opstillet en række principper for anvendelse af open source i det offentlige, som skulle sikre de offentlige institutioner store valgmuligheder og innovation samt understøtte, at softwareanskaffelser samlet set gøres billigere og mere fleksible. Principperne for anvendelse af open source blev oplistet i ” Open source-software i det offentlige” af Ministeriet for Videnskab, Teknologi og Udvikling, december 2008 , og de er kun blevet endnu mere relevante siden 2008: 
 
@@ -27,7 +27,7 @@ Myte nr. 1: Open source er en niche for primært computerkyndige, eller meget sm
 
 Myte nr. 2: Man skal selv kunne kode for at anvende Open source-løsninger, (og derfor er det svært at anvende for ikke-computer kyndige). 
 
-Myte nr. 3: Open source er gratis, og derfor dårligere kvalitet end proprie-tær software/closed source. At der som oftest ikke er licensomkostninger ved brug af open source-software, betyder, at der kan hentes nogle direkte besparelser. Men det er ikke gratis at anvende open source-software. De samlede omkostninger vil oftest være de samme, selvom der ikke er li-censomkostninger.
+Myte nr. 3: Open source er gratis, og derfor dårligere kvalitet end proprie-tær software/closed source. At der som oftest ikke er licensomkostninger ved brug af open source-software, betyder, at der kan hentes nogle direkte besparelser. Men det er ikke gratis at anvende open source-software. De samlede omkostninger kan være de samme, selvom der ikke er licensomkostninger.
 
 Myte nr. 4: open source-løsninger er usikre/sårbare i forhold til proprietære løsninger, fordi der med open source, er fuld transparens om, hvordan løs-ningen fungerer.  
 
