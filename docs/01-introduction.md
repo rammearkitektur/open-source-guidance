@@ -2,23 +2,31 @@
 
 (indledningen specifikt rettet mod (top)ledelse som målgruppe)
 
-EU har peget på øget brug af Open Source, som en oplagt vej til øget tillid og transparens mellem myndigheder og borgerne. Højt på dagsordenen i det fællesoffentlige digitaliseringssamarbejde er også et ønske om at styrke tillid og trygheden ved borgernes og virksomhedernes brug af de offentlige digitale tjenester:
+Danske myndigheder investerer mange penge i it og der er i stigende grad krav til at it-løsninger er fleksible, og kan arbejde sammen. Samtidig er der stadig stærkere krav til sikkerhed, privatlivsbeskyttelse og transparens. 
+
+Højt på dagsordenen i det fællesoffentlige digitaliseringssamarbejde er også et ønske om at styrke tillid og trygheden ved borgernes og virksomhedernes brug af de offentlige digitale tjenester:
 
 ”Danskernes høje tryghed og tillid til hinanden og til den offentlige sektor er fundamentet for vores velfærd” 
+
+Den fællesoffentlige Digitale Arkitektur (FDA) peger også på brug af open source, som en vigtig tilgang til at   undgå afhængighed af leverandører og proprietære teknologier, hvor det er relevant. 
+
+Denne vejledning vil blandt andet belyse, hvor det er relevant at vælge en open source baseret løsning, og fokuserer på at give konkret vejledning til nogle af de vigtigste overvejelser, som man skal gennem, når man står i en anskaffelsessituation. Desuden giver vejledningen et overblik over de for-hold, som er vigtige, når man først har anskaffet sig en eller flere open sourceløsninger, og fx står over for opgaver som vedligehold, videreudvik-ling og genudbud. 
+
+Open source står også højt på dagsordenen i EU og i mange andre lande. EU har peget på øget brug af Open Source, som en oplagt vej til øget tillid og transparens mellem myndigheder og borgerne. 
 
 Der er i løbet af det sidste års tid kommet fokus på øgede samfundsgevinster i form af blandt andet sikkerhed, transparens, leverandøruafhængighed og interoperabilitet ved anvendelse af Open Source i offentlige myndigheder. Under overskriften ”Think Open” har EU-kommissionen præsenteret en vision for digital trans-formation, innovation og samarbejde med open source som løftestang for offentlige digitale løsninger. Open source skal sikre løsninger, der virker og kan deles på tværs af grænser og fremtidssikrer Europas og medlemslandenes teknologiske selvbestemmelse i kraft af øget leverandøruafhængighed.
 
 ## Hvad er open source?
 
-Open Source betyder ”åben kildekode” og der er dermed tale om software, der er distribueret og udviklet i overensstemmelse med princippet om, at et computerprograms kildekode skal være åben og tilgængelig. 
+Open Source betyder ”åben kildekode” og der er dermed tale om software, der er distribueret og udviklet i overensstemmelse med et princip om, at et computerprograms kildekode skal være åben og tilgængelig. 
 
 Modsætningen til open source er proprietære løsninger eller closed source. I proprietære løsninger har vi i modsætning til open source ikke mulighed for at ”kigge under kølerhjelmen” og se hvordan løsningen eller softwaren er bygget. Ved anvendelse af proprietære løsninger er det dermed leverandøren, der har den eksklusive copyright til softwaren. Man anvender derfor proprietære løsninger under nogle fastlagte betingelser, og kan ikke selv modificere eller dele løsningen/softwaren med andre.
 
 Med open source-software er der dermed frihed til at anvende, undersøge, ændre, forbedre og dele kildekode og dokumentation. Open source vedrø-rer altså selve den kode, som softwaren består af.
 
-Begrebet om open source (åben kildekode) bliver af og til forvekslet med begrebet ’åbne standarder’. Åbne standarder betyder, at koden til den måde softwaren kommunikerer med andre systemer på, er åben og med frit til-gængelige tekniske specifikationer. I modsætning til open source vedrører åbne standarder derfor det ‘sprog’, softwaren kan tale. Sagt på en anden måde, så kan du, når du fremsender en fil, som er baseret på en åben standard være sikker på, at din modtager har mulighed for at åbne filen. 
+Begrebet om open source (åben kildekode) bliver af og til forvekslet med begrebet ’åbne standarder’. 
 
-Et godt eksempel er, at offentlige myndigheder primært udsender filer i pdf-formatet, for at være sikre på, at borgeren i den anden ende kan åbne filen uanset hvilket operativsystem eller software, som borgeren i øvrigt anvender.
+Tekstboks: "hvad er åbne standarder? "En åben standard er en teknisk specifikation, som er offentligt tilgængeligt, der har til formål at nå et bestemt mål. Ved at tillade at alle kan bruge standarden, kan man øge kompatibiliteten mellem diverse hardware- og software-komponenter" (kilde: Wikipedia). I modsætning til open source vedrører åbne standarder derfor det ‘sprog’, softwaren anvender til at "tale med andre systemer". Sagt på en anden måde, så kan du, når du fremsender en fil, som er baseret på en åben standard være sikker på, at din modtager har mulighed for at åbne filen. Offentlige myndigheder sender eksempelvis primært filer i pdf-formatet, for at være sikre på, at borgeren i den anden ende kan åbne filen uanset hvilket operativsystem eller software, som borgeren i øvrigt anvender.
 
 Open Source handler i virkeligheden ikke om teknik, men kan snarere ses som en udviklingsmetode eller en forretningsmodel, der essentielt fremmer offentlige myndigheders medejerskab til deres egne løsninger samt giver mulighed for deling med andre, da løsningen/softwaren ikke er underlagt copyright. 
 
