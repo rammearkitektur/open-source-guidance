@@ -28,11 +28,27 @@ Med open source-software er der dermed frihed til at anvende, undersøge, ændre
 
 Begrebet om open source (åben kildekode) bliver af og til forvekslet med begrebet ’åbne standarder’. 
 
-> Tekstboks: "hvad er åbne standarder? "En åben standard er en teknisk specifikation, som er offentligt tilgængeligt, der har til formål at nå et bestemt mål. Ved at tillade at alle kan bruge standarden, kan man øge kompatibiliteten mellem diverse hardware- og software-komponenter" (kilde: Wikipedia). I modsætning til open source vedrører åbne standarder derfor det ‘sprog’, softwaren anvender til at "tale med andre systemer". Sagt på en anden måde, så kan du, når du fremsender en fil, som er baseret på en åben standard være sikker på, at din modtager har mulighed for at åbne filen. Offentlige myndigheder sender eksempelvis primært filer i pdf-formatet, for at være sikre på, at borgeren i den anden ende kan åbne filen uanset hvilket operativsystem eller software, som borgeren i øvrigt anvender.
+> Faktaboks: "hvad er åbne standarder? "En åben standard er en teknisk specifikation, som er offentligt tilgængeligt, der har til formål at nå et bestemt mål. Ved at tillade at alle kan bruge standarden, kan man øge kompatibiliteten mellem diverse hardware- og software-komponenter" (kilde: Wikipedia). I modsætning til open source vedrører åbne standarder derfor det ‘sprog’, softwaren anvender til at "tale med andre systemer". Sagt på en anden måde, så kan du, når du fremsender en fil, som er baseret på en åben standard være sikker på, at din modtager har mulighed for at åbne filen. Offentlige myndigheder sender eksempelvis primært filer i pdf-formatet, for at være sikre på, at borgeren i den anden ende kan åbne filen uanset hvilket operativsystem eller software, som borgeren i øvrigt anvender.
 
 Open Source handler i virkeligheden ikke om teknik, men kan snarere ses som en udviklingsmetode eller en forretningsmodel, der essentielt fremmer offentlige myndigheders medejerskab til deres egne løsninger samt giver mulighed for deling med andre, da løsningen/softwaren ikke er underlagt copyright. 
 
 > Faktaboks: Her kunne indsættes eksempler på kendte applikationer/løsninger – gerne lidt større, som anvendes på en open source-licens – gerne nogle som anvendes bredt i kommunerne/staten og regionerne. Eksempelvis er open source på SKI 02.06, og 02.18/02.17.  Formålet er at vise, at Open source ikke er niche/kun for mindre løsninger.
+
+## Internationale strømninger
+
+En undersøgelse  er blevet offentliggjort i september 2021 fra Europa -Kommissionen (kilde:  https://digital--strategy-ec-europa-eu.translate.goog/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and?_x_tr_sl=it&_x_tr_tl=da&_x_tr_hl=da&_x_tr_pto=nui,elem) vedr. virkningen af open source - software og hardware på EU's økonomi. Dette med hensyn til innovation, konkurrenceevne, teknologisk uafhængighed og jobskabelse.
+
+Undersøgelsen fremhæver, hvordan brug af open source-software kan: 
+
+•	Fremme den offentlige sektors uafhængighed i Unionen
+•	Reducere omkostninger 
+•	Begrænse fænomenet lock-in (afhængighed af leverandører). 
+
+Set fra EU's perspektiv kan open source dermed være en nøgle til et mere autonomt og teknologisk suverænt EU løsrevet fra techgiganter. Det er en stor del af forklaringen på, at der fra EU's side tilskyndes til anvendelse af open source samt, at der er udarbejdet anerkendte standarder for, hvorledes programmel deles og genanvendes, ud fra et ønske om anvendelse af færrest mulige ressourcer.
+
+> Faktaboks: I Italien er det fx indført ved lov, at open source-programmer gives fortrinsret i offentlige udbud og myndighederne forpligter sig til at offetliggøre koden til software, der er udviklet under en open source-licens, for at gøre den genanvendelig.
+
+Undersøgelsen fremhæver nogle anbefalinger, der skal skabe et mere uafhængigt og konkurrencedygtigt Europa. Herunder bl.a. at betragte open source som en grundlæggende komponent i den offentlige forvaltnings digitale transformation samt direkte finansiere udviklingen af open source -software og dens sikkerhed. 
 
 ## Hvorfor en fællesoffentlig vejledning om anvendelse af open source?
 
@@ -52,13 +68,15 @@ Statens it-projektmodel skal bidrage til at sikre, at staten ikke igangsætter u
 
 Formålet er at analysere mulige barrierer for offentlige myndigheders anvendelse af open source i Danmark og at synliggøre hvordan og hvornår, det er relevant at anvende open source samt opstille anbefalinger, som offentlige myndigheder i Danmark kan læne sig op ad, når det gælder anvendelse af Open Source. Vejledningen skal tilvejebringe overblik over centrale overvejelser, gode råd og bidrage med helt praksisnær vejledning samt vejlede i, hvordan man gennemfører et udbud og indkøber på en open source-licens. 
 
-Vejledningen her vil forsøge at gøre op med nogle myter om open source samt bygge ovenpå tidligere vejledninger ved i højere grad at belyse hvad open source betyder i praksis og hvilke nuancer, og barrierer, man som offentlig myndighed skal holde sig for øje i anskaffelse og anvendelse af open source, samt bidrage med egentlige tjeklister som fx projektledere og it-arkitekter kan benytte sig af.   
+Denne vejledning vil forsøge at gøre op med nogle myter om open source samt bygge ovenpå tidligere vejledninger ved i højere grad at belyse hvad open source betyder i praksis og hvilke nuancer, og barrierer, man som offentlig myndighed skal holde sig for øje i anskaffelse og anvendelse af open source, samt bidrage med egentlige tjeklister som fx projektledere og it-arkitekter kan benytte sig af.   
 
 >Faktaboks: hvorfor ikke open source? Her måske et eksempel på barrierer fra analysen senere i vejledningen? 
 
 ## Målgruppe
 
 Målgruppen for vejledningen er især projektledere/it-indkøbere, it-arkitekter og beslutningstagere i offentlige myndigheder der skal tage stilling til eventuel anskaffelse af software, og som ønsker viden, praktisk vejledning og anbefalinger og konkrete eksempler i forhold til open source, som er relevante i alle dele af anskaffelsesprocessen og ved efterfølgende drift og vedligeholdelse.
+
+> Faktaboks: Målgruppe: -Topledelsen: porteføljeansvarlige - projektlederen/it-indkøberen - it-arkitekten/udvikleren
 
 Der er tidligere lavet vejledninger om open source til offentlige myndigheder, som er mere overordnede, men ikke har et praksisnært fokus. Vejledningen tilstræber at hjælpe alle, der overvejer eller ønsker at indkøbe software, og som ikke har et forhåndskendskab. 
 
