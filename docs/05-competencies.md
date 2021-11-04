@@ -6,7 +6,7 @@ At arbejde med open source stiller samtidig nogle krav til bestillerne af it-lø
 
 Det følgende skal blandt andet understøtte offentlige myndigheder i forhold til overblik over og håndtering af krav og kompetencer og komme med an-befalinger til opbygning af et open source-community, fastholdelsen af den relevante viden og gode erfaringer med open source som metode og forret-ningsmodel.
 
-EU's Open Source Observatory (OSOR) fungerer som samlingssted, hvor open source-communities kan mødes og offentliggøre nyheder, få viden om begivenheder, finde relevant open source-programmel, og indhente viden om brug af gratis open source-programmel til brug i den offentlige admini-stration på tværs af Europa.
+EU's Open Source Observatory (OSOR) (kilde: https://joinup.ec.europa.eu/collection/open-source-observatory-osor) fungerer som samlingssted, hvor open source-communities kan mødes og offentliggøre nyheder, få viden om begivenheder, finde relevant open source-programmel, og indhente viden om brug af gratis open source-programmel til brug i den offentlige admini-stration på tværs af Europa.
 
 Til forskel fra proprietære/kommercielle løsninger er open source-løsninger ofte drevet af et fællesskab (community). Det kan det i hvert fald være, og det har en stor betydning ift. placering af ansvar for løsningen. For nogle open source-løsninger bliver der lagt mange frivillige kræfter i projektet. 
 
@@ -25,6 +25,8 @@ Kompetencer/community: Ny incitament-struktur der skal bygges op. Stor investeri
 De enkelte myndigheder kan opleve en høste-så-problematik, som gør det svært at etablere nye open source-projekter. Med høste-så-problematik menes, at det ikke altid er den myndighed, der lægger alle ressourcerne i et projekt, som høster gevinsterne. Af den grund kan det være særligt re-levant i nogle projekter at der mellem flere myndigheder indgås et samar-bejde om at (videre)udvikle en løsning, som flere myndigheder kan få glæ-de af. På den måde deler man ressourcer og risici ved projektet.     
 
 Kapabiliteter, enterprisearkitektur – analyse af landskab.
+
+> faktaboks: En god case ift. community her. OS2?
 
 Community: Give tilbage – hindringer til donationer. Daglig support. 
 
