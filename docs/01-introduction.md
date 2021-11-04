@@ -14,7 +14,7 @@ Denne vejledning vil blandt andet belyse, hvor det er relevant at vælge en open
 
 Open source står også højt på dagsordenen i EU og i mange andre lande. EU har peget på øget brug af Open Source, som en oplagt vej til øget tillid og transparens mellem myndigheder og borgerne. 
 
-Der er i løbet af det sidste års tid kommet fokus på øgede samfundsgevinster i form af blandt andet sikkerhed, transparens, leverandøruafhængighed og interoperabilitet ved anvendelse af Open Source i offentlige myndigheder. Under overskriften ”Think Open” har EU-kommissionen præsenteret en vision for digital trans-formation, innovation og samarbejde med open source som løftestang for offentlige digitale løsninger. Open source skal sikre løsninger, der virker og kan deles på tværs af grænser og fremtidssikrer Europas og medlemslandenes teknologiske selvbestemmelse i kraft af øget leverandøruafhængighed.
+Der er i løbet af det sidste års tid kommet fokus på øgede samfundsgevinster i form af blandt andet sikkerhed, transparens, leverandøruafhængighed og interoperabilitet ved anvendelse af Open Source i offentlige myndigheder. Under overskriften ”Think Open” har EU-kommissionen præsenteret en vision for digital trans-formation, innovation og samarbejde med open source som løftestang for offentlige digitale løsninger (Kilde: https://ec.europa.eu/info/departments/informatics/open-source-software-strategy_en). Open source skal sikre løsninger, der virker og kan deles på tværs af grænser og fremtidssikrer Europas og medlemslandenes teknologiske selvbestemmelse i kraft af øget leverandøruafhængighed.
 
 Formålet med denne vejledning er ikke at opsætte et modsætningsforhold mellem brug af open source og closed source. Der er ikke tale om et enten-eller, men vejledningen har til derimod hensigt at belyse hvor open source kan give værdi samt skabe grundlaget for en strategisk beslutning på baggrund af hvilke muligheder og overvejelser, der kan være relevant for den enkelte myndighed. 
 
@@ -64,7 +64,7 @@ Den fælles digitale arkitektur omfatter fælles rammer for projekternes arkitek
 
 At basere software-løsninger på Open source flugter specifikt med arkitek-turregel 2.3 i den fællesoffentlige Digitale Arkitektur om at undgå af-hængighed af leverandører og proprietære teknologier, og hvor det i forkla-ringen til reglen understreges, at ”hvor det er relevant anvendes bæredyg-tige open source-komponenter.”  Denne vejledning vil blandt andet belyse ”hvor det er relevant”. 
 
-Statens it-projektmodel skal bidrage til at sikre, at staten ikke igangsætter unødigt risikofyldte it-projekter. Som princip 2 i modellen hedder det, at: ”Allerede indkøbte eller udviklede løsninger skal genbruges i videst muligt omfang.” 
+Statens it-projektmodel (kilde: https://digst.dk/styring/projektstyring/statens-it-projektmodel/) skal bidrage til at sikre, at staten ikke igangsætter unødigt risikofyldte it-projekter. Som princip 2 i modellen hedder det, at: ”Allerede indkøbte eller udviklede løsninger skal genbruges i videst muligt omfang.” 
 
 Formålet er at analysere mulige barrierer for offentlige myndigheders anvendelse af open source i Danmark og at synliggøre hvordan og hvornår, det er relevant at anvende open source samt opstille anbefalinger, som offentlige myndigheder i Danmark kan læne sig op ad, når det gælder anvendelse af Open Source. Vejledningen skal tilvejebringe overblik over centrale overvejelser, gode råd og bidrage med helt praksisnær vejledning samt vejlede i, hvordan man gennemfører et udbud og indkøber på en open source-licens. 
 
