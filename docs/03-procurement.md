@@ -31,7 +31,7 @@ Under hensyn til gennemsigtigheden må det derfor i alle tilfælde kræves, at o
 
 > Faktaboks: Eksempel på open Source på de ”store tunge løsninger”? Fx eksempel på at der er en juridisk løsning på vendor lockin og ejerskab til IT; case kunne evt. være Digital Post vs. eboks.
 
-Specifikationen kan evt. ske ved blot at anføre, at programmellet skal være licenseret via en licens, der er optaget på Open Source Initiative's liste over anerkendte open source-licenser .
+Specifikationen kan evt. ske ved blot at anføre, at programmellet skal være licenseret via en licens, der er optaget på Open Source Initiative's liste over anerkendte open source-licenser (kilde: http://www.opensource.org/licenses/index.html 26072017 - OS2 - Åben kildekode og licensering, åbne standarder og data)
 
 ## Tjekliste til brug i forhold til anskaffelse af open source 
 
