@@ -15,9 +15,11 @@ Overordnet er der tre forskellige scenarier, når det vedrører anvendelse af op
 Med andre ord er det vigtigt at holde sig for øje, at der er forskel på køb af en open source-løsning der allerede eksisterer og en anskaffelse, der handler om udvikling af open source-software, mere eller mindre fra bun-den. Myndigheder kan således både være brugere af eksisterende open source-software eller være licensgivere, som kan stille software til rådig-hed for andre myndigheder eller andre aktører.
 Det handler om hvad der skaber mest værdi og bedste business case i de enkelte situationer, men det er vigtigt at have de strategiske overvejer tid-ligt og allerede i idéfasen af projektet og måske allerede inden, der overho-vedet er en projektleder. 
 
-Derudover behøver indkøb af open source ikke at være ret meget anderle-des end closed source. Det kræver blot, at man husker at lave gode drifts – og support aftaler med en leverandør i forbindelse med indkøb. At stille krav om open source, hvis det er relevant i et udbud, der vedrører it-anskaffelser, fremmer den åbne konkurrence, der er det grundlæggende formål med udbudsreglerne. 
+Derudover behøver indkøb af open source ikke at være ret meget anderledes end closed source. Det kan dog kræve, at man husker at lave gode drifts – og support aftaler med en leverandør i forbindelse med indkøb. At stille krav om open source, hvis det er relevant ift. markedet i et udbud, der vedrører it-anskaffelser, fremmer den åbne konkurrence, der er det grundlæggende formål med udbudsreglerne. 
 
-Der således ikke noget til hinder for, at ordregiver køber eller på anden vis betinger, at programmet kan benyttes, ændres og stilles til rådighed for almenheden under en open source-licens. 
+> Evt. boks med tegning her: Løsning fra bund til top: abstrakt tegning af, hvor der kan være open source i porteføljen 
+
+Der principielt ikke noget til hinder for, at ordregiver køber eller på anden vis betinger, at programmet kan benyttes, ændres og stilles til rådighed for almenheden under en open source-licens. 
 
 At kildekoden er åben og frit kan genbruges, betyder ikke blot at én myn-dighed kan videredistribuere sin open source-software til en anden myndig-hed. Det betyder også, at den anden myndighed kan forbedre softwaren og derefter igen dele det forbedrede produkt med den første myndighed eller med andre. På den måde kan der være flere om at forbedre softwaren og om at finansiere fremtidig udvikling.
 
@@ -27,7 +29,9 @@ Licenser kan indeholde forskellige vilkår om f.eks. at publicerede videreudvikl
 
 Under hensyn til gennemsigtigheden må det derfor i alle tilfælde kræves, at ordregiver specificerer, hvilke open source-(mindste)krav, der stilles til det programmel, som skal (videre)udvikles.
 
-Specifikationen kan evt. ske ved blot at anføre, at programmellet skal være licenseret via en licens, der er optaget på Open Source Initiative's liste over anerkendte open source-licenser .
+> Faktaboks: Eksempel på open Source på de ”store tunge løsninger”? Fx eksempel på at der er en juridisk løsning på vendor lockin og ejerskab til IT; case kunne evt. være Digital Post vs. eboks.
+
+Specifikationen kan evt. ske ved blot at anføre, at programmellet skal være licenseret via en licens, der er optaget på Open Source Initiative's liste over anerkendte open source-licenser (kilde: http://www.opensource.org/licenses/index.html 26072017 - OS2 - Åben kildekode og licensering, åbne standarder og data)
 
 ## Tjekliste til brug i forhold til anskaffelse af open source 
 
