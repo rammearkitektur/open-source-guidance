@@ -1,30 +1,29 @@
-# Overblik over hvor man kan finde åben kildekode og open source-software
+# Bilag
 
-(bliver svært at gøre udtømmende og kan hurtigt blive uaktuelt - taler for et levende dokument)
+## Tjekliste til brug af open source
 
-Følgende vil bidrage til at skabe et overblik over open source-produkter. Der er en række websites, der har relevans for danske myndigheder, der leverer oversigter over gode Open Source-alternativer og – løsninger. 
+Kommer snart.
 
-www.github.com
-www.alternativeto.net
-www.linuxalt.com
-www.osalt.com
-www.sourceforge.net
-www.tuleap.org
-https://joinup.ec.europa.eu/collection/open-source-observatory-osor/oss-repositories
-www.opensource.com
+## Katalog over open source-software
 
-Ovenstående er nogle af de mest bruge Open Source-biblioteker, der har samlet alt fra simple til meget komplekse systemer baseret på Open Sour-ce og giver direkte adgang til download.
+Det er en af vejledningens anbefalinger, at offentlige myndigheder så vidt muligt, og hvor det er relevant, genbruger eksisterende open source-software. Til det formål er der brug for et katalog, der gør det nemt at finde og genbruge open source-software.
 
-# Bilag: Casebeskrivelser til inspiration
+Det [italienske ministerium for teknologisk innovation og digital omstilling](https://innovazione.gov.it/) har til formålet defineret en metadatastandard for beskrivelse af kildekode til software, der er udviklet eller anskaffet af offentlige myndigheder. Standarden er obligatorisk at anvende til beskrivelse af al offentlig software udviklet i Italien og gør det muligt at udstille løsningerne i et samlet [katalog over open source-software](https://developers.italia.it/en/software).
 
-Vejledningen vil inddrage konkrete cases til at belyse fx argumenter for valg eller fravalg af open source i forbindelse med en anskaffelse, erfarin-ger med drift, vedligeholdelse og genudbud af open source-løsninger og viden og erfaringer om etablering og drift af blivende, åbne partnerskaber.
+Ved at inkludere en metadatafil i roden af et offentligt *repository* (et sted til opbevaring af kildekode som f.eks. [Github](https://github.com/)) og udfylde den med oplysninger om softwaren, kan andre offentlige myndigheder og leverandører nemmere opdage, evaluere og eventuelt genbruge den eksisterende open source-software.
 
-(måske henvise til cases, som lægges på en open source-temaside på KL/KOMBITS videnscenter? Fx Tage udgangspunkt i fx 5 arketypiske pro-jekter (forståelse af forskellige behov))
+Standarden er udviklet til at være interoperabel på tværs af landegrænser, og hvert land kan tilføje nationale udvidelser til kernen.
 
-5 mønstre/modenhedsniveauer: hvem er du som myndighed – koble til ca-se?
+Standarden hedder publiccode.yml og kan findes på https://docs.italia.it/italia/developers-italia/publiccodeyml-en/en/master/index.html.
 
-Hos STIL ville man undgå vendor-lock-in (mulig case – rammeaftale om service og rejse imod fuld ejerskab af kode). 
+## Cases om brug af open source
+
+I forbindelse med udarbejdelsen af vejledning om brug af open source har projektet tilvejebragt en række open source-casebeskrivelser, der hver især belyser et konkret problem og en tilhørende business case for brug af open source til at løse problemet. Casebeskrivelserne har til formål at dele gode råd til og opmærksomhedspunkter ved brug af open source til realisering af en business case og har fokus på realiseringen af en række centrale værdiskabelser, f.eks. kompetencer, ejerskab, samarbejde, dokumentation, kvalitet og økonomi.
+
+Vejledningen inddrager undervejs casebeskrivelserne som konkrete eksempler på problemer, som brug af open source har bidraget til at løse, eller værdiskabelser, som brug af open source har bidraget til at realisere.
+
+Derudover bliver casebeskrivelserne løbende publiceret på [KL og KOMBITs videncenter for digitalisering og teknologi](https://videncenter.kl.dk/viden-og-vaerktoejer/innovation/open-source), der også fremover vil fungere som en fælles platform for deling af viden, værktøjer og cases om brug af open source i den offentlige sektor.
 
 ================
 
-[rammearkitektur.kl.dk](rammearkitektur.kl.dk)
+[arkitektur.digst.dk](arkitektur.digst.dk)
