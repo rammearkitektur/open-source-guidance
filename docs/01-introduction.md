@@ -32,7 +32,7 @@ Begrebet om open source (åben kildekode) bliver af og til forvekslet med begreb
 
 Open source handler i virkeligheden ikke om teknik, men kan snarere ses som en udviklingsmetode eller en forretningsmodel, der essentielt fremmer offentlige myndigheders medejerskab til deres egne løsninger samt giver mulighed for deling med andre, da løsningen/softwaren ikke er underlagt copyright. 
 
-> Faktaboks: Her kunne indsættes eksempler på kendte applikationer/løsninger – gerne lidt større, som anvendes på en open source-licens – gerne nogle som anvendes bredt i kommunerne/staten og regionerne. Eksempelvis er open source på SKI 02.06, og 02.18/02.17.  Formålet er at vise, at open source ikke er niche/kun for mindre løsninger.
+> Faktaboks: Her kunne indsættes eksempler på kendte applikationer/løsninger – gerne lidt større, som anvendes på en open source-licens – gerne nogle som anvendes bredt i kommunerne/staten og regionerne. Eksempelvis er open source på SKI 02.06 og 02.18/02.17.  Formålet er at vise, at open source ikke er niche/kun for mindre løsninger.
 
 ## Internationale strømninger
 
@@ -66,13 +66,15 @@ Den fælles digitale arkitektur omfatter fælles rammer for projekternes arkitek
 
 At basere software-løsninger på open source flugter specifikt med arkitekturregel 2.3 i den fællesoffentlige Digitale Arkitektur om at undgå afhængighed af leverandører og proprietære teknologier, og hvor det i forklaringen til reglen understreges, at ”hvor det er relevant anvendes bæredygtige open source-komponenter.”  Denne vejledning vil blandt andet belyse ”hvor det er relevant”. 
 
-Statens it-projektmodel (kilde: https://digst.dk/styring/projektstyring/statens-it-projektmodel/) skal bidrage til at sikre, at staten ikke igangsætter unødigt risikofyldte it-projekter. Som princip 2 i modellen hedder det, at: ”Allerede indkøbte eller udviklede løsninger skal genbruges i videst muligt omfang.” 
+Statens it-projektmodel skal bidrage til at sikre, at staten ikke igangsætter unødigt risikofyldte it-projekter. Som princip 2 i modellen hedder det, at: ”Allerede indkøbte eller udviklede løsninger skal genbruges i videst muligt omfang.”[^3]
 
 Formålet er at analysere mulige barrierer for offentlige myndigheders anvendelse af open source i Danmark og at synliggøre hvordan og hvornår, det er relevant at anvende open source samt opstille anbefalinger, som offentlige myndigheder i Danmark kan læne sig op ad, når det gælder anvendelse af Open Source. Vejledningen skal tilvejebringe overblik over centrale overvejelser, gode råd og bidrage med helt praksisnær vejledning samt vejlede i, hvordan man gennemfører et udbud og indkøber på en open source-licens. 
 
 Denne vejledning vil forsøge at gøre op med nogle myter om open source samt bygge ovenpå tidligere vejledninger ved i højere grad at belyse hvad open source betyder i praksis og hvilke nuancer, og barrierer, man som offentlig myndighed skal holde sig for øje i anskaffelse og anvendelse af open source, samt bidrage med egentlige tjeklister som fx projektledere og it-arkitekter kan benytte sig af.   
 
->Faktaboks: hvorfor ikke open source? Her måske et eksempel på barrierer fra analysen senere i vejledningen? 
+>Faktaboks: hvorfor ikke open source? Her måske et eksempel på barrierer fra analysen senere i vejledningen?
+
+[^3]: https://digst.dk/styring/projektstyring/statens-it-projektmodel/
 
 ## Målgruppe
 
