@@ -195,7 +195,8 @@ Denne vejledning vil blandt andet belyse, hvor det er relevant at vælge en open
 
 Open source står også højt på dagsordenen i EU og i mange andre lande. EU har peget på øget brug af open source, som en oplagt vej til øget tillid og transparens mellem myndigheder og borgerne. 
 
-Der er i løbet af det sidste års tid kommet fokus på øgede samfundsgevinster i form af blandt andet sikkerhed, transparens, leverandøruafhængighed og interoperabilitet ved anvendelse af open source i offentlige myndigheder. Under overskriften ”Think Open” har EU-kommissionen præsenteret en vision for digital trans-formation, innovation og samarbejde med open source som løftestang for offentlige digitale løsninger.[^1] Open source skal sikre løsninger, der virker og kan deles på tværs af grænser og fremtidssikrer Europas og medlemslandenes teknologiske selvbestemmelse i kraft af øget leverandøruafhængighed.
+Der er i løbet af det sidste års tid kommet fokus på øgede samfundsgevinster i form af blandt andet sikkerhed, transparens, leverandøruafhængighed og interoperabilitet ved anvendelse af open source i offentlige myndigheder. Under overskriften ”Think Open” har EU-kommissionen præsenteret en vision for digital trans-formation, innovation og samarbejde med open source som løftestang for offentlige digitale løsninger.
+^1] Open source skal sikre løsninger, der virker og kan deles på tværs af grænser og fremtidssikrer Europas og medlemslandenes teknologiske selvbestemmelse i kraft af øget leverandøruafhængighed.
 
 Formålet med denne vejledning er ikke at opsætte et modsætningsforhold mellem brug af open source og closed source. Der er ikke tale om et enten-eller, men vejledningen har til derimod hensigt at belyse hvor open source kan give værdi samt skabe grundlaget for en strategisk beslutning på baggrund af hvilke muligheder og overvejelser, der kan være relevant for den enkelte myndighed. 
 
@@ -343,7 +344,7 @@ Under hensyn til gennemsigtigheden må det derfor i alle tilfælde kræves, at o
 
 ## Licenser
 
-Open source-licenser er softwarelicenser, der tillader, at software frit kan bruges, forbedres og deles. Open Source Initiative har godkendt en række licenser, men anbefaler, at man som udgangspunkt benytter de licenser, der er "populære og bredt anvendte eller med stærke fællesskaber", f.eks. Apache License 2.0, GNU General Public License (GPL), MIT License eller Mozilla Public License (MPL) 2.0.[^1]
+Open source-licenser er softwarelicenser, der tillader, at software frit kan bruges, forbedres og deles. Open Source Initiative har godkendt en række licenser, men anbefaler, at man som udgangspunkt benytter de licenser, der er "populære og bredt anvendte eller med stærke fællesskaber", f.eks. Apache License 2.0, GNU General Public License (GPL), MIT License eller Mozilla Public License (MPL) 2.0.[^4]
 
 > **OS2-fællesskabets brug af licenser**
 >
@@ -353,7 +354,7 @@ Læs mere om og find alle de godkendte open source-licenser på https://opensour
 
 Det er også muligt at anvende EU-Kommissionens værktøj til at finde og sammenligne softwarelicenser på https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses.
 
-[^1]: [Open Source Licenses by Category - Open Source Initiative](https://opensource.org/licenses/category)
+[^4]: [Open Source Licenses by Category - Open Source Initiative](https://opensource.org/licenses/category)
 
 ## Tjekliste til anskaffelse
 
