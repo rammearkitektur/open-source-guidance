@@ -31,19 +31,17 @@ Under hensyn til gennemsigtigheden må det derfor i alle tilfælde kræves, at o
 
 > Faktaboks: Eksempel på open Source på de ”store tunge løsninger”? Fx eksempel på at der er en juridisk løsning på vendor lockin og ejerskab til IT; case kunne evt. være Digital Post vs. eboks.
 
-Specifikationen kan evt. ske ved blot at anføre, at programmellet skal være licenseret via en licens, der er optaget på Open Source Initiative's liste over anerkendte open source-licenser (kilde: http://www.opensource.org/licenses/index.html 26072017 - OS2 - Åben kildekode og licensering, åbne standarder og data)
-
 ## Licenser
 
 Open source-licenser er softwarelicenser, der tillader, at software frit kan bruges, forbedres og deles. Open Source Initiative har godkendt en række licenser, men anbefaler, at man som udgangspunkt benytter de licenser, der er "populære og bredt anvendte eller med stærke fællesskaber", f.eks. Apache License 2.0, GNU General Public License (GPL), MIT License eller Mozilla Public License (MPL) 2.0.[^1]
 
 > **OS2-fællesskabets brug af licenser**
 >
-> OS2-fællesskabet benytter open source-licenserne [MPL 2.0](https://www.mozilla.org/en-US/MPL/2.0/) til kildekode og [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) til indhold, design og layout mv. MPL 2.0 er en "file scope"-licens, hvilket vil sige, at filerne og deres indhold er omfattet. I praksis betyder det, at hvis nogen ændrer i filerne, skal ændringerne gives tilbage til OS2.
+> OS2-fællesskabet benytter open source-licenserne [MPL 2.0](https://www.mozilla.org/en-US/MPL/2.0/) til kildekode og [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) til dokumentation og andet materiale, der ikke er kildekode. MPL 2.0 er en "file scope"-licens, hvilket vil sige, at filerne og deres indhold er omfattet. I praksis betyder det, at hvis nogen ændrer i filerne, skal ændringerne gives tilbage til OS2.
 
 Læs mere om og find alle de godkendte open source-licenser på https://opensource.org/licenses.
 
-Det er også muligt at anvende EU-Kommissionens værktøj til at finde og sammenlign softwarelicenser på https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses.
+Det er også muligt at anvende EU-Kommissionens værktøj til at finde og sammenligne softwarelicenser på https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses.
 
 [^1]: [Open Source Licenses by Category - Open Source Initiative](https://opensource.org/licenses/category)
 
