@@ -150,16 +150,27 @@ p.italic{font-style: italic!important;}
 </style>
 
 <pre class="metadata">
-Title: open-source-guidance 1.0.0-alpha: Fællesoffentlig vejledning om brug af open source
+Title: open-source-guidance 1.0.0-beta: Vejledning om brug af open source
 Status: LD
 URL: https://github.com/rammearkitektur/open-source-guidance/tree/main/
-Editor Term: Udgiver, Udgivere 
+Editor Term: Bidragyder, Bidragydere
 Editor: KL, rammearkitektur@kl.dk
+Editor: Digitaliseringsstyrelsen
+Editor: OS2
+Editor: Aarhus Kommune
+Editor: Odense Kommune
+Editor: Favrskov Kommune
+Editor: Brugerklubben SBSYS
+Editor: Statens It
+Editor: Styrelsen for It og Læring
+Editor: Styrelsen for Dataforsyning og Effektivisering
+Editor: KOMBIT
+Editor: Kriminalforsorgen
 Abstract: 'open-source-guidance 1.0.0' .
 Boilerplate: copyright no, conformance no, abstract no
 Shortname: open-source-guidance
-Revision: 1.0.0-alpha
-Date: 2021-10-06
+Revision: 1.0.0-beta
+Date: 2021-11-16
 Max ToC Depth: 3
 Markup Shorthands: markdown yes
 Repository: rammearkitektur/open-source-guidance
@@ -168,4 +179,4 @@ Inline Github Issues: full
 Logo: rammearkitektur
 </pre>
 
-<h1>open-source-guidance 1.0.0-alpha: Vejledning om brug af open source</h1>
+<h1>open-source-guidance 1.0.0-beta: Vejledning om brug af open source</h1>
