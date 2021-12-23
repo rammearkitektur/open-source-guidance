@@ -1,8 +1,8 @@
 # Licenser og implementering
 
-Formålet med dette afsnit er at beskriver de godkendte open source-licenser, der muliggør frihed til at bruge, undersøge, ændre og dele kildekoden.
+Formålet med dette afsnit er at beskrive offentlige myndigheders overvejelser om brug af open source-licenser, der giver frihed til at bruge, undersøge, ændre og dele kildekoden, og implementering af open source, myndigheden har genbrugt fra hylderne, udviklet selv eller i fællesskab med andre.
 
-Der er ikke noget modsætningsforhold mellem open source-software og betaling af en eller flere leverandører for udvikling, vedligeholdelse og drift af de digitale løsninger. Det kræver ikke desto mindre, at man aftale at bruge de rette licenser, så det er muligt at skifte leverandør, og mange aktører man bidrage til løbende at forbedre kildekoden.
+Der er ikke noget modsætningsforhold mellem at anskaffe open source-software og betale (en eller flere) leverandører for eksempelvis udvikling, vedligeholdelse eller drift af løsningen. Det kræver ikke desto mindre, at man aftaler at bruge de rigtige licenser, så det f.eks. er muligt at skifte leverandør, og så andre man forbedre kildekoden.
 
 ## Open source-licenser
 
@@ -37,7 +37,7 @@ Når offentlige myndigheder stiller krav om open source, er det derfor vigtigt a
 6. Offentlige myndigheder kan bruge EU-kommissionens [værktøj til at finde og sammenligne softwarelicenser](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses) med henblik på at vælge en open source-licens, der passer til den konkrete situation.
 7. Offentlige myndigheder, der er i tvivl om mulighederne for at kræve eller prioritere brug af (bestemte) open source-licenser ved udbud og anskaffelse af digitale løsninger, kan orientere sig i OS2-fællesskabet og Kammeradvokatens [notat vedrørende OS2-fællesskabet og open source](https://os2.eu/sites/default/files/blog-files/notat_os2_open_source.pdf), der beskriver retlige forpligtelser og omstændigheder for brug af open source-licenser.
 
-## Implementering
+## Implementering af open source
 
 ## Tjekliste til implementering
 
