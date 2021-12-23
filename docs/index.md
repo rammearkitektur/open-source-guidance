@@ -150,7 +150,7 @@ p.italic{font-style: italic!important;}
 </style>
 
 <pre class="metadata">
-Title: open-source-guidance 1.0.0-beta: Vejledning om brug af open source
+Title: open-source-guidance 1.0.0-rc: Vejledning om brug af open source i den offentlige sektor
 Status: LD
 URL: https://github.com/rammearkitektur/open-source-guidance/tree/main/
 Editor Term: Bidragyder, Bidragydere
@@ -169,8 +169,8 @@ Editor: Kriminalforsorgen
 Abstract: 'open-source-guidance 1.0.0' .
 Boilerplate: copyright no, conformance no, abstract no
 Shortname: open-source-guidance
-Revision: 1.0.0-beta
-Date: 2021-11-16
+Revision: 1.0.0-rc
+Date: 2021-12-24
 Max ToC Depth: 3
 Markup Shorthands: markdown yes
 Repository: rammearkitektur/open-source-guidance
@@ -179,293 +179,403 @@ Inline Github Issues: full
 Logo: rammearkitektur
 </pre>
 
-<h1>open-source-guidance 1.0.0-beta: Vejledning om brug af open source</h1>
+<h1>open-source-guidance 1.0.0-rc: Vejledning om brug af open source i den offentlige sektor</h1>
 
 # Indledning
 
-Danske myndigheder investerer mange penge i it og der er i stigende grad krav til at it-løsninger er fleksible, og kan arbejde sammen. Samtidig er der stadig stærkere krav til sikkerhed, privatlivsbeskyttelse og transparens. 
+Danske myndigheder investerer massivt i digitalisering, og der er et stort behov for, at digitale løsninger er fleksible, sammenhængende og bygget til genbrug og forandring, hvis [Danmark skal fastholde sin position som et digitalt foregangsland](https://fm.dk/udgivelser/2021/oktober/visioner-og-anbefalinger-til-danmark-som-et-digitalt-foregangsland) og skabe et robust og bæredygtigt grundlag for fortsat vækst, velstand, grøn omstilling og effektiv offentlig service.
 
-Højt på dagsordenen i det fællesoffentlige digitaliseringssamarbejde er også et ønske om at styrke tillid og trygheden ved borgernes og virksomhedernes brug af de offentlige digitale tjenester:
+Visionen for den fællesoffentlige digitale arkitektur er en [digitalt sammenhængende offentlig sektor](https://arkitektur.digst.dk/mandat-og-styring/hvidbog-om-faellesoffentlig-digital-arkitektur), der understøtter innovation, vækst og udvikling i samfundet. Offentlige myndigheder skal så vidt muligt undgå løsninger, der skaber afhængighed af specifikke leverandører og proprietære teknologier. [Hvor det er relevant, anvendes bæredygtige open source-komponenter](https://arkitektur.digst.dk/principper-og-regler/princip-2-arkitektur-fremmer-sammenhaeng-innovation-og-effektivitet-4).
 
-”Danskernes høje tryghed og tillid til hinanden og til den offentlige sektor er fundamentet for vores velfærd” 
+Både offentlige myndigheder og private virksomheder har en interesse i [bæredygtig digitalisering](https://www.digitalsme.eu/sustainable-digitalisation/). Nye samarbejdsmodeller og åbne, digitale økosystemer skaber agilitet og  digital selvbestemmelse. Grønne it-udbud og cirkulære forretningsmodeller, der sikrer genbrug og vedligeholdelse, sparer ressourcer og forlænger løsningernes levetid. Juridiske, administrative og tekniske rammer for åbenhed og interoperabilitet, så myndigheder og leverandører frit kan dele, genbruge, undersøge og forbedre data og løsninger, er en forudsætning for innovation. [Bæredygtighed er blevet en konkurrenceparameter for danske virksomheder](https://www.danskindustri.dk/arkiv/analyser/2021/8/baredygtighed--en-vigtig-konkurrenceparameter/).
 
-Den fællesoffentlige Digitale Arkitektur (FDA) peger også på brug af open source, som en vigtig tilgang til at undgå afhængighed af leverandører og proprietære teknologier, hvor det er relevant. 
+## Målgruppe og læsevejledning
 
-Denne vejledning vil blandt andet belyse, hvor det er relevant at vælge en open source baseret løsning, og fokusere på at give konkret vejledning til nogle af de vigtigste overvejelser, som man skal gennem, når man står i en anskaffelsessituation. Desuden giver vejledningen et overblik over de forhold, som er vigtige, når man først har anskaffet sig en eller flere open source-løsninger, og fx står over for opgaver som vedligehold, videreudvikling og genudbud. 
+Målgruppen for vejledningen er it-projektledere, -jurister og -arkitekter, indkøbere og contract managers samt it-chefer og andre strategiske beslutningstagere hos offentlige myndigheder, der skal tage stilling til anskaffelse af software, og som ønsker mere viden, konkrete eksempler og praktisk vejledning til brug af open source.
 
-Open source står også højt på dagsordenen i EU og i mange andre lande. EU har peget på øget brug af open source, som en oplagt vej til øget tillid og transparens mellem myndigheder og borgerne. 
+Der er et stort potentiale i åbne og cirkulære forretningsmodeller og open source-software, der brugt på de rigtige områder kan bidrage til at understøtte bæredygtig udvikling, innovation og kvalitet, styrke danske virksomheders omstillingsparathed og konkurrenceevne og øge vækst og eksport af digitale løsninger. Derfor beskriver vejledningen en række **principper for anvendelse af open source**.
 
-Der er i løbet af det sidste års tid kommet fokus på øgede samfundsgevinster i form af blandt andet sikkerhed, transparens, leverandøruafhængighed og interoperabilitet ved anvendelse af open source i offentlige myndigheder. Under overskriften ”Think Open” har EU-kommissionen præsenteret en vision for digital trans-formation, innovation og samarbejde med open source som løftestang for offentlige digitale løsninger.
-^1] Open source skal sikre løsninger, der virker og kan deles på tværs af grænser og fremtidssikrer Europas og medlemslandenes teknologiske selvbestemmelse i kraft af øget leverandøruafhængighed.
-
-Formålet med denne vejledning er ikke at opsætte et modsætningsforhold mellem brug af open source og closed source. Der er ikke tale om et enten-eller, men vejledningen har til derimod hensigt at belyse hvor open source kan give værdi samt skabe grundlaget for en strategisk beslutning på baggrund af hvilke muligheder og overvejelser, der kan være relevant for den enkelte myndighed. 
-
-[^1]: https://ec.europa.eu/info/departments/informatics/open-source-software-strategy_en
+Formålet med denne vejledning er ikke at opsætte et modsætningsforhold mellem brug af open source-software og proprietære løsninger. Det er ikke et spørgsmål om enten-eller, men om at vælge den løsning, der skaber værdi på baggrund af de udfordringer og behov, der er relevante for den enkelte myndighed. Derfor beskriver vejledningen en række af de vigtigste overvejelser ved anskaffelse, herunder **strategier og markedsafdækning**, **licenser og implementering** og **udvikling og vedligeholdelse**.
 
 ## Hvad er open source?
 
-Open source betyder ”åben kildekode” og der er dermed tale om software, der er distribueret og udviklet i overensstemmelse med et princip om, at et computerprograms kildekode skal være åben og tilgængelig. 
+Open source-software er software udgivet under en licens, der giver enhver ret til at bruge, undersøge, ændre og dele softwaren og dens kildekode frit og til ethvert formål.
 
-Modsætningen til open source er proprietære løsninger eller closed source. I proprietære løsninger har vi i modsætning til open source ikke mulighed for at ”kigge under kølerhjelmen” og se hvordan løsningen eller softwaren er bygget. Ved anvendelse af proprietære løsninger er det dermed leverandøren, der har den eksklusive copyright til softwaren. Man anvender derfor proprietære løsninger under nogle fastlagte betingelser, og kan ikke selv modificere eller dele løsningen/softwaren med andre.
+Open source handler ikke om it-afdelingens teknologiske præferencer, men er en strategisk forretningsmodel og nogle udviklingsmetoder, der fremmer offentlige myndigheders medejerskab til deres løsninger og skaber bedre muligheder for at dele, videreudvikle og genbruge digitale løsninger.
 
-Med open source-software er der dermed frihed til at anvende, undersøge, ændre, forbedre og dele kildekode og dokumentation. Open source vedrører altså selve den kode, som softwaren består af.
+> **Eksempler på udbredelsen af open source**
+> 
+> Der findes mange kendte og udbredte open source-softwareprodukter. Distributioner af Linux-styresystemet understøtter omkring 70 % af internettets 10 mio. mest besøgte hjemmesider, der ofte hostes på webservere som Nginx (33 %) eller Apache HTTP Server (24 %). 42 % af hjemmesiderne er udviklet med Wordpress, men også Drupal og Umbraco er open source. Omkring 65 % browser internettet med Google Chrome, og 84 % kører det Linux-baserede styresystem Android på deres smartphone.
+> 
+> Danske offentlige myndigheder bruger LibreOffice til teksbehandling og QGIS til geodatabehandling, og 82 kommuner bruger OS2kitos - ofte sammen med et af de andre 21 OS2-produkter - til at holde styr på deres systemportefølje.
 
-Begrebet om open source (åben kildekode) bliver af og til forvekslet med begrebet ’åbne standarder’. 
+Modsætningen til open source er proprietære løsninger, såkaldt closed source, hvor udgiveren beholder rettighederne til kildekoden. Med proprietære løsninger har man i modsætning til open source ikke mulighed for at "læse og forstå opskriften". Man anvender softwaren på nogle betingelser og har ikke mulighed for at undersøge, forbedre eller dele kildekoden.
 
-> Faktaboks: "hvad er åbne standarder? "En åben standard er en teknisk specifikation, som er offentligt tilgængeligt, der har til formål at nå et bestemt mål. Ved at tillade at alle kan bruge standarden, kan man øge kompatibiliteten mellem diverse hardware- og software-komponenter" (kilde: Wikipedia). I modsætning til open source vedrører åbne standarder derfor det ‘sprog’, softwaren anvender til at "tale med andre systemer". Sagt på en anden måde, så kan du, når du fremsender en fil, som er baseret på en åben standard være sikker på, at din modtager har mulighed for at åbne filen. Offentlige myndigheder sender eksempelvis primært filer i pdf-formatet, for at være sikre på, at borgeren i den anden ende kan åbne filen uanset hvilket operativsystem eller software, som borgeren i øvrigt anvender.
+Open source forudsætter ofte åbne standarder, der imidlertid ikke er det samme, som det ofte gøres ud for at være.
 
-Open source handler i virkeligheden ikke om teknik, men kan snarere ses som en udviklingsmetode eller en forretningsmodel, der essentielt fremmer offentlige myndigheders medejerskab til deres egne løsninger samt giver mulighed for deling med andre, da løsningen/softwaren ikke er underlagt copyright. 
+> **Åbne standarder**
+> 
+> Offentlige myndigheder skal så vidt muligt anvende åbne og internationale standarder. Åbne standarder fremmer konkurrence på markedet for software og medvirker til, at offentlige it-systemer uanset valg af software kan udveksle informationer på tværs. De er det fælles sprog, systemerne bruger til at tale med og forstå hinanden.
+> 
+> Læs mere i [Vejledning om anvendelse af obligatoriske, åbne standarder for software i det offentlige](https://www.digitaliser.dk/resource/3778907/artefact/Vejledning_om_abne_standarder.pdf?artefact=true&PID=3778930).
 
-> Faktaboks: Her kunne indsættes eksempler på kendte applikationer/løsninger – gerne lidt større, som anvendes på en open source-licens – gerne nogle som anvendes bredt i kommunerne/staten og regionerne. Eksempelvis er open source på SKI 02.06 og 02.18/02.17.  Formålet er at vise, at open source ikke er niche/kun for mindre løsninger.
+## Europæiske strømninger
 
-## Internationale strømninger
+Open source står også højt på dagsordenen i EU, der peger på brug af open source i den offentlige sektor som en vej til tillid mellem borgere og myndigheder, gennemsigtighed, interoperabilitet og leverandøruafhængighed.
 
-En undersøgelse  er blevet offentliggjort i september 2021 fra EU-Kommissionen vedr. virkningen af open source-software og hardware på EU's økonomi. Dette med hensyn til innovation, konkurrenceevne, teknologisk uafhængighed og jobskabelse.[^2]
+Under overskriften *Think Open* har EU-kommissionen i deres [open source-softwarestrategi](https://ec.europa.eu/info/departments/informatics/open-source-software-strategy_en) præsenteret en vision for digital transformation, innovation og samarbejde med open source som løftestang. Open source skal sikre nye, effektiver løsninger, der virker og kan deles og udvikles på tværs af landegrænser.
 
-Undersøgelsen fremhæver, hvordan brug af open source-software kan: 
-
-•	Fremme den offentlige sektors uafhængighed i Unionen
-•	Reducere omkostninger 
-•	Begrænse fænomenet vendor lock-in (afhængighed af leverandører). 
-
-Set fra EU's perspektiv kan open source dermed være en nøgle til et mere autonomt og teknologisk suverænt EU løsrevet fra techgiganter. Det er en stor del af forklaringen på, at der fra EU's side tilskyndes til anvendelse af open source samt, at der er udarbejdet anerkendte standarder for, hvorledes programmel deles og genanvendes, ud fra et ønske om anvendelse af færrest mulige ressourcer.
-
-> Faktaboks: I Italien er det fx indført ved lov, at open source-programmer gives fortrinsret i offentlige udbud og myndighederne forpligter sig til at offetliggøre koden til software, der er udviklet under en open source-licens, for at gøre den genanvendelig.
-
-Undersøgelsen fremhæver nogle anbefalinger, der skal skabe et mere uafhængigt og konkurrencedygtigt Europa. Herunder bl.a. at betragte open source som en grundlæggende komponent i den offentlige forvaltnings digitale transformation samt direkte finansiere udviklingen af open source -software og dens sikkerhed. 
-
-[^2]: https://digital-strategy.ec.europa.eu/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and
-
-## Hvorfor open source?
-
-Open source er ikke noget nyt begreb, eller ny metode/forretningsmodel. Open source særligt aktuelt nu, da metoden eller forretningsmodellen understøtter mere modulbaserede og agile måder at udvikle, dele, og genbruge komponenter. Open Source kan være ét element i den aktuelle udvikling med krav om indbygget uafhængighed fremfor opbygning af siloløsninger. 
-
-I Danmark har der tidligere været et stort fokus på anvendelse af open source i offentlige myndigheder. Det er siden hen gledet i baggrunden. Én forklaring kan være, at der var opstået en antagelse om, at anvendelse af open source var blevet en selvfølgelighed, fordi det lå implicit i princippet om ”bedst og billigst”.   
-
-Anvendelse af open source er som nævnt ovenfor i overensstemmelse med principperne i den fællesoffentlige Digitale Arkitektur og EU's vision for øget brug af open source, som nævnt i indledningen. Herunder en dagsorden om mere tillid mellem myndigheder og borgere samt styrkelse af EU’s digitale suverænitet og interoperabilitet mellem medlemslandene. 
-
-Den fællesoffentlige digitale arkitektur sætter de overordnede rammer for udviklingen af den digitalt sammenhængende offentlige sektor. Den skal understøtte digital sammenhæng i den offentlige sektor på flere niveauer: mellem stat, kommuner og regioner. På tværs af fagområder som fx sundhed, socialområdet, uddannelse og arbejdsmarked. Mellem den offentlige sektor og den private sektor. Og på tværs af landegrænser, ikke mindst i forhold til EU og det digitale indre marked. 
-
-Den fælles digitale arkitektur omfatter fælles rammer for projekternes arkitekturarbejde, herunder governance med fora, mandater og processer for det fælles arkitekturarbejde, fælles arkitekturregler samt rammer for projekters dokumentation af arkitektur og kvalitetssikring gennem review. Den fælles digitale arkitektur indeholder desuden en rammearkitektur, der består af et antal referencearkitekturer, der definerer genbrugelige arkitekturbyggeblokke som projekterne skal tage bestik af i deres arbejde. 
-
-At basere software-løsninger på open source flugter specifikt med arkitekturregel 2.3 i den fællesoffentlige Digitale Arkitektur om at undgå afhængighed af leverandører og proprietære teknologier, og hvor det i forklaringen til reglen understreges, at ”hvor det er relevant anvendes bæredygtige open source-komponenter.”  Denne vejledning vil blandt andet belyse ”hvor det er relevant”. 
-
-Statens it-projektmodel skal bidrage til at sikre, at staten ikke igangsætter unødigt risikofyldte it-projekter. Som princip 2 i modellen hedder det, at: ”Allerede indkøbte eller udviklede løsninger skal genbruges i videst muligt omfang.”[^3]
-
-Formålet er at analysere mulige barrierer for offentlige myndigheders anvendelse af open source i Danmark og at synliggøre hvordan og hvornår, det er relevant at anvende open source samt opstille anbefalinger, som offentlige myndigheder i Danmark kan læne sig op ad, når det gælder anvendelse af Open Source. Vejledningen skal tilvejebringe overblik over centrale overvejelser, gode råd og bidrage med helt praksisnær vejledning samt vejlede i, hvordan man gennemfører et udbud og indkøber på en open source-licens. 
-
-Denne vejledning vil forsøge at gøre op med nogle myter om open source samt bygge ovenpå tidligere vejledninger ved i højere grad at belyse hvad open source betyder i praksis og hvilke nuancer, og barrierer, man som offentlig myndighed skal holde sig for øje i anskaffelse og anvendelse af open source, samt bidrage med egentlige tjeklister som fx projektledere og it-arkitekter kan benytte sig af.   
-
->Faktaboks: hvorfor ikke open source? Her måske et eksempel på barrierer fra analysen senere i vejledningen?
-
-[^3]: https://digst.dk/styring/projektstyring/statens-it-projektmodel/
-
-## Målgruppe
-
-Målgruppen for vejledningen er især projektledere/it-indkøbere, it-arkitekter og beslutningstagere i offentlige myndigheder der skal tage stilling til eventuel anskaffelse af software, og som ønsker viden, praktisk vejledning og anbefalinger og konkrete eksempler i forhold til open source, som er relevante i alle dele af anskaffelsesprocessen og ved efterfølgende drift og vedligeholdelse.
-
-> Faktaboks: Målgruppe: -Topledelsen: porteføljeansvarlige - projektlederen/it-indkøberen - it-arkitekten/udvikleren
-
-Der er tidligere lavet vejledninger om open source til offentlige myndigheder, som er mere overordnede, men ikke har et praksisnært fokus. Vejledningen tilstræber at hjælpe alle, der overvejer eller ønsker at indkøbe software, og som ikke har et forhåndskendskab. 
-
-Samtidig ønskes med vejledningen at bringe projektledere og it-arkitekter i stand til at have en kvalificeret dialog med jurister samt beslutningstagerne i ledelseslaget, i forbindelse med beslutning om evt. anvendelse af open source. 
-
-# Anbefalinger
-
-Anvendelse af open source-software kan bidrage til at understøtte yderligere innovation og konkurrence på softwaremarkedet, fordi softwaren kan genbruges, og videredistribueres med henblik på at andre kan få glæde af den. Dermed undgår fx en myndighed at skulle betale for udviklingen af den samme software flere gange.
-
-Open source-software kan bidrage til sammenhæng og fortsat digital udvikling på tværs af den offentlige sektor. Som nævnt i indledningen har der tidligere været fokus på et ønske om at anvende open source i offentlige myndigheder der, hvor det er relevant. I den forbindelse blev der opstillet en række principper for anvendelse af open source i det offentlige, som skulle sikre de offentlige institutioner store valgmuligheder og innovation samt understøtte, at softwareanskaffelser samlet set gøres billigere og mere fleksible. Principperne for anvendelse af open source blev oplistet i ”Open source-software i det offentlige” af Ministeriet for Videnskab, Teknologi og Udvikling, december 2008 , og de er kun blevet endnu mere relevante siden 2008: 
-
-  * **Konkurrence**<br>
-    Velfungerende konkurrence er en forudsætning for et effektivt og varieret softwaremarked. Open source understøtter, at softwaren kan vedligeholdes og videreudvikles af flere leverandører. Softwareleverandører skal på lige vilkår kunne tilbyde deres it-ydelser til det offentlige
-  * **Kontrol og selvbestemmelse**<br>
-    Anvendelse af open source-software sikrer kontrollen over softwaren. Dermed kan den enkelte myndighed bestemme, hvornår og hvordan softwaren skal opdateres, udvikles og  eventuelt deles med andre myndigheder.
-  * **Udvikling og innovation**<br>
-    Myndigheder skal ved udvikling af software overveje, hvilken software-udviklingsmodel, herunder open source-udviklings- og forretningsmodellen, som bedst understøtter innovation og hurtig udvikling af nye produkter og services. Egenudviklet software bør som udgangspunkt stilles til rådighed med en open source-licens. Det betyder ikke, at gamle metoder skal opgives, men at flere metoder kan leve side om side, og nye kan afprøves, så fordele og ulemper kan afklares i forhold til den danske forvaltnings virkelighed.
-  * **Bedst og billigst uanset softwaretype**<br>
-    Den enkelte myndighed skal have mulighed for at erhverve den bedste og billigste software ud fra lokale forvaltningsmæssige behov, uanset om der er tale om closed source- eller open source-software. Software skal vælges på baggrund af en vurdering af en samlet business case.
-  * **Sammenhæng og fleksibilitet**<br>
-    Myndigheder skal satse på software, der opbygges i mindre dele, og som ved hjælp af åbne standarder er i stand til at kommunikere med andre typer software. Derved sikres det, at enkelte dele af systemet uafhængigt kan udskiftes til gavn for fleksibilitet, genbrug og konkurrence på området.
-  * **Genbrug af software**<br>
-    Anvendelse af open source-software kan sikre, at skatteborgerne undgår at betale for udvikling af den samme software flere gange
-
-Som antydet i indledningen er der på den anden side dels en række myter forbundet med open source, og dels er der noget, der tyder på, at nogle offentlige myndigheder oplever en række barrierer, som gør det vanskeligt at vælge open source, selvom det havde været relevant for den pågældende it-løsning, der skulle anskaffes. Nedenfor analyseres mulige barrierer for anvendelse af open source, som man med fordel kan holde sig for øje.
-
-## Barrierer
-
-Der er en række barrierer og misforståelser knyttet til begrebet open source. I det følgende identificeres og besvares en række centrale spørgsmål og bekymringer vedr. open source. Fx hvordan open source påvirker sikkerheden i løsningen og omkostninger forbundet med indkøb og drift.  
-
-Myte nr. 1: Open source er en niche for primært computerkyndige, eller meget små løsninger, og ikke særlig udbredt
-
-Myte nr. 2: Man skal selv kunne kode for at anvende open source-løsninger, (og derfor er det svært at anvende for ikke-computerkyndige). 
-
-Myte nr. 3: Open source er gratis, og derfor dårligere kvalitet end proprietær software/closed source. At der som oftest ikke er licensomkostninger ved brug af open source-software, betyder, at der kan hentes nogle direkte besparelser. Men det er ikke gratis at anvende open source-software. De samlede omkostninger kan være de samme, selvom der ikke er licensomkostninger.
-
-Myte nr. 4: open source-løsninger er usikre/sårbare i forhold til proprietære løsninger, fordi der med open source, er fuld transparens om, hvordan løsningen fungerer.  
-
-Myte nr. 5: Det er sværere at vedligeholde og få support, hvis man har problemer med sin open source-software. 
-
-I forhold til myte nr. 5. Nogle af verdens største firmaer, fx Google og Facebook, er afhængige af open source-linuxservere for at opretholde deres platforme. Det vil derfor altid være kritisk for virksomhederne at opretholde den software på hvilken de baserer deres platforme og dermed deres virksomhed. Når der er tale om open source-software vil det desuden altid være muligt for en virksomhed at bringe en uafhængig tredjepart ind for at varetage support og rådgivning fremfor at afvente, at den proprietære udbyder har tid og mulighed for at adressere det problem man måtte have.
-
-Myte 6: Open source er uholdbart, fordi man kan ikke som virksomhed tjene penge på open source.
-
-# Anskaffelse
-
-Ved it-anskaffelser bør der først og fremmest udarbejdes en business case, der klargør de mulige gevinster, omkostninger og risici, der er forbundet med valg af forskellige produkter, uanset om det software baseret på open eller closed source. 
-
-Open source og closed source-løsninger kan godt sameksistere og det behøver ikke at være et spørgsmål om enten-eller, og processen vedrørende indkøb behøver heller ikke at være særligt forskellige.
-
-## Forskellige scenarier
-
-Overordnet er der tre forskellige scenarier, når det vedrører anvendelse af open source:
-
-  * Myndigheden udvikler selv open source-software 
-  * Myndigheden stiller krav til leverandører om anvendelse af open source-software, når disse leverer produkter og projekter til den offentlige sektor?
-  * Myndigheden ønsker genbrug af software og komponenter, som den offentlige sektor har investeret i på tværs af kommuner/regioner/staten
-
-Med andre ord er det vigtigt at holde sig for øje, at der er forskel på køb af en open source-løsning der allerede eksisterer og en anskaffelse, der handler om udvikling af open source-software, mere eller mindre fra bunden. Myndigheder kan således både være brugere af eksisterende open source-software eller være licensgivere, som kan stille software til rådighed for andre myndigheder eller andre aktører.
-Det handler om hvad der skaber mest værdi og bedste business case i de enkelte situationer, men det er vigtigt at have de strategiske overvejer tidligt og allerede i idéfasen af projektet og måske allerede inden, der overhovedet er en projektleder. 
-
-Derudover behøver indkøb af open source ikke at være ret meget anderledes end closed source. Det kan dog kræve, at man husker at lave gode drifts – og support aftaler med en leverandør i forbindelse med indkøb. At stille krav om open source, hvis det er relevant ift. markedet i et udbud, der vedrører it-anskaffelser, fremmer den åbne konkurrence, der er det grundlæggende formål med udbudsreglerne. 
-
-> Evt. boks med tegning her: Løsning fra bund til top: abstrakt tegning af, hvor der kan være open source i porteføljen 
-
-Der principielt ikke noget til hinder for, at ordregiver køber eller på anden vis betinger, at programmet kan benyttes, ændres og stilles til rådighed for almenheden under en open source-licens. 
-
-At kildekoden er åben og frit kan genbruges, betyder ikke blot at én myndighed kan videredistribuere sin open source-software til en anden myndighed. Det betyder også, at den anden myndighed kan forbedre softwaren og derefter igen dele det forbedrede produkt med den første myndighed eller med andre. På den måde kan der være flere om at forbedre softwaren og om at finansiere fremtidig udvikling.
-
-Med alle typer af it-anskaffelser kan der være mange elementer man skal huske i løbet af processen. Nedenfor er derfor opstillet en tjekliste til brug ved anskaffelse af open source. Herunder til afklaring i forhold til licenser.  
-
-Licenser kan indeholde forskellige vilkår om f.eks. at publicerede videreudviklinger skal videregives under samme vilkår (såkaldte copyleft-vilkår). Dette element kan være vigtigt i henhold til at sikre, at produktet ikke senere hen overgår fra open til closed source.
-
-Under hensyn til gennemsigtigheden må det derfor i alle tilfælde kræves, at ordregiver specificerer, hvilke open source-(mindste)krav, der stilles til det programmel, som skal (videre)udvikles.
-
-> Faktaboks: Eksempel på open Source på de ”store tunge løsninger”? Fx eksempel på at der er en juridisk løsning på vendor lockin og ejerskab til IT; case kunne evt. være Digital Post vs. eboks.
-
-## Licenser
-
-Open source-licenser er softwarelicenser, der tillader, at software frit kan bruges, forbedres og deles. Open Source Initiative har godkendt en række licenser, men anbefaler, at man som udgangspunkt benytter de licenser, der er "populære og bredt anvendte eller med stærke fællesskaber", f.eks. Apache License 2.0, GNU General Public License (GPL), MIT License eller Mozilla Public License (MPL) 2.0.[^4]
-
-> **OS2-fællesskabets brug af licenser**
+> **Principper for strategiens implementering**
 >
-> OS2-fællesskabet benytter open source-licenserne [MPL 2.0](https://www.mozilla.org/en-US/MPL/2.0/) til kildekode og [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) til dokumentation og andet materiale, der ikke er kildekode. MPL 2.0 er en "file scope"-licens, hvilket vil sige, at filerne og deres indhold er omfattet. I praksis betyder det, at hvis nogen ændrer i filerne, skal ændringerne gives tilbage til OS2.
+> * **Tænk åbent**<br>
+>   Open source-løsninger er at foretrække, når de er tilsvarende i funktionalitet, total omkostninger og cybersikkerhed.
+> * **Transformér**<br>
+>   Vi udnytter principperne for open source: vi innoverer, vi samskaber, deler og genbruger, og bygger sammen brugercentrerede, datadrevne offentlige tjenester.
+> * **Del**<br>
+>   Vi deler vores kode and muliggør bidrag til relaterede open source-projekter.
+> * **Bidrag**<br>
+>   Vi stræber efter at være et aktivt medlem af det mangfoldige open source-økosystem.
+> * **Gør sikker**<br>
+>   Vi sørger for, at den kode, vi bruger, og den kode, vi deler, er fri for sårbarheder ved at teste sikkerheden løbende.
+> * **Bevar kontrol**<br>
+>   Vi fremmer åbne standarder og specifikationer, der er implementeret og distribueret i open source.
 
-Læs mere om og find alle de godkendte open source-licenser på https://opensource.org/licenses.
+I en [undersøgelse om effekten af open source](https://digital-strategy.ec.europa.eu/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and) på teknologisk uafhængighed, konkurrenceevne og innovation i den europæiske økonomi fremhæver tre overordnede anbefalinger, hvor brug af open source kan bidrage til:
 
-Det er også muligt at anvende EU-Kommissionens værktøj til at finde og sammenligne softwarelicenser på https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses.
+ * En digitalt uafhængig offentlig sektor
+ * Åben forskning og udvikling som fundament for vækst
+ * Et digitaliseret og internationalt konkurrencedygtigt erhvervsliv
 
-[^4]: [Open Source Licenses by Category - Open Source Initiative](https://opensource.org/licenses/category)
+> **Italiensk for begyndere**
+> 
+> Italiens regering har indført ved lov, at open source-software har fortrinsret i offentlige udbud, og offentlige myndigheder forpligter sig til at offentliggøre kildekoden til software, så andre kan genbruge den.
+> 
+> Læs mere om italienske myndigheders [genbrug af åbne løsninger og standarder](https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2017-12-13/_rst/capo6_art69.html). 
 
-## Tjekliste til anskaffelse
+I et europæisk perspektiv er open source nøglen til digital og teknologisk selvbestemmelse i EU. Det er en stor del af forklaringen på, at der fra EU-Kommissionens side tilskyndes anvendelse af open source, og at der er udarbejdet standarder for, hvordan software deles og genbruges.
 
-  1. Al software skal leveres til kunden under en Open Source-softwarelicens godkendt af Open Software Initiative. Det kan fx væ-re Mozilla Public Licensen 2.0 https://www.mozilla.org/MPL/2.0/.  
-  2. Er produktet tilgængeligt på Github? Github er et godt sted at starte sin søgning efter Open Source-projekter/løsninger
-  3. Ved ny – og videreudvikling skal kildekoden publiceres på et offentligt tilgængeligt repository, fx GitHub. 
-  4. Sammen med kildekoden skal det være muligt at hente vejledninger og dokumentation, der forklarer, hvordan man anvender kildekoden til at bygge og implementere løsningen. Hermed opnår kunden ejerskab og rettigheder til materialet. I forbindelse med at åbne op for kildekoden er et vigtigt skridt dokumentationen. 
-  5. Tilbudsgiver skal levere en veldokumenteret open source-løsning, således at eventuel videreudvikling kan foretages af andre leverandører. Dette inkluderer teknisk dokumentation, herunder systembeskrivelser og arkitekturtegninger. Dermed sikrer man også, at løsninger kan drives videre efter kontraktudløb
-  6. Den tekniske dokumentation og koden skal overholde krav og standarder tilhørende den valgte open source-licens. 
-  7. Sørg for, at der foretages kodereview af kildekoden
-  8. Det er vigtigt at forholde sig til en ”upgrade-strategi”, altså hvordan løsningen kan udvikles og vedligeholdes 
-  9. Skal der indgås kontrakt med en drifts- og supportleverandør? 
-  10. Al skriftligt materiale jf. ovenstående, som produceres af tilbudsgiver, herunder dokumentation, licenseres under en Creative Commons licens, og det er god skik at nævne de personer der har ydet bidrag til projektet. 
-  11. Al software skal leveres til kunden med åbne standarder. Tilbudsgiveren skal sørge for at løsningen har åbne snitflader. 
-  12. Løsningen skal bygge på åbne standarder, hvor standarden er veldokumenteret med den fuldstændige specifikation og er offentligt tilgængelig. 
-  13. Det er et krav, at udveksling af data mellem løsningen og andre systemer skal ske via åbne standardiserede snitflader, så nuværende og fremtidige behov for systemintegration kan dækkes.
-  14. Standarden skal være frit implementérbar uden økonomiske, politiske eller juridiske begrænsninger på implementering og anvendelse hverken nu eller i fremtiden. 
-  15. Standarden skal være godkendt og vedligeholdt i et åbent forum (standardiseringsorganisation) via en åben proces. 
-  16. Implementering af standarden må ikke kræve nogen anden teknologi, der ikke opfylder kriterierne i dette krav. Tilbudsgiveren skal redegøre for, hvordan systemet lever op til kravene i aftale om anvendelse af åbne standarder for software i det offentlige (B103) og de syv åbne standarder, der trådte i kraft pr. 01.01.2008. 
-  17. Det tilbudte system skal leveres med en åben og fleksibel datastruktur og med omkostningsfri adgang til samtlige data i det tilbudte system. 
-  18. Alle data der ligger i det tilbudte system skal stilles tilgængelig for ordregiver i overskuelig datamodel. Metadata betragtes som en del af data. Dokumentation af datamodel (f.eks. E/R-diagram), nøgler, fortolkninger, opdateringsmetoder og tabelstrukturer skal være tilgængelig for ordregiver, og skal vedligeholdes af tilbudsgiver, så oplysninger til enhver tid er ajour.
-  19. Data skal gøres tilgængelig for ordregiver på en måde, som ikke forudsætter manuelle processer ud over opsætning og programmering. Desuden skal data gøres tilgængelig i et læsbart standarddatabaseformat. Tilgængeligheden må ikke i mærkbar grad påvirke den normale driftssituation på den tilbudte løsning. 
-  20. Strukturering af indholdet i snitfladen aftales nærmere med ordregivers datavarehusteam. 
-  21. Data skal gøres tilgængelig med aftalt frekvens bestemt af behovet og informationernes karakter. Som udgangspunkt forventes data ’leveret’ om aftenen/natten på daglig/ugentlig basis – i et aftalt miks mellem fuld load og delta load. Ved levering, skal gårsdagens status/tilføjelser/rettelser være tilgængelig i ordregivers datavarehus næste dags morgen. 
-  22. Data skal være kontrolleret for overholdelse af konsistenskrav og valideret mht. type og feltindhold. 
-  23. Enhver ændring af datasnitfladen skal meddeles til ordregivers datavarehusteam i rimelig tid inden ændringen gennemføres, således ordregiver har mulighed for at tilrette de bagvedliggende processer. 
-  24. Leverandøren er alene berettiget til at anvende kundens data til brug for udførelse af de af kontrakten omfattede leverancer og ydelser. 
-  25. Leverandøren erhverver hverken ejendomsret, ophavsret eller nogen anden rettighed til kundens data, uanset om disse data optræder elektronisk i systemet eller som print. 
-  26. Leverandøren skal behandle kundens data fortroligt i overensstemmelse med persondataloven, aftalte sikkerhedsprocedurer og god IT-skik. 
-  27. Det skal fremgå, at hvis kontrakten opsiges eller på anden måde ændres, så skal ejerskab over alle data tilfalde ordregiver
+## Baggrund
 
-## Eksisterende løsning
+Open source er ikke noget nyt i den offentlige sektor. Det har været og er fortsat interessant, fordi det understøtter mere modulære digitale løsninger og samarbejdsorienterede metoder til at udvikle, vedligeholde og genbruge komponenter. Open source kan derfor understøtte sammenhængende digitalisering og leverandøruafhængighed i den offentlige sektor.
 
- 1. Findes der god og dokumentation: "Sådan kommer du i gang", "Sådan kommer du videre", "Sådan bidrager du"? dækkende information om anvendelse, setup og bidrag
- 2. Ser det ud til at være under aktiv udvikling, hvornår var seneste commit til source koden, hvornår var seneste release, hvornår var seneste kommentar eller statusskift på et rapporteret issue?
- 3. Er der mange issues med softwaren, hvilke typer af issues er det, er det ændringsforslag og forslag til ny funktionalitet, ellerer det bug-rapporter? danne sig et indtryk af, om issues bliver løst og om der arbejdes aktivt på projekterne. Det betyder fx, at der bør være adgang til/links til Issue lister
- 4. Er der et åbent community forum, med folk der bidrager til at løse issues, og hvor brugerne udveksler erfaringer og hjælper hinanden? 
+Brug af open source er i overensstemmelse med visionen for den fællesoffentlige digitale arkitektur, der sætter de overordnede rammer for udviklingen af den digitalt sammenhængende offentlige sektor på tværs af sektorer og fagområder.
 
-# Markedet
+> **Visionen for den fællesoffentlige digitale arkitektur** er en digitalt sammenhængende offentlig sektor og en fælles arkitektur for digitalisering, der på sikker vis (skal) understøtte tværgående processer og effektiv deling af data på tværs af myndigheder samt mellem den offentlige og den private sektor. Målet er, at borgerne og virksomhederne oplever en service, der er effektiv, sammenhængende, transparent og målrettet den enkeltes behov samt understøtter innovation, vækst og udvikling i samfundet.
+> 
+> Læs mere i [hvidbogen for fællesoffentlig digital arkitektur](https://arkitektur.digst.dk/mandat-og-styring/hvidbog-om-faellesoffentlig-digital-arkitektur).
 
-Når man i en offentlig myndighed tager de første tilløb i forhold til et projekt, der har til formål at anskaffe et nyt it-system skal man blandt andet udarbejde en business case og afsøge markedet. Dette er en stor del af den afdækning, der skal kvalificere beslutningen, om hvorvidt det er relevant at vælge et system på en open source-licens eller ej.
+Visionen udmøntes i [principper og regler](https://arkitektur.digst.dk/principper-og-regler), som digitaliseringsprojekter skal bruge til udformningen af digitale løsninger, der skaber sammenhæng på tværs af den offentlige sektor for borgere og virksomheder. Arkitekturreglerne operationaliseres med fælles metoder, standarder og krav mv.
+
+Open source er en del af arkitekturregel 2.3 om at [undgå afhængighed af leverandører og proprietære teknologier](https://arkitektur.digst.dk/principper-og-regler/princip-2-arkitektur-fremmer-sammenhaeng-innovation-og-effektivitet-4), der operationaliseres ved at "anvende bæredygtige open source-komponenter, hvor det er relevant".
+
+[Statens it-projektmodel](https://digst.dk/styring/projektstyring/statens-it-projektmodel/) indeholder desuden et princip om, at allerede indkøbte eller udviklede løsninger skal genbruges i videst mulige omfang. Hvis eksisterende løsninger ikke kan bruges direkte, skal det overvejes, om det bedre kan betale sig at videreudvikle en allerede eksisterende funktionalitet fra en anden styrelse end at foretage nyudvikling af en tilsvarende løsning fra bunden.
+
+# Principper
+
+Offentlige myndigheders brug af open source er ikke et spørgsmål om enten-eller, men om at vælge den løsning, der passer bedst i en given situation. Open source-software er ikke et vidundermiddel, men et strategisk værktøj, der skal anvendes, når det skaber værdi.
+
+[Open source-software i det offentlige](https://www.digitaliser.dk/resource/2212763) beskriver en række **principper for anvendelse af open source i det offentlige**. Principperne sikrer offentlige myndigheder mange valgmuligheder og understøtter, at it-anskaffelser samlet set bliver billigere og mere fleksible. Samtidig er principperne med til at sikre et innovativt og konkurrencepræget marked.
+
+ * **Konkurrence**<br>
+ Velfungerende konkurrence er en forudsætning for et effektivt og varieret softwaremarked. Open source understøtter, at softwaren kan vedligeholdes og videreudvikles af flere leverandører. Softwareleverandører skal på lige vilkår kunne tilbyde deres it-ydelser til det offentlige.
+ * **Kontrol og selvbestemmelse**<br>
+ Anvendelse af open source-software sikrer kontrollen over softwaren. Dermed kan den enkelte myndighed bestemme, hvornår og hvordan softwaren skal opdateres, udvikles og  eventuelt deles med andre myndigheder.
+ * **Udvikling og innovation**<br>
+ Myndigheder skal ved udvikling af software overveje, hvilken software-udviklingsmodel, herunder open source-udviklings- og forretningsmodellen, som bedst understøtter innovation og hurtig udvikling af nye produkter og services. Egenudviklet software bør som udgangspunkt stilles til rådighed med en open source-licens. Det betyder ikke, at gamle metoder skal opgives, men at flere metoder kan leve side om side, og nye kan afprøves, så fordele og ulemper kan afklares i forhold til den danske forvaltnings virkelighed.
+ * **Bedst og billigst uanset softwaretype**<br>
+ Den enkelte myndighed skal have mulighed for at erhverve den bedste og billigste software ud fra lokale forvaltningsmæssige behov, uanset om der er tale om closed source- eller open source-software. Software skal vælges på baggrund af en vurdering af en samlet business case.
+ * **Sammenhæng og fleksibilitet**<br>
+ Myndigheder skal satse på software, der opbygges i mindre dele, og som ved hjælp af åbne standarder er i stand til at kommunikere med andre typer software. Derved sikres det, at enkelte dele af systemet uafhængigt kan udskiftes til gavn for fleksibilitet, genbrug og konkurrence på området.
+ * **Genbrug af software**<br>
+ Anvendelse af open source-software kan sikre, at skatteborgerne undgår at betale for udvikling af den samme software flere gange.
  
-Det fremgår af den fællesoffentlige digitale arkitektur, at den offentlige sektor skal bruge software, der både understøtter sammenhænge på tværs af institutioner og understøtter et softwaremarked, hvor leverandører uanset softwaretype kan tilbyde deres produkter til den offentlige sektor. 
+Det er nødvendigt at styre efter fælles principper, når flere offentlige myndigheder overvejer at anskaffe open source-software eller skal kunne arbejde sammen om en sammenhængende digitalisering af den offentlige sektor.
 
-I forhold til markedet for open source-løsninger har en del leverandører, heriblandt større leverandører med stor erfaring som leverandør af løsninger til offentlige myndigheder, taget bestik af udviklingen og etableret enheder, der skal udbrede anvendelsen af open source i deres forretning. Der er samtidig også flere myndigheder, der har tilsluttet sig OS2-fællesskabet. Det er med til at validere open source-modellen som en gangbar og profitabel forretningsmodel, der er i stand til at tiltrække etablerede leverandører af digitale løsninger til den offentlige sektor. 
+> **Googles open source-principper**
+> 
+> Googles har beskrevet tre principper eller perspektiver, der er grundlæggende for, hvordan de deltager i både egne og fællesskabsdrevne open source-projekter. Principperne giver noget at stræbe efter og kan bruges som rettesnor til at interagere med fællesskabet af skabere, bidragydere og brugere.
+> 
+> * **Respekter brugeren**<br>
+>   Skab og bidrag til open source-projekter med omtanke, formål og hensyn, skab klare forventninger for brugere af projekterne og kommuniker tydeligt til alle bidragydere og brugere.
+> * **Respekter muligheden**<br>
+>   Udvis forbilledlig opførsel, særligt i konkurrenceprægede situationer og interaktioner, behandl investeringer med omtanke og hjælp dem med at lykkes og bidrag positivt til fællesskaber ved at være en god open source-deltager.
+> * **Respekter hinanden**<br>
+>   Byd andre velkommen og vær inkluderende, sæt pris på fællesskabets medlemmer i ord og handling, stil tydelige krav til opførsel og håndhæv fælles retningslinjer og respekter projekternes retning.
 
-Det handler i sidste ende om, hvilken type software, der passer bedst i en given situation. Det er ikke et spørgsmål om enten open source-software eller closed source-software og softwareleverandører skal på lige vilkår kunne tilbyde deres it-ydelser til det offentlige.
+## Overvejelser ved anskaffelse
 
-Open source-licens- og forretningsmodellen er modnet, og der er i dag et kommercielt og konkurrencepræget marked, der understøtter en lang række open source-produkter, der bør vurderes på vilkår med proprietære løsninger, så man opnår et kvalificeret beslutningsgrundlag. Open source bør anvendes på baggrund af en samlet vurdering af en business case og markedsafdækning. 
+Anskaffelse af open source-software involverer en strategi for anskaffelse, afdækning af markedet, valg af licensformer, implementering i organisationen, (videre)udvikling og vedligeholdelse, herunder drift, af løsningen. Det gælder, uanset om det er open source-software eller en proprietær løsning.
 
-Som tidligere beskrevet er open source ikke gratis, når man beregner et ”total cost of ownership”. Ligesom ved anvendelse af closed source-software er der omkostninger til implementering, tilpasninger samt løbende drift, support og vedligehold. Nogle myndigheder har kompetencer til selv at foretage tilpasninger eller vedligehold af et stykke software, eller en løsning. I de tilfælde er det en billigere løsning, da man ikke har den mulighed med priprietære løsninger. Da man med open source har uhindret adgang til koden vil det derfor ikke være nødvendigt at købe ydelsen hos en leverandør. Det er dog langt fra alle myndigheder, der har kompetencerne indenfor egen personalegruppe. 
+> Figur: Proces for it-anskaffelser (DIGST)
 
-Open source kan bidrage til øget kontrol og en fleksibilitet i to henseender:
+**Strategier og markedsafækdning** beskriver myndighedernes overvejelser om strategier for anskaffelse af open source-software og afdækning af markedet for både eksisterende open source-komponenter og proprietære løsninger.
 
-  1. Fri tilrettelæggelse af softwaren til de præcise behov
-  2. Den frie adgang til kildekoden sikrer, at langt flere it-leverandører har mulighed for at tilbyde ydelser til softwaren, og det øger kon-kurrencen på markedet og mindsker risikoen for at blive ”låst” til én leverandør.
+**Licenser og implementering** beskriver myndighedernes overvejelser om brug af open source-licenser og implementering af open source, uanset om det eksisterende komponenter, der er genbrugt fra hylderne, eller softare udviklet selv eller i fællesskab med andre.
 
-Uanset hvilken licensform og forretningsmodel der anvendes, er det vigtigt,
-at myndighederne i videst muligt omfang sikrer sig selvbestemmelse og
-kontrol over den anskaffede software. Hermed er de selv med til at fastlægge vilkår for anvendelse og videreudvikling. Dette vil være med til at sikre
-kvalitet og mindske risikoen for bindinger til bestemte leverandører.
+**Udvikling og vedligeholdelse** beskriver overvejelser om udvikling og vedligeholdelse, herunder drift, af open source-software, der består af løbende opgaver, der alle stiller krav til kompetencer, hvorfor myndigheder med fordel kan deltage i open source-fællesskaber.
 
-Open source-software tillader udveksling og videreudvikling af software på frie vilkår. Det gør det muligt for mange forskellige it-virksomheder at tilbyde ydelser i forbindelse med softwaren, og at udvikle nye it-produkter. Samtidig kan offentlige myndigheder nemmere samarbejde om at lave sammenhængende it-systemer. Open source kan på den måde skabe dynamik og fremme innovation og konkurrence på markedet.
+> **Vejledning i anskaffelse af open source**
+> 
+> OS2-fællesskabet har med udgangspunkt i materiale overdraget fra Aarhus Kommune udarbejdet tre vejledninger, som supplerer denne vejledning. Vejledningerne indeholder relevant og vigtig viden omkring open source og anskaffelsen af open source software.
+> 
+> Formålet med vejledningerne er at afmystificere og hjælpe myndigheder med at indkøbe og bruge af open source. Det er at hjælpe til at benytte open source strategisk og hjælpe med at gøre kravspecificering, valg og indkøb af løsning så nemt som muligt.
+> 
+> Læs vejledninger om [licenser, jura, udbud og kontrakter](https://faq.os2.eu/open-source-anskaffelse-licenser-jura-udbud-og-kontrakter?collection=59).
+
+Der findes også andre vejledninger i genbrug af open source-software i den offentlige sektor. F.eks. har det [italienske ministerium for teknologisk innovation og digital omstilling](https://innovazione.gov.it/) beskrevet [retningslinjer for anskaffelse og genbrug af software for offentlige myndigheder](https://docs.italia.it/italia/developers-italia/gl-acquisition-and-reuse-software-for-pa-docs/en/stabile/index.html) og open source-organisation [Foundation for Public Code](https://publiccode.net/) har etableret en såkaldt [Standard for Public Code](https://standard.publiccode.net/), der skal hjælpe organisationer med at udvikle og genbruge open source-software.
+
+# Strategier og markedsafdækning
+
+Formålet med dette afsnit er at beskrive offentlige myndigheders overvjelser om strategier for anskaffelse af open source-software. Det er ikke et spørgsmål om enten-eller, men derimod om at vælge den strategi, der passer bedst til den konkrete situation.
+
+Open source-software og proprietære løsninger kan sagtens sameksistere, hvis man vælger forskellige strategier fra gang til gang, og processen for anskaffelse er stort set den samme. De kræver dog hver især forskellige kompetencer og krav til samarbejde.
+
+## Strategier for anskaffelse af open source
+
+Overordnet findes der tre strategier for anskaffelse af open source, som offentlige myndigheder har i værktøjskassen og kan anvende i forbindelse med it-anskaffelser:
+
+  * **Myndigheden genbruger fra hylderne**<br>
+    Offentlige myndigheder, der anvender denne strategi, genbruger eksisterende open source-software, hvor det er relevant. Det kan være komponenter eller enkeltstående applikationer, der er gode eller billige alternativer til proprietære løsninger. Denne strategi omfatter også myndigheder, der er mindre bevidste om, at de anvender open source.
+  * **Myndigheden udvikler selv**<br>
+    Offentlige myndigheder, der anvender denne strategi, udvikler selv løsninger, der foruden at anvende eksisterende open source-komponenter udgives under en open source-licens. Det kan være for at stille software til rådighed for andre myndigheder eller virksomheder for at øge anvendelsen eller få andre til at bidrage til vedligeholdelsen.
+  * **Myndigheden udvikler i fællesskab**<br>
+    Offentlige myndigheder, der anvender denne strategi, udvikler i fællesskab med andre løsninger, der lever op til ovenstående. Det kan være for at dele risici og omkostninger med andre myndigheder eller virksomheder og skabe et fællesskab omkring vedligeholdelse af løsningen eller en række løsninger i et økosystem.
+
+> Figur: Open source-anskaffelsesstrategier (DIGST)
+
+Med andre ord er der forskellige strategiske årsager til at genbruge eksisterende open source-software og udvikle open source-software selv eller i fællesskab med andre. De forskellige strategier har hver deres fordele, men kræver også noget af myndigherne i form af kompetencer.
+
+> **Open source-strategi på biblioteksområdet**
+> 
+> Det offentligt ejede aktieselskab DBC, der producerer og digitaliserer metadata til de danske biblioteker og udvikler og driver bibliotekernes fælles it-infrastruktur, har en strategisk målsætning om at udgive deres softwareportefølje under open source-licenser og stille software til rådighed for kunder og samarbejdspartnere. Formålet er, at bibliotekernes og DBC's strategier kan møde hinanden og i samarbejde blive en del af en større, fælles udviklingskraft.
+> 
+> Læs mere om [open source på biblioteksområdet](https://www.dbc.dk/videndeling/hvad-er-open-source) og DBC's [Open Library Strategy](https://www.dbc.dk/om-dbc/udvikling/open-library-strategy).
+
+Det er også vigtigt at påpege, at open source-software findes på alle hylder i softwarestakken. Det kan være basisteknologi som styresystemer, hvor Linux er meget udbredt på servere, eller databasesoftware som MySQL. En af de mest populære softwarestakke til webapplikationer består af de fire komponenter Linux, Apache, MySQL og PHP, Perl og Python (LAMP).
+
+> Figur: Open source findes på alle hylder i softwarestakken (DIGST)
+
+At kildekoden er åben og frit kan genbruges, betyder ikke kun, at en myndighed kan dele sin open source-software med en anden myndighed. Det betyder også, at den anden myndighed kan forbedre softwaren og derefter dele den forbedrede løsning med den første myndighed og med andre. På den måde kan der være flere om at forbedre softwaren og finansiere fremtidige ønsker til videreudvikling.
+
+### Tjekliste til strategier
+
+1. Offentlige myndigheder bør have en overordnet strategi for brug af open source, men bør fra anskaffelse til anskaffelse overveje fordele og ulemper og den konkrete værdiskabelse ved anvendelse af open source.
+2. Offentlige myndigheder, der ønsker at udvikle open source-software, bør forholde sig til risici, behov for tekniske kompetencer og andre ressourcer og omkostninger ved udvikling selv i forhold til udvikling i fællesskab med andre.
+3. Offentlige myndigheder bør sikre sig de rette kompetencer til at arbejde med open source, uanset om de genbruger eksisterende open source-komponenter, udvikler selv eller udvikler i fællesskab med andre.
+4. Offentlige myndigheder bør danne sig et overblik over brug af open source-software på forskellige niveauer i softwarestakken og anvende en helhedsorienteret tilgang til anskaffelser, der udnytter synergier mellem software som f.eks. de populære open source-softwarestakke LAMP og MEAN.
+5. Offentlige myndigheder bør ved ny- eller videreudvikling overveje, om kildekoden skal offentliggøres på f.eks. [GitHub](https://github.com/).
+
+## Afdækning af markedet
+
+Det fremgår af den fællesoffentlige digitale arkitektur, at den offentlige sektor skal bruge software, der understøtter sammenhængende digitalisering uden bindinger til leverandører og proprietære teknologier og udvikler et marked, hvor flere leverandører kan konkurrere om at levere systemer og services innovativt, billigt og fleksibelt, og der er plads til både standardløsninger og moduler fra flere leverandører baseret på åbne snitflader.
+
+På markedet for open source-software har mange leverandører, herunder en række større leverandører med lange erfaringer som leverandører til offentlige myndigheder, taget bestik af udviklingen og etableret enheder, der udvikler open source-software for offentlige myndigheder og byder ind på ydelser omkring vedligeholdelse og videreudvikling.
+
+F.eks. har OS2-fællesskabet omkring 70 leverandørpartnere, der producerer og overleverer produkter til fællesskabet, leverer udviklingskraft og teknologividen, implementering, drift og support og er i aktiv dialog med fællesskabet om nye forretningsmuligheder.
+
+> **OS2iot høster gevinsterne ved open source**
+> 
+> OS2iot er en løsning, der modtager og viderestiller data fra sensorer uanset transmissionsteknologi. Fordi software er anskaffet under en open source-licens, er offentlige mynndigheder, der ønsker at anvende OS2iot, frie til at vælge leverandør eller stå for det selv. Løsningen har derfor tilknyttet fem leverandører, der tilbyder drift og support, samt to fællesskaber, henholdvis [GovTech Midtjylland](https://govtechmidtjylland.dk/) og [Fællesskab for Dynamiske Data](https://www.gate21.dk/faelleskab-for-dynamiske-data/), hvor kunderne deles om driften af OS2iot.
+> 
+> Læs mere om gevinsterne i form af leverandøruafhængighed på [produktsiden for OS2iot](https://os2.eu/produkt/os2iot).
+
+Det er med til at validere open source som en udbredt og rentabel forretningsmodel på det danske leverandørmarked og viser med al tydelighed, at open source-software ikke er gratis, eller at en open source-strategi river tæppet væk under leverandørerne. Det er derimod en udviklingsmetode til at imødekomme udfordringer med at genbruge og videreudvikle digitale løsninger, der kommer af leverandøruafhængighed, teknisk gæld, kompetencetab og manglende ejerskab til kildekoden.
+
+Som tidligere beskrevet er open source ikke gratis, når man beregner en *Total Cost of Ownership* (TCO). Ligesom ved anvendelse af closed source-software er der omkostninger til implementering, videreudvikling og løbende drift, support og vedligeholdelse. Det kræver samtidig også, at myndigheden har og kan allokere de nødvendige ressourcer til at stå for opgaverne. Dermed er der ikke blot tale om omkostninger til de faktiske opgaver, men også til at sikre, at organisationen har de rette kompetencer over tid.
+
+> **Vejledning om anskaffelse og genbrug af software**
+> 
+> I forbindelse med markedsafækdningen for henholdsvis open source-software og proprietære løsninger, har italiernerne i deres vejledning opstillet en model for beregning af omkostninger i hele softwarens livscyklus, ikke kun for anskaffelsesprocessen, som f.eks.:
+> 
+>  * Omkostninger til hardware og softwarelicenser ved anskaffelse af proprietære løsninger
+>  * Omkostninger til softwaretilpasning
+>  * Omkostninger til vedligeholdelse (fejlrettelser, videreudvikling og opgradering mv.)
+>  * Omkostninger til oplæring af medarbejdere, der skal anvende løsningen
+>  * Omkostninger til migrering af data fra tidligere løsninger
+>  
+> Læs mere om beregning af [Total Cost of Ownership](https://docs.italia.it/italia/developers-italia/gl-acquisition-and-reuse-software-for-pa-docs/en/stabile/software-acquisition/total-cost-of-ownership.html) (TCO).
 
 ## Tjekliste til markedsafdækning
 
-  1. Afsøg markedet – er der flere leverandører at vælge mellem? Hvis man vælger at benytte software, som ikke er så hyppigt anvendt, kan antallet af leverandører, som uden videre kan yde service, være begrænset.
-  2. Beregn ”total cost of ownership” i forhold til den ønskede løsning. Herunder implementering, tilpasninger samt løbende drift, support og vedligehold
-  3. Open source bør kun anvendes dér, hvor det giver værdi, og software skal derfor vælges på baggrund af en vurdering af en samlet business case.
+1. Offentlige myndigheder bør undersøge, om der findes eksisterende open source-komponenter, de kan genbruge. De kan f.eks. orientere sig på [SourceForge](https://sourceforge.net/), [GitHub](https://github.com/), [OS2 Produkter](https://os2.eu/produkter) eller [OSS Repositories](https://joinup.ec.europa.eu/collection/open-source-observatory-osor/oss-repositories), der udstiller open source-software på tværs af europæiske myndigheder. Danske myndigheder bør anvende [it-løsningerne i den fælles digitale infrastruktur](https://digst.dk/it-loesninger/), og statslige myndigheder kan orientere sig i [servicespecifikationen for GovCloud](https://govcloud.dk/media/11706/servicespecifikation-govclouddk.pdf), der beskriver de kundevendte komponenter hos Statens It. Kommunale myndigheder bør orientere sig i [Digitaliseringskataloget](https://digitaliseringskataloget.dk/) for anvendelse af fælleskommunal infrastruktur.
+2. Offentlige myndigheder, der identificerer eksisterende open source-software, bør beregne *Total Cost of Ownership* for denne og tilsvarende proprietære løsninger med henblik på at vælge den løsning, der skaber værdi i den specifikke situation.
+3. Offentlige myndigheder, der genbruger eksisterende open source-komponenter, bør undersøge, om der er tilstrækkelige vejledning og dokumentation til det pågældende projekt. Myndigheden skal kunne forstå og anvende kildekoden til at bygge og videreudvikle en digital løsning, der løser deres behov.
+4. Offentlige myndigheder, der genbruger eksisterende open source-komponenter, bør undersøge aktivitetsniveauet i det pågældende projekt, f.eks. seneste commit eller release, med henblik på at sikre sig, at projektet ikke er stagnerende eller inaktivt.
+5. Offentlige myndigheder, der genbruger eksisterende open source-komponenter, bør undersøge, om issues er offentligt tilgængelige, løses inden for en rimelig tidsperiode og primært er fejl eller ændringsønsker.
+6. Offentlige myndigheder, der genbruger eksisterende open source-komponenter, bør investere tid og ressourcer i at bidrage til vejledning og dokumentation, kildekode og issues med henblik på at holde projektet aktivt og opdateret.
 
-# Kompetencer og fællesskaber
+# Licenser og implementering
 
-Udvikling, drift og vedligeholdelse af digitale løsninger er en konstant proces, der kræver åbenhed og agilitet, hvis den offentlige sektor skal realisere besparelserne ved omkostningseffektive udbud og sikre robuste digitale tjenester i mange år fremover. 
+Formålet med dette afsnit er at beskrive offentlige myndigheders overvejelser om brug af open source-licenser, der giver frihed til at bruge, undersøge, ændre og dele kildekoden, og implementering af open source, myndigheden har genbrugt fra hylderne, udviklet selv eller i fællesskab med andre.
 
-At arbejde med open source stiller samtidig nogle krav til bestillerne af it-løsninger. Ikke mindst, når det gælder kompetencer hos myndighederne og leverandørerne afhængigt af den valgte anskaffelsesmetode. 
+Der er ikke noget modsætningsforhold mellem at anskaffe open source-software og betale (en eller flere) leverandører for eksempelvis udvikling, vedligeholdelse eller drift af løsningen. Det kræver ikke desto mindre, at man aftaler at bruge de rigtige licenser, så det f.eks. er muligt at skifte leverandør, og så andre man forbedre kildekoden.
 
-Det følgende skal blandt andet understøtte offentlige myndigheder i forhold til overblik over og håndtering af krav og kompetencer og komme med anbefalinger til opbygning af et open source-community, fastholdelsen af den relevante viden og gode erfaringer med open source som metode og forretningsmodel.
+## Open source-licenser
 
-EU's Open Source Observatory (OSOR) fungerer som samlingssted, hvor open source-communities kan mødes og offentliggøre nyheder, få viden om begivenheder, finde relevant open source-programmel, og indhente viden om brug af gratis open source-programmel til brug i den offentlige admini-stration på tværs af Europa.
+Open source-licenser er softwarelicenser, der tillader, at software frit kan bruges, undersøges, ændres og deles. [Open Source Initiative](https://opensource.org/) har godkendt en lang række licenser som værende open source, men anbefaler, at anvendere som udgangspunkt benytter de licenser, der er "populære og bredt anvendte eller med stærke fællesskaber". Det gælder f.eks. Apache License 2.0, GNU General Public License (GPL), MIT License og Mozilla Public License (MPL) 2.0.
 
-Til forskel fra proprietære/kommercielle løsninger er open source-løsninger ofte drevet af et fællesskab (community). Det kan det i hvert fald være, og det har en stor betydning ift. placering af ansvar for løsningen. For nogle open source-løsninger bliver der lagt mange frivillige kræfter i projektet. 
+EU-Kommissionen har sin egen open source-licens, [European Union Public License](https://ec.europa.eu/info/european-union-public-licence_en) (EUPL), der er den første europæiske open source-licens. Den findes på 22 sprog og kan anvendes af enhver til at distribuere software. Formålet er at opfordre europæiske myndigheder til at anvende open source-modellen og de tilhørende udviklingsmetoder til at styrke deres software og strategiske kapabiliteter.
+
+Læs mere om og find alle de [godkendte open source-licenser](https://opensource.org/licenses).
+
+Licenser kan indeholde forskellige vilkår, f.eks. at publicerede videreudviklinger skal videregives under samme vilkår (såkaldte *copyleft*-vilkår). Sådanne vilkår kan repræsentere behov for at sikre, at kildekoden ikke bliver genbrugt i proprietære løsninger.
+
+Der er mange forskellige licenser, og det er vigtigt at være bevidst om, at omstændighederne for at anvende open source-software kan ændre sig som følge af licensen. Forskellige licenstyper gør det f.eks. henholdsvis nemmere og sværere at vedligeholde eller overdrage softwaren, hvis man f.eks. indgår i samarbeder med andre myndigheder eller indgår aftale om videreudvikling med en leverandør.
+
+Offentlige myndigheder kan med fordel udarbejde egne, og gerne fælles, strategier for brug af licenser og anbefalinger om, hvilke open source-licenser, man ønsker at anvende, og hvilke man kan acceptere i open source-komponenter, man genbruger.
+
+> **OS2-fællesskabets brug af licenser**
+>
+> OS2-fællesskabet benytter open source-licenserne [MPL 2.0](https://www.mozilla.org/en-US/MPL/2.0/) til kildekode og [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) til dokumentation og andet materiale, der ikke er kildekode. MPL 2.0 er en *file scope*-licens, hvilket vil sige, at filerne og deres indhold er omfattet af licensen. I praksis betyder det, at hvis nogen ændrer filerne, skal ændringerne gives tilbage til OS2.
+
+Offentlige myndigheder kan med fordel anvende EU-Kommissionens [værktøj til at finde og sammenligne softwarelicenser](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses).
+
+Der opstår fra tid til anden spørgsmål om lovligheden af at stille krav om open source-licenser i offentlige it-anskaffelser. Derfor har OS2-fællesskabet sammen med Kammeradvokaten udarbejdet et [open source-notat](https://os2.eu/blog/nu-faar-vi-et-open-source-notat), der beskriver myndighedernes retlige forpligtelser og slår fast, at open source er lovligt for offentlige myndigheder, så længe det varetager egne og borgernes interesser. Udbudsreglerne skal stadig overholdes, og offentlige myndigheder skal handle økonomisk forsvarligt, også når der udvikles under en open source-licens.
+
+Når offentlige myndigheder stiller krav om open source, er det derfor vigtigt at specificere de konkrete krav, der stilles, og listen over godkendte open source-licenser fra Open Source Initiative er derfor et godt udgangspunkt.
+
+### Tjekliste til licenser
+
+1. Offentlige myndigheder, der udvikler selv eller i fællesskab med andre, bør anvende en af de [godkendte open source-licenser](https://opensource.org/licenses), der er populær og bredt anvendt eller med stærke fællesskaber, f.eks. Apache License 2.0, GNU General Public License (GPL), MIT License og Mozilla Public License (MPL) 2.0.
+2. Offentlige myndigheder, der udvikler selv eller i fællesskab med andre, bør forholde sig til særligt *copyleft*, hvis de ikke ønsker, at kildekoden kan genbruges i proprietære løsninger.
+3. Offentlige myndigheder bør udarbejde egne, og gerne fælles, strategier for brug af licenser og anbefalinger om, hvilke open source-licenser, man ønsker at anvende, og hvilke man kan acceptere i open source-komponenter, man genbruger.
+4. Offentlige myndigheder, der genbruger eksisterende open source-komponenter, skal være opmærksomme på, hvilken open source-licens, softwaren er offentliggjort under med henblik på mulighederne for at vedligeholde og dele eller overdrage kildekoden til andre.
+6. Offentlige myndigheder kan bruge EU-kommissionens [værktøj til at finde og sammenligne softwarelicenser](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses) med henblik på at vælge en open source-licens, der passer til den konkrete situation.
+7. Offentlige myndigheder, der er i tvivl om mulighederne for at kræve eller prioritere brug af (bestemte) open source-licenser ved udbud og anskaffelse af digitale løsninger, kan orientere sig i OS2-fællesskabet og Kammeradvokatens [notat vedrørende OS2-fællesskabet og open source](https://os2.eu/sites/default/files/blog-files/notat_os2_open_source.pdf), der beskriver retlige forpligtelser og omstændigheder for brug af open source-licenser.
+8. Offentlige myndigheder bør sørge for, at skriftligt materiale, der udarbejdes af tilbudsgiver, herunder dokumentation, licenseres under en passende open source-licens, f.eks. en Creative Commons-licens. 
+
+## Implementering af open source
+
+Implementering handler om samarbejdet mellem den offentlige myndighed som ordregiver og tilbudgiver og senere leverandør af en digital løsning. Ved anskaffelse af open source-software afhænger kravene til implementering en del af den valgte strategi for anskaffelsen.
+
+Hvis myndigheden genbruger open source-komponenter fra hylderne, er det ofte svært, men heller ikke nødvendigt, at stille krav til leverandøren om f.eks. licensform eller dokumentation. Det kan imidlertid - over tid - være en mulighed, at myndigheden engagerer sig i et fællesskab omkring komponenten og derigennem påvirker løsningen.
+
+Hvis myndigheden derimod udvikler selv eller i fællesskab med andre, er det relevant at stille en række krav til implementeringen af løsningen. Open source-software er foruden anvendelse af en godkendt open source-licens som beskrevet ovenfor, kendetegnet ved, at løsningen er veldokumenteret, så andre nemt og uden begrænsninger kan genbruge og dele den.
+
+Der er ved implementering også en lang række overvejelser, der knytter sig til den efterfølgende videreudvikling og vedligeholdelse af løsningen, ejerskab til data og dokumentation, brug af åbne standarder og snitflader, der sikrer sammenhængende digitalisering og så videre.
+
+## Tjekliste til implementering
+
+1. Offentlige myndigheder bør ved offentliggørelse af kildekoden vedlægge vejledning og dokumentation, der forklarer, hvad løsningen kan bruges til, og hvordan man kan anvende kildekoden til at bygge og videreudvikle løsningen.
+2. Offentlige myndigheder bør ved offentliggørelse af kildekoden anvende standarder som f.eks. [publiccode.yml](https://docs.italia.it/italia/developers-italia/publiccodeyml-en/en/master/index.html.), der beskriver kildekoden med henblik på automatisk indeksering af open source-software, der giver søgemuligheder på tværs af offentlige myndigheder, sektorer og landegrænser.
+3. Offentlige myndigheder bør sørge for, at der foretages kodereview af kildekoden. Kodereview kan med fordel foretages af en anden leverandør.
+4. Offentlige myndigheder bør stille krav om, at løsningen understøtter åbne (og obligatoriske) standarder og anvender åbne, standardiserede snitflader. 
+5. Offentlige myndigheder bør stille krav om, at løsningens komponenter, herunder tekniske standarder, frameworks og kodebiblioteker, er åbne og kan anvendes uden økonomiske eller juridiske begrænsninger både nu og i fremtiden. 
+6. Offentlige myndigheder bør så vidt muligt kun anvende standarder, der er godkendt og vedligeholdt i et åbent forum (standardiseringsorganisation) ved hjælp af en åben proces. 
+7. Offentlige myndigheder skal sørge for, at implementering af standarden ikke kræver nogen anden teknologi, der ikke opfylder kriterierne i dette krav, og tilbudsgiver skal redegøre for, hvordan systemet lever op til kravene i [aftale om anvendelse af åbne standarder for software i det offentlige](https://www.digitaliser.dk/resource/3778907/) og de syv åbne, obligatoriske standarder.
+8. Offentlige myndigheder bør stille krav om, at løsningen leveres med en åben og fleksibel datamodel og med omkostningsfri adgang og ejerskab til samtlige data i løsningen.
+9. Offentlige myndigheder bør stille krav om, at dokumentation af datamodel (f.eks. E/R-diagram), nøgler, fortolkninger, opdateringsmetoder og tabelstrukturer skal være tilgængelige for ordregiver, og skal vedligeholdes af tilbudsgiver, så oplysninger til enhver tid er ajour.
+10. Offentlige myndigheder bør stille krav om, at data gøres tilgængelige for ordregiver på en måde, som ikke forudsætter manuelle processer ud over opsætning og programmering. Desuden skal data gøres tilgængelig i et standardiseret og maskinlæsbaart databaseformat. Tilgængeligheden må ikke i mærkbar grad påvirke den normale driftssituation på den tilbudte løsning. 
+11. Offentlige myndigheder bør aftale strukturering af indholdet i snitfladen med ordregivers datavarehusteam. 
+12. Offentlige myndigheder bør stille krav om, at data gøres tilgængelige efter en aftalt frekvens, som fuld indlæsning eller deltaindlæsning og med metadata om status, tilføjelser og rettelser bestemt af myndighedens behov og informationernes karakter.
+13. Offentlige myndigheder bør stille krav om, at data skal være kontrolleret for overholdelse af konsistenskrav og valideret med hensyn til type og feltindhold. 
+14. Offentlige myndigheder bør stille krav om, at enhver ændring af datasnitfladen skal meddeles til ordregivers datavarehusteam i rimelig tid inden ændringen gennemføres, således ordregiver har mulighed for at tilrette de bagvedliggende processer. 
+15. Leverandøren er alene berettiget til at anvende myndighedens data til brug for udførelse af de af kontrakten omfattede leverancer og ydelser. 
+16. Leverandøren erhverver hverken ejendomsret, ophavsret eller nogen anden rettighed til myndighedens data, uanset om disse data optræder elektronisk i systemet, i uddatamateriale eller som print.
+17. Leverandøren skal behandle myndighedens data med henblik på fortrolighed, integritet og tilgængelighed i overensstemmelse med databeskyttelseslovgivning, aftalte sikkerhedsprocedurer og god it-skik. 
+
+# Udvikling og vedligeholdelse
+
+Formålet med dette afsnit er at beskrive offentlige myndigheders overvejelser om udvikling og vedligeholdelse, herunder drift, af open source-software, der består af løbende opgaver og kræver åbenhed og agilitet, hvis skal realisere besparelserne ved omkostningseffektive udbud og sikre robuste digitale løsninger for fremtiden.
+
+Det stiller en række krav til kompetencer, og - særligt hvis myndigheden udvikler i fælleskab med andre - opbygning af et open source-fællesskab internt eller på tværs af myndigheder, der kan fastholde den relevante viden og gode erfaringer med open source som udviklingsetode.
+
+EU-Kommissionens [Open Source Observatory](https://joinup.ec.europa.eu/collection/open-source-observatory-osor) (OSOR) fungerer som et samlingssted, hvor open source-fællesskaber kan dele viden og erfaringer og finde og genbruge open source-software.
+
+Til forskel fra proprietære løsninger er open source-software ofte drevet af et fællesskab (af frivillige). Det en stor betydning for placering af ansvar for løsningen. For nogle open source-løsninger bliver der lagt mange frivillige kræfter i projektet. 
 
 Disse forskellige fællesskaber sikrer, at der er mange, der har en dybdegående viden om de forskellige open source-løsninger, og denne viden ligger ofte tilgængelig for den nysgerrige på de respektive løsningers websites. Fællesskaber kan både bruges i selve afsøgningen af markedet og som referencefælleskab og videnbank ved valg af en specifik open source-løsning. 
 
-Udfordringen er, at det kan være svært at gennemskue hvem der i et open source-fællesskab har ansvaret. Som nævnt i afsnittet med vejledning til den konkrete anskaffelse kan det det derfor være særlig vigtigt at indgå en kontrakt om drift, vedligehold, og support af løsningen. I mange offentlige myndigheder vil det være naturligt at forvente, at der ved fejl i en løsning er et telefonnummer til en leverandør, man kan ringe til. 
+Forskellige typer it-anskaffelser kræver forskellige kompetencer i den enkelte myndighed. Ved indkøb af proprietær software har man ofte ikke brug for at have alle kompetencerne internt, da det er leverandøren, der servicerer, implementerer og opdaterer produktet.
 
-Forskellige typer it-anskaffelser kræver forskellige kompetencer i den enkelte myndighed. Ved indkøb af kommerciel software har man ikke brug for at have alle kompetencerne internt, da det er leverandøren, der servicerer, implementerer og opdaterer produktet. 
+Når man udvikler open source, stiller det ofte flere krav til kompetencer, om end der er masser eksempler på leverandører, der tilbyder open source-software på samme vilkår som proprietære løsninger. Hvis man imidlertid indgår i et samarbejde, der kræver flere kompetencer, end organisationen råder over, kan man med fordel opbygge et fællesskab og leverandøraftaler, der sikrer, at man ikke skal besidde alle kompetencerne selv.
 
-Ved egen anskaffelse – enten nyudvikling eller anskaffelse af allerede eksisterende løsning er det nødvendigt enten allerede at have kompetencerne   eller anskaffe sig disse ved indkøb af en serviceydelse eller uddannelse af ansatte. I lige så høj grad som sidstnævnte type fordrer et større arbejde med af afklare interne kompetencer, handler den om at evne at afsøge markedet for erfaringer med det respektive produkt samt at vurdere egenskaberne og styrken i det fællesskab, der er tilknyttet open source-løsningen. 
+> **OS2 - Offentligt Digitaliseringsfællesskab**
+> 
+> OS2-fællesskabet er et samarbejde om open source bestående af offentlige myndigheder og leverandørpartner, der har til formål at udbrede kendskabet til og brugen af open source i den offentlige sektor, sikre en governanceramme for open source og muliggøre teknisk udveksling og videndeling. Den bagvedliggende filosofi skal fremme samarbejde, deling og digital udvikling. En væsentlig kompetence i fællesskabet er at opretholde det juridiske ejerskab til den kildekode, content og dokumentation, som fællesskabet får udviklet, eller som fællesskabets medlemmer donerer. Et ejerskab som sikres igennem brugen af open source-licenser.
+> 
+> Læs mere om [OS2 - Offentligt Digitaliseringsfællesskab](https://os2.eu/).
 
-Friheden til at ændre softwaren og til at gøre dette i strategiske samarbejder understøtter innovation, dels fordi det er muligt at tilpasse eksisterende software, dels fordi den voksende mængde open source-”hyldevarer” gør det muligt hurtigt at sammensætte nye produkter og services.
-
-Kompetencer/community: Ny incitament-struktur der skal bygges op. Stor investering, hvis man skal opbygge kompetencer til ny – eller videreudvikling af software indenfor egen myndighed. Det vil ofte også kræve et længere perspektiv, hvor ledelsen på forhånd kan se et potentiale i at drive flere open source-projekter, hvis investeringen skal give mening. 
+Friheden til at ændre softwaren og til at gøre dette i strategiske samarbejder understøtter innovation, dels fordi det er muligt at tilpasse eksisterende software, dels fordi den voksende mængde open source-software, man kan tage ned fra hylden og i brug, gør det muligt hurtigt at sammensætte nye produkter og services.
  
-De enkelte myndigheder kan opleve en høste-så-problematik, som gør det svært at etablere nye open source-projekter. Med høste-så-problematik menes, at det ikke altid er den myndighed, der lægger alle ressourcerne i et projekt, som høster gevinsterne. Af den grund kan det være særligt relevant i nogle projekter at der mellem flere myndigheder indgås et samarbejde om at (videre)udvikle en løsning, som flere myndigheder kan få glæde af. På den måde deler man ressourcer og risici ved projektet.     
+De enkelte myndigheder kan opleve en høste-så-problematik, som gør det svært at etablere nye open source-projekter. Med høste-så-problematik menes, at det ikke altid er den myndighed, der lægger alle ressourcerne i et projekt, som høster gevinsterne. Af den grund kan det være særligt relevant i nogle projekter at der mellem flere myndigheder indgås et samarbejde om at (videre)udvikle en løsning, som flere myndigheder kan få glæde af. På den måde deler man ressourcer og risici ved projektet.
 
-> faktaboks: En god case ift. community her. OS2?
+OS2-fællesskabet har udarbejdet en [tjekliste til governance](https://github.com/OS2offdig/Governance_Reports), der kan bruges til at belyse niveauet af en given løsning i open source-fællesskaber. Tjeklisten dokumenterer modenhedsniveauet ud fra relevans, formkrav, strategisk sammenhæng og governance.
 
-## Tjekliste til kompetencer og fællesskaber
+## Tjekliste til udvikling og vedligeholdelse
 
-  * Foretag en kompetenceafklaring – allerede inden projektet går i gang
-  * Er der behov for egentlige software-udviklingskompetencer i egen myndighed?
-  * Er der behov for nye strategiske partnerskaber omkring open-source med andre myndigheder?
-  * Er der styr på hvem har ansvaret i et open source-fællesskab?
-  * Er der i fællesskabet udstukket retningslinjer for source-kodens placering, readme-filer, og issue lister? Eller er der oprettet en funktion, der kan hjælpe de forskellige projekter med at få disse ting på plads?
+1. Offentlige myndigheder bør sikre, at tilbudsgiver leverer en veldokumenteret digital løsning, således at eventuel videreudvikling kan foretages af andre leverandører. Dette omfatter teknisk dokumentation, herunder systembeskrivelser og arkitekturtegninger. Dermed sikrer man også, at løsningen kan drives videre efter kontraktudløb.
+2. Offentlige myndigheder bør kræve, at den tekniske dokumentation og kildekoden overholder krav og standarder tilhørende den valgte open source-licens. 
+4. Offentlige myndigheder bør overveje, om de selv kan og vil løfte opgaven, eller om de har brug for at indgå kontrakt med en drifts- og supportleverandør.
+5. Offentlige myndigheder bør forholde sig til planer for videreudvikling, opgradering og udfasning af løsningen fra begyndelsen og udarbejde passende strategier.
+6. Offentlige myndigheder bør stille krav om, at ejerskab til alle data tilfalder myndigheden, hvis kontrakten ændres, udløber eller på anden måde bortfalder.
+7. Offentlige myndigheder, der udvikler i fællesskab med andre, bør forholde sig til krav til vedligeholdelse af den fælles kodebase, efterlevelse af fællesskabets governancekrav, etablering af koordinationsorganer, videndeling mv. mellem brugere af løsningen, dialog med leverandører og promovering af løsningen.
+8. Offentlige myndigheder, der udvikler selv eller i fællesskab med andre, bør stille krav om koordinering og prioritering af videreudviklingsønsker, bestilling og styring af udviklingsopgaver og arkitekturstyring og governance for kodebasen.
+9. Offentlige myndigheder, der udvikler selv eller i fællesskab med andre og udliciterer driften til en ekstern leverandør, bør stille krav om en drifts- og serviceaftale, der indeholder oppetider, supportniveauer og sanktioneringsmuligheder mv., beskrivelse af releases og deployment og leverandørstyring.
+10. Offentlige myndigheder bør løbende evaluere modenheden af open source-komponenter, de anvender, og software, som de udvikler selv eller i fællesskab med andre med henblik på at træffe beslutning om at tilføre flere ressourcer, opgive brug af løsningen eller udbredelse af løsningen til andre myndigheder.
 
 # Bilag
 
 ## Tjekliste til brug af open source
 
-Kommer snart.
+**Strategier**
+
+1. Offentlige myndigheder bør have en overordnet strategi for brug af open source, men bør fra anskaffelse til anskaffelse overveje fordele og ulemper og den konkrete værdiskabelse ved anvendelse af open source.
+2. Offentlige myndigheder, der ønsker at udvikle open source-software, bør forholde sig til risici, behov for tekniske kompetencer og andre ressourcer og omkostninger ved udvikling selv i forhold til udvikling i fællesskab med andre.
+3. Offentlige myndigheder bør sikre sig de rette kompetencer til at arbejde med open source, uanset om de genbruger eksisterende open source-komponenter, udvikler selv eller udvikler i fællesskab med andre.
+4. Offentlige myndigheder bør danne sig et overblik over brug af open source-software på forskellige niveauer i softwarestakken og anvende en helhedsorienteret tilgang til anskaffelser, der udnytter synergier mellem software som f.eks. de populære open source-softwarestakke LAMP og MEAN.
+5. Offentlige myndigheder bør ved (videre)udvikling overveje, om kildekoden skal offentliggøres på f.eks. [GitHub](https://github.com/).
+
+**Markedsafdækning**
+
+1. Offentlige myndigheder bør undersøge, om der findes eksisterende open source-komponenter, de kan genbruge. De kan f.eks. orientere sig på [SourceForge](https://sourceforge.net/), [GitHub](https://github.com/), [OS2 Produkter](https://os2.eu/produkter) eller [OSS Repositories](https://joinup.ec.europa.eu/collection/open-source-observatory-osor/oss-repositories), der udstiller open source-software på tværs af europæiske myndigheder. Danske myndigheder bør anvende [it-løsningerne i den fælles digitale infrastruktur](https://digst.dk/it-loesninger/), og statslige myndigheder kan orientere sig i [servicespecifikationen for GovCloud](https://govcloud.dk/media/11706/servicespecifikation-govclouddk.pdf), der beskriver de kundevendte komponenter hos Statens It. Kommunale myndigheder bør orientere sig i [Digitaliseringskataloget](https://digitaliseringskataloget.dk/) for anvendelse af fælleskommunal infrastruktur.
+2. Offentlige myndigheder, der identificerer eksisterende open source-software, bør beregne *Total Cost of Ownership* for denne og tilsvarende proprietære løsninger med henblik på at vælge den løsning, der skaber værdi i den specifikke situation.
+3. Offentlige myndigheder, der genbruger eksisterende open source-komponenter, bør undersøge, om der er tilstrækkelige vejledning og dokumentation til det pågældende projekt. Myndigheden skal kunne forstå og anvende kildekoden til at bygge og videreudvikle en digital løsning, der løser deres behov.
+4. Offentlige myndigheder, der genbruger eksisterende open source-komponenter, bør undersøge aktivitetsniveauet i det pågældende projekt, f.eks. seneste commit eller release, med henblik på at sikre sig, at projektet ikke er stagnerende eller inaktivt.
+5. Offentlige myndigheder, der genbruger eksisterende open source-komponenter, bør undersøge, om issues er offentligt tilgængelige, løses inden for en rimelig tidsperiode og primært er fejl eller ændringsønsker.
+6. Offentlige myndigheder, der genbruger eksisterende open source-komponenter, bør investere tid og ressourcer i at bidrage til vejledning og dokumentation, kildekode og issues med henblik på at holde projektet aktivt og opdateret.
+
+**Licenser**
+
+1. Offentlige myndigheder, der udvikler selv eller i fællesskab med andre, bør anvende en af de [godkendte open source-licenser](https://opensource.org/licenses), der er populær og bredt anvendt eller med stærke fællesskaber, f.eks. Apache License 2.0, GNU General Public License (GPL), MIT License og Mozilla Public License (MPL) 2.0.
+2. Offentlige myndigheder, der udvikler selv eller i fællesskab med andre, bør forholde sig til særligt *copyleft*, hvis de ikke ønsker, at kildekoden kan genbruges i proprietære løsninger.
+3. Offentlige myndigheder bør udarbejde egne, og gerne fælles, strategier for brug af licenser og anbefalinger om, hvilke open source-licenser, man ønsker at anvende, og hvilke man kan acceptere i open source-komponenter, man genbruger.
+4. Offentlige myndigheder, der genbruger eksisterende open source-komponenter, skal være opmærksomme på, hvilken open source-licens, softwaren er offentliggjort under med henblik på mulighederne for at vedligeholde og dele eller overdrage kildekoden til andre.
+6. Offentlige myndigheder kan bruge EU-kommissionens [værktøj til at finde og sammenligne softwarelicenser](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses) med henblik på at vælge en open source-licens, der passer til den konkrete situation.
+7. Offentlige myndigheder, der er i tvivl om mulighederne for at kræve eller prioritere brug af (bestemte) open source-licenser ved udbud og anskaffelse af digitale løsninger, kan orientere sig i OS2-fællesskabet og Kammeradvokatens [notat vedrørende OS2-fællesskabet og open source](https://os2.eu/sites/default/files/blog-files/notat_os2_open_source.pdf), der beskriver retlige forpligtelser og omstændigheder for brug af open source-licenser.
+8. Offentlige myndigheder bør sørge for, at skriftligt materiale, der udarbejdes af tilbudsgiver, herunder dokumentation, licenseres under en passende open source-licens, f.eks. en Creative Commons-licens. 
+
+**Implementering**
+
+1. Offentlige myndigheder bør ved offentliggørelse af kildekoden vedlægge vejledning og dokumentation, der forklarer, hvad løsningen kan bruges til, og hvordan man kan anvende kildekoden til at bygge og videreudvikle løsningen.
+2. Offentlige myndigheder bør ved offentliggørelse af kildekoden anvende standarder som f.eks. [publiccode.yml](https://docs.italia.it/italia/developers-italia/publiccodeyml-en/en/master/index.html.), der beskriver kildekoden med henblik på automatisk indeksering af open source-software, der giver søgemuligheder på tværs af offentlige myndigheder, sektorer og landegrænser.
+3. Offentlige myndigheder bør sørge for, at der foretages kodereview af kildekoden. Kodereview kan med fordel foretages af en anden leverandør.
+4. Offentlige myndigheder bør stille krav om, at løsningen understøtter åbne (og obligatoriske) standarder og anvender åbne, standardiserede snitflader. 
+5. Offentlige myndigheder bør stille krav om, at løsningens komponenter, herunder tekniske standarder, frameworks og kodebiblioteker, er åbne og kan anvendes uden økonomiske eller juridiske begrænsninger både nu og i fremtiden. 
+6. Offentlige myndigheder bør så vidt muligt kun anvende standarder, der er godkendt og vedligeholdt i et åbent forum (standardiseringsorganisation) ved hjælp af en åben proces. 
+7. Offentlige myndigheder skal sørge for, at implementering af standarden ikke kræver nogen anden teknologi, der ikke opfylder kriterierne i dette krav, og tilbudsgiver skal redegøre for, hvordan systemet lever op til kravene i [aftale om anvendelse af åbne standarder for software i det offentlige](https://www.digitaliser.dk/resource/3778907/) og de syv åbne, obligatoriske standarder.
+8. Offentlige myndigheder bør stille krav om, at løsningen leveres med en åben og fleksibel datamodel og med omkostningsfri adgang og ejerskab til samtlige data i løsningen.
+9. Offentlige myndigheder bør stille krav om, at dokumentation af datamodel (f.eks. E/R-diagram), nøgler, fortolkninger, opdateringsmetoder og tabelstrukturer skal være tilgængelige for ordregiver, og skal vedligeholdes af tilbudsgiver, så oplysninger til enhver tid er ajour.
+10. Offentlige myndigheder bør stille krav om, at data gøres tilgængelige for ordregiver på en måde, som ikke forudsætter manuelle processer ud over opsætning og programmering. Desuden skal data gøres tilgængelig i et standardiseret og maskinlæsbaart databaseformat. Tilgængeligheden må ikke i mærkbar grad påvirke den normale driftssituation på den tilbudte løsning. 
+11. Offentlige myndigheder bør aftale strukturering af indholdet i snitfladen med ordregivers datavarehusteam. 
+12. Offentlige myndigheder bør stille krav om, at data gøres tilgængelige efter en aftalt frekvens, som fuld indlæsning eller deltaindlæsning og med metadata om status, tilføjelser og rettelser bestemt af myndighedens behov og informationernes karakter.
+13. Offentlige myndigheder bør stille krav om, at data skal være kontrolleret for overholdelse af konsistenskrav og valideret med hensyn til type og feltindhold. 
+14. Offentlige myndigheder bør stille krav om, at enhver ændring af datasnitfladen skal meddeles til ordregivers datavarehusteam i rimelig tid inden ændringen gennemføres, således ordregiver har mulighed for at tilrette de bagvedliggende processer. 
+15. Leverandøren er alene berettiget til at anvende myndighedens data til brug for udførelse af de af kontrakten omfattede leverancer og ydelser. 
+16. Leverandøren erhverver hverken ejendomsret, ophavsret eller nogen anden rettighed til myndighedens data, uanset om disse data optræder elektronisk i systemet, i uddatamateriale eller som print.
+17. Leverandøren skal behandle myndighedens data med henblik på fortrolighed, integritet og tilgængelighed i overensstemmelse med databeskyttelseslovgivning, aftalte sikkerhedsprocedurer og god it-skik. 
+
+**Udvikling og vedligeholdelse**
+
+1. Offentlige myndigheder bør sikre, at tilbudsgiver leverer en veldokumenteret digital løsning, således at eventuel videreudvikling kan foretages af andre leverandører. Dette omfatter teknisk dokumentation, herunder systembeskrivelser og arkitekturtegninger. Dermed sikrer man også, at løsningen kan drives videre efter kontraktudløb.
+2. Offentlige myndigheder bør kræve, at den tekniske dokumentation og kildekoden overholder krav og standarder tilhørende den valgte open source-licens. 
+3. Offentlige myndigheder bør overveje, om de selv kan og vil løfte opgaven, eller om de har brug for at indgå kontrakt med en drifts- og supportleverandør.
+4. Offentlige myndigheder bør forholde sig til planer for videreudvikling, opgradering og udfasning af løsningen fra begyndelsen og udarbejde passende strategier.
+5. Offentlige myndigheder bør stille krav om, at ejerskab til alle data tilfalder myndigheden, hvis kontrakten ændres, udløber eller på anden måde bortfalder.
+6. Offentlige myndigheder, der udvikler i fællesskab med andre, bør forholde sig til krav til vedligeholdelse af den fælles kodebase, efterlevelse af fællesskabets governancekrav, etablering af koordinationsorganer, videndeling mv. mellem brugere af løsningen, dialog med leverandører og promovering af løsningen.
+7. Offentlige myndigheder, der udvikler selv eller i fællesskab med andre, bør stille krav om koordinering og prioritering af videreudviklingsønsker, bestilling og styring af udviklingsopgaver og arkitekturstyring og governance for kodebasen.
+8. Offentlige myndigheder, der udvikler selv eller i fællesskab med andre og udliciterer driften til en ekstern leverandør, bør stille krav om en drifts- og serviceaftale, der indeholder oppetider, supportniveauer og sanktioneringsmuligheder mv., beskrivelse af releases og deployment og leverandørstyring.
+9. Offentlige myndigheder bør løbende evaluere modenheden af open source-komponenter, de anvender, og software, som de udvikler selv eller i fællesskab med andre med henblik på at træffe beslutning om at tilføre flere ressourcer, opgive brug af løsningen eller udbredelse af løsningen til andre myndigheder.
 
 ## Katalog over open source-software
 
@@ -477,7 +587,7 @@ Ved at inkludere en metadatafil i roden af et offentligt *repository* (et sted t
 
 Standarden er udviklet til at være interoperabel på tværs af landegrænser, og hvert land kan tilføje nationale udvidelser til kernen.
 
-Standarden hedder publiccode.yml og kan findes på https://docs.italia.it/italia/developers-italia/publiccodeyml-en/en/master/index.html.
+Standarden hedder publiccode.yml og kan findes under [publiccode.yml](https://docs.italia.it/italia/developers-italia/publiccodeyml-en/en/master/index.html).
 
 ## Cases om brug af open source
 
@@ -485,7 +595,7 @@ I forbindelse med udarbejdelsen af vejledning om brug af open source har projekt
 
 Vejledningen inddrager undervejs casebeskrivelserne som konkrete eksempler på problemer, som brug af open source har bidraget til at løse, eller værdiskabelser, som brug af open source har bidraget til at realisere.
 
-Derudover bliver casebeskrivelserne løbende publiceret på [KL og KOMBITs videncenter for digitalisering og teknologi](https://videncenter.kl.dk/viden-og-vaerktoejer/innovation/open-source), der også fremover vil fungere som en fælles platform for deling af viden, værktøjer og cases om brug af open source i den offentlige sektor.
+Derudover bliver casebeskrivelserne løbende publiceret på [KL og KOMBITs videncenter for digitalisering og teknologi](https://videncenter.kl.dk/viden-og-vaerktoejer/innovation), der også fremover vil fungere som en fælles platform for deling af viden, værktøjer og cases om brug af open source i den offentlige sektor.
 
 ================
 
