@@ -8,11 +8,9 @@ Processen for anskaffelse er inddelt i tre faser, der omfatter henholdsvis strat
 
 Open source-software og proprietære løsninger kan sagtens sameksistere, hvis man vælger forskellige strategier fra gang til gang, og processen for anskaffelse er stort set den samme. Det kræver dog forskellige kompetencer, og valg af licenser er en af dem.
 
+## Strategier for anskaffelse af open source
 
-
-## Strategier for brug af open source
-
-Overordnet er der tre strategier for anskaffelse af open source, som offentlige myndigheder kan anvende:
+Overordnet findes der tre strategier for anskaffelse af open source, som offentlige myndigheder har i værktøjskassen og kan anvende i forbindelse med it-anskaffelser:
 
   * **Myndigheden genbruger fra hylderne**<br>
     Offentlige myndigheder, der anvender denne strategi, genbruger eksisterende open source-software, hvor det er relevant. Det kan være komponenter eller enkeltstående applikationer, der er gode eller billige alternativer til proprietære løsninger. Denne strategi omfatter også myndigheder, der er mindre bevidste om, at de anvender open source.
@@ -37,7 +35,7 @@ Det er også vigtigt at påpege, at open source-software findes på alle hylder 
 
 At kildekoden er åben og frit kan genbruges, betyder ikke kun, at en myndighed kan dele sin open source-software med en anden myndighed. Det betyder også, at den anden myndighed kan forbedre softwaren og derefter dele den forbedrede løsning med den første myndighed og med andre. På den måde kan der være flere om at forbedre softwaren og finansiere fremtidige ønsker til videreudvikling.
 
-### Tjekliste til strategi
+### Tjekliste til strategier
 
 1. Offentlige myndigheder kan have en overordnet strategi for brug af open source, men bør fra anskaffelse til anskaffelse overveje fordele og ulemper og den konkrete værdiskabelse ved anvendelse af open source.
 2. Offentlige myndigheder, der ønsker at udvikle open source-software, bør forholde sig til risici, behov for tekniske kompetencer og andre ressourcer og omkostninger ved udvikling selv i forhold til udvikling i fællesskab med andre.
@@ -47,36 +45,40 @@ At kildekoden er åben og frit kan genbruges, betyder ikke kun, at en myndighed 
 
 ## Open source-licenser
 
-Open source-licenser er softwarelicenser, der tillader, at software frit kan bruges, forbedres og deles. [Open Source Initiative](https://opensource.org/) har godkendt en række licenser, men anbefaler, at man som udgangspunkt benytter de licenser, der er "populære og bredt anvendte eller med stærke fællesskaber", f.eks. Apache License 2.0, GNU General Public License (GPL), MIT License eller Mozilla Public License (MPL) 2.0.
+Open source-licenser er softwarelicenser, der tillader, at software frit kan bruges, undersøges, ændres og deles. [Open Source Initiative](https://opensource.org/) har godkendt en lang række licenser som værende open source, men anbefaler, at anvendere som udgangspunkt benytter de licenser, der er "populære og bredt anvendte eller med stærke fællesskaber". Det gælder f.eks. Apache License 2.0, GNU General Public License (GPL), MIT License og Mozilla Public License (MPL) 2.0.
 
-Læs mere om og find alle de godkendte open source-licenser under [Licenses & Standards](https://opensource.org/licenses).
+EU-Kommissionen har sin egen open source-licens, [European Union Public License](https://ec.europa.eu/info/european-union-public-licence_en) (EUPL), der er den første europæiske open source-licens. Den findes på 22 sprog og kan anvendes af enhver til at distribuere software. Formålet er at opfordre europæiske myndigheder til at anvende open source-modellen og de tilhørende udviklingsmetoder til at styrke deres software og strategiske kapabiliteter.
 
-Licenser kan indeholde forskellige vilkår, f.eks. at publicerede videreudviklinger skal videregives under samme vilkår (såkaldte *copyleft*-vilkår). Dette element kan være vigtigt i henhold til at sikre, at kildekoden ikke bliver genbrugt i proprietære løsninger.
+Læs mere om og find alle de [godkendte open source-licenser](https://opensource.org/licenses).
 
-Der er forskellige licenser, og det er vigtigt at være bevidst om, at betingelserne for at anvende open source-software kan ændre sig. Forskellige licenstyper gør det hhv. nemmere og sværere at vedligeholde og overdrage softwaren. Offentlige myndigheder kan med fordel udarbejde egne eller fælles strategier og anbefalinger om, hvilke open source-licenser, man ønsker at anvende, hivlke man kan acceptere og i hvilke situationer eller anvendelsesscenarier.
+Licenser kan indeholde forskellige vilkår, f.eks. at publicerede videreudviklinger skal videregives under samme vilkår (såkaldte *copyleft*-vilkår). Sådanne vilkår kan repræsentere behov for at sikre, at kildekoden ikke bliver genbrugt i proprietære løsninger.
+
+Der er mange forskellige licenser, og det er vigtigt at være bevidst om, at omstændighederne for at anvende open source-software kan ændre sig som følge af licensen. Forskellige licenstyper gør det f.eks. henholdsvis nemmere og sværere at vedligeholde eller overdrage softwaren, hvis man f.eks. indgår i samarbeder med andre myndigheder eller indgår aftale om videreudvikling med en leverandør.
+
+Offentlige myndigheder kan med fordel udarbejde egne, og gerne fælles, strategier for brug af licenser og anbefalinger om, hvilke open source-licenser, man ønsker at anvende, og hvilke man kan acceptere i open source-komponenter, man genbruger.
 
 > **OS2-fællesskabets brug af licenser**
 >
-> OS2-fællesskabet benytter open source-licenserne [MPL 2.0](https://www.mozilla.org/en-US/MPL/2.0/) til kildekode og [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) til dokumentation og andet materiale, der ikke er kildekode. MPL 2.0 er en "file scope"-licens, hvilket vil sige, at filerne og deres indhold er omfattet. I praksis betyder det, at hvis nogen ændrer i filerne, skal ændringerne gives tilbage til OS2.
+> OS2-fællesskabet benytter open source-licenserne [MPL 2.0](https://www.mozilla.org/en-US/MPL/2.0/) til kildekode og [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) til dokumentation og andet materiale, der ikke er kildekode. MPL 2.0 er en *file scope*-licens, hvilket vil sige, at filerne og deres indhold er omfattet af licensen. I praksis betyder det, at hvis nogen ændrer filerne, skal ændringerne gives tilbage til OS2.
 
-Det er også muligt at anvende EU-Kommissionens [værktøj til at finde og sammenligne softwarelicenser](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses).
+Offentlige myndigheder kan med fordel anvende EU-Kommissionens [værktøj til at finde og sammenligne softwarelicenser](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses).
 
-Der opstår fra tid til anden spørgsmål om lovligheden af at bruge open source-licenser i offentlige it-anskaffelser. Derfor har OS2-fællesskabet sammen med Kammeradvokaten udarbejdet et [open source-notat](https://os2.eu/blog/nu-faar-vi-et-open-source-notat), der beskriver de retlige forpligtelser for deltagelse i fællesskabet og slår fast, at open source er lovligt for offentlige myndigheder, så længe det varetager egen opgaveløsning og borgernes interesser. Udbudsreglerne skal stadig overholdes, og myndigheder skal handle økonomisk forsvarligt. Det gælder også, når der udvikles under en open source-licens.
+Der opstår fra tid til anden spørgsmål om lovligheden af at stille krav om open source-licenser i offentlige it-anskaffelser. Derfor har OS2-fællesskabet sammen med Kammeradvokaten udarbejdet et [open source-notat](https://os2.eu/blog/nu-faar-vi-et-open-source-notat), der beskriver myndighedernes retlige forpligtelser og slår fast, at open source er lovligt for offentlige myndigheder, så længe det varetager egne og borgernes interesser. Udbudsreglerne skal stadig overholdes, og offentlige myndigheder skal handle økonomisk forsvarligt, også når der udvikles under en open source-licens.
 
-Når offentlige myndigheder stiller krav om open source, er det desuden vigtigt at specificere de konkrete krav, der stilles, og dertil kan listen over anerkendte licenser fra Open Source Initiative være en støtte.
+Når offentlige myndigheder stiller krav om open source, er det derfor vigtigt at specificere de konkrete krav, der stilles, og listen over godkendte open source-licenser fra Open Source Initiative er derfor et godt udgangspunkt.
 
-### Tjekliste til open source-licenser
+### Tjekliste til licenser
 
-1. Offentlige myndigheder, der udvikler selv eller i fællesskab med andre, bør anvende en open source-licens, der er populær og bredt anvendt eller med stærke fællesskaber.
+1. Offentlige myndigheder, der udvikler selv eller i fællesskab med andre, bør anvende en af de [godkendte open source-licenser](https://opensource.org/licenses), der er populær og bredt anvendt eller med stærke fællesskaber, f.eks. Apache License 2.0, GNU General Public License (GPL), MIT License og Mozilla Public License (MPL) 2.0.
 2. Offentlige myndigheder, der udvikler selv eller i fællesskab med andre, bør forholde sig til særligt *copyleft*, hvis de ikke ønsker, at kildekoden kan genbruges i proprietære løsninger.
-3. Offentlige myndigheder bør som kunder have egne eller fælles strategier og anbefalinger om, hvilke open source-licenser, man ønsker at anvende, hivlke man kan acceptere og i hvilke situationer.
-4. Offentlige myndigheder, der genbruger open source-komponenter fra hylderne, skal være opmærksomme på, hvilken open source-licens, softwaren er offentliggjort under med henblik på governance og muligheder for at vedligeholde og overdrage softwaren.
-6. Offentlige myndigheder kan bruge EU-kommissionens [værktøj til at finde og sammenligne softwarelicenser](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses) med henblik på at vælge en open source-licens, der bedst imødekommer deres behov.
-7. Offentlige myndigheder, der er i tvivl om mulighederne for at kræve eller prioritere brug af (bestemte) open source-licenser ved udbud og anskaffelse af digitale løsninger, kan orientere sig i OS2-fællesskabet og Kammeradvokatens [notat vedrørende OS2-fællesskabet og open source](https://os2.eu/sites/default/files/blog-files/notat_os2_open_source.pdf), der beskriver de retlige forpligtelser og omstændigheder for brug af open source-licenser.
+3. Offentlige myndigheder bør udarbejde egne, og gerne fælles, strategier for brug af licenser og anbefalinger om, hvilke open source-licenser, man ønsker at anvende, og hvilke man kan acceptere i open source-komponenter, man genbruger.
+4. Offentlige myndigheder, der genbruger eksisterende open source-komponenter, skal være opmærksomme på, hvilken open source-licens, softwaren er offentliggjort under med henblik på mulighederne for at vedligeholde og dele eller overdrage kildekoden til andre.
+6. Offentlige myndigheder kan bruge EU-kommissionens [værktøj til at finde og sammenligne softwarelicenser](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses) med henblik på at vælge en open source-licens, der passer til den konkrete situation.
+7. Offentlige myndigheder, der er i tvivl om mulighederne for at kræve eller prioritere brug af (bestemte) open source-licenser ved udbud og anskaffelse af digitale løsninger, kan orientere sig i OS2-fællesskabet og Kammeradvokatens [notat vedrørende OS2-fællesskabet og open source](https://os2.eu/sites/default/files/blog-files/notat_os2_open_source.pdf), der beskriver retlige forpligtelser og omstændigheder for brug af open source-licenser.
 
 ## Tjekliste til markedsafdækning
 
-1. Offentlige myndigheder bør undersøge, om der findes eksisterende open source-komponenter, de kan genbruge. De kan f.eks. orientere sig på [SourceForge](https://sourceforge.net/), [GitHub](https://github.com/) eller ved hjælp af [OSS Repositories](https://joinup.ec.europa.eu/collection/open-source-observatory-osor/oss-repositories), der udstiller open source-software på tværs af europæiske myndigheder. Danske myndigheder bør anvende [it-løsningerne i den fælles digitale infrastruktur](https://digst.dk/it-loesninger/), og statslige myndigheder kan også orientere sig i [servicespecifikationen for GovCloud](https://govcloud.dk/media/11706/servicespecifikation-govclouddk.pdf), der beskriver de kundevendte komponenter hos Statens It. Kommunale myndigheder bør orientere sig i [Digitaliseringskataloget](https://digitaliseringskataloget.dk/) for anvendelse af fælleskommunal infrastruktur.
+1. Offentlige myndigheder bør undersøge, om der findes eksisterende open source-komponenter, de kan genbruge. De kan f.eks. orientere sig på [SourceForge](https://sourceforge.net/), [GitHub](https://github.com/), [OS2 Produkter](https://os2.eu/produkter) eller [OSS Repositories](https://joinup.ec.europa.eu/collection/open-source-observatory-osor/oss-repositories), der udstiller open source-software på tværs af europæiske myndigheder. Danske myndigheder bør anvende [it-løsningerne i den fælles digitale infrastruktur](https://digst.dk/it-loesninger/), og statslige myndigheder kan orientere sig i [servicespecifikationen for GovCloud](https://govcloud.dk/media/11706/servicespecifikation-govclouddk.pdf), der beskriver de kundevendte komponenter hos Statens It. Kommunale myndigheder bør orientere sig i [Digitaliseringskataloget](https://digitaliseringskataloget.dk/) for anvendelse af fælleskommunal infrastruktur.
 2. Offentlige myndigheder, der genbruger eksisterende open source-komponenter, bør undersøge, om der er tilstrækkelige vejledning og dokumentation til det pågældende projekt. Myndigheden skal kunne forstå og anvende kildekoden til at bygge og videreudvikle en digital løsning, der løser deres behov.
 3. Offentlige myndigheder, der genbruger eksisterende open source-komponenter, bør undersøge aktivitetsniveauet i det pågældende projekt, f.eks. seneste commit eller release, med henblik på at sikre sig, at projektet ikke er stagnerende eller inaktivt.
 4. Offentlige myndigheder, der genbruger eksisterende open source-komponenter, bør undersøge, om issues er offentligt tilgængelige, løses inden for en rimelig tidsperiode og primært er fejl eller ændringsønsker.
@@ -86,7 +88,7 @@ Når offentlige myndigheder stiller krav om open source, er det desuden vigtigt 
 
 8. Offentlige myndigheder bør ved offentliggørelse af kildekoden vedlægge vejledning og dokumentation, der forklarer, hvad løsningen kan bruges til, og hvordan man kan anvende kildekoden til at bygge og videreudvikle løsningen.
 9. Offentlige myndigheder bør ved offentliggørelse af kildekoden anvende standarder som f.eks. [publiccode.yml](https://docs.italia.it/italia/developers-italia/publiccodeyml-en/en/master/index.html.), der beskriver kildekoden med henblik på automatisk indeksering af open source-software, der giver søgemuligheder på tværs af offentlige myndigheder, sektorer og landegrænser.
- 
+
   5. Tilbudsgiver skal levere en veldokumenteret open source-løsning, således at eventuel videreudvikling kan foretages af andre leverandører. Dette inkluderer teknisk dokumentation, herunder systembeskrivelser og arkitekturtegninger. Dermed sikrer man også, at løsninger kan drives videre efter kontraktudløb
   6. Den tekniske dokumentation og koden skal overholde krav og standarder tilhørende den valgte open source-licens. 
   7. Sørg for, at der foretages kodereview af kildekoden
@@ -110,9 +112,3 @@ Når offentlige myndigheder stiller krav om open source, er det desuden vigtigt 
   25. Leverandøren erhverver hverken ejendomsret, ophavsret eller nogen anden rettighed til kundens data, uanset om disse data optræder elektronisk i systemet eller som print. 
   26. Leverandøren skal behandle kundens data fortroligt i overensstemmelse med persondataloven, aftalte sikkerhedsprocedurer og god IT-skik. 
   27. Det skal fremgå, at hvis kontrakten opsiges eller på anden måde ændres, så skal ejerskab over alle data tilfalde ordregiver
-
-## Eksisterende løsning
-
- 1. Findes der god og dokumentation: "Sådan kommer du i gang", "Sådan kommer du videre", "Sådan bidrager du"? dækkende information om anvendelse, setup og bidrag
- 3. Er der mange issues med softwaren, hvilke typer af issues er det, er det ændringsforslag og forslag til ny funktionalitet, ellerer det bug-rapporter? danne sig et indtryk af, om issues bliver løst og om der arbejdes aktivt på projekterne. Det betyder fx, at der bør være adgang til/links til Issue lister
- 4. Er der et åbent community forum, med folk der bidrager til at løse issues, og hvor brugerne udveksler erfaringer og hjælper hinanden? 
