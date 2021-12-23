@@ -33,7 +33,7 @@ At kildekoden er åben og frit kan genbruges, betyder ikke kun, at en myndighed 
 
 ### Tjekliste til strategier
 
-1. Offentlige myndigheder kan have en overordnet strategi for brug af open source, men bør fra anskaffelse til anskaffelse overveje fordele og ulemper og den konkrete værdiskabelse ved anvendelse af open source.
+1. Offentlige myndigheder bør have en overordnet strategi for brug af open source, men bør fra anskaffelse til anskaffelse overveje fordele og ulemper og den konkrete værdiskabelse ved anvendelse af open source.
 2. Offentlige myndigheder, der ønsker at udvikle open source-software, bør forholde sig til risici, behov for tekniske kompetencer og andre ressourcer og omkostninger ved udvikling selv i forhold til udvikling i fællesskab med andre.
 3. Offentlige myndigheder bør sikre sig de rette kompetencer til at arbejde med open source, uanset om de genbruger eksisterende open source-komponenter, udvikler selv eller udvikler i fællesskab med andre.
 4. Offentlige myndigheder bør danne sig et overblik over brug af open source-software på forskellige niveauer i softwarestakken og anvende en helhedsorienteret tilgang til anskaffelser, der udnytter synergier mellem software som f.eks. de populære open source-softwarestakke LAMP og MEAN.
