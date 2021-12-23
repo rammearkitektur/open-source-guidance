@@ -32,7 +32,7 @@ Open source handler ikke om teknik, men kan snarere ses som en udviklingsmetode 
 > 
 > Der findes mange kendte og udbredte open source-softwareprodukter. Distributioner af Linux-styresystemet understøtter omkring 70 % af internettets 10 mio. mest besøgte hjemmesider, der f.eks. hostes af webserversoftwaren Nginx (33 %) eller Apache HTTP Server (24 %). 42 % af internettet kører Wordpress, og de 6,5 mio. artikler på den engelsksprogede Wikipedia, kører MediaWiki. Omkring 65 % besøger internettet vha. Google Chrome, der også findes til smartphones, hvoraf 84 % kører det Linux-baserede styresystem Android. Danske offentlige myndigheder bruger f.eks. LibreOffice til teksbehandling og QGIS til geodatabehandling, og 82 kommuner bruger OS2kitos til at holde styr på deres it-portefølje.
 
-## Internationale strømninger
+## Internationale tendenser
 
 Open source står også højt på dagsordenen i EU og i mange andre lande. EU har peget på øget brug af open source, som en oplagt vej til øget tillid og transparens mellem myndigheder og borgerne. 
 
@@ -71,9 +71,9 @@ I et europæisk perspektiv kan open source dermed være en nøgle til digital og
 
 Undersøgelsen fremhæver nogle anbefalinger, der skal skabe et mere uafhængigt og konkurrencedygtigt Europa. Herunder at betragte open source som en grundlæggende komponent i den offentlige forvaltnings digitale transformation samt direkte finansiere udviklingen af open source-software og dens sikkerhed.
 
-## Hvorfor open source?
+## Baggrund for vejledningen
 
-Open source er ikke noget nyt begreb, eller ny metode/forretningsmodel. Open source særligt aktuelt nu, da metoden eller forretningsmodellen understøtter mere modulbaserede og agile måder at udvikle, dele, og genbruge komponenter. Open Source kan være ét element i den aktuelle udvikling med krav om indbygget uafhængighed fremfor opbygning af siloløsninger. 
+Open source er ikke noget nyt - hverken som forretningsmodel eller udviklingsmetode. Open source er interessant, fordi det understøtter mere modulære og samarbejdsorienterede måder at udvikle, dele, og genbruge komponenter. Open source kan derfor understøtte sammenhængende digitalisering og leverandøruafhængighed i den offetnlige sektor.. 
 
 Anvendelse af open source er i overensstemmelse med principperne i den fællesoffentlige digitale arkitektur og EU-Kommissionens vision for øget brug af open source. Herunder en dagsorden om mere tillid mellem myndigheder og borgere samt styrkelse af EU’s digitale selvbestemmelse og interoperabilitet mellem medlemslandene digitale service.
 
@@ -85,14 +85,10 @@ At basere digitale løsninger på open source er i overenstemmelse med arkitektu
 
 [Statens it-projektmodel](https://digst.dk/styring/projektstyring/statens-it-projektmodel/), der skal bidrage til at sikre, at staten ikke igangsætter unødvendigt risikofyldte it-projekter, indeholder desuden et princip om, at allerede indkøbte eller udviklede løsninger skal genbruges i videst muligt omfang.
 
-Formålet er at analysere mulige barrierer for offentlige myndigheders anvendelse af open source i Danmark og at synliggøre hvordan og hvornår, det er relevant at anvende open source samt opstille anbefalinger, som offentlige myndigheder i Danmark kan læne sig op ad, når det gælder anvendelse af open source. Vejledningen skal tilvejebringe overblik over centrale overvejelser, gode råd og bidrage med helt praksisnær vejledning samt vejlede i, hvordan man gennemfører et udbud og indkøber på en open source-licens. 
-
-Denne vejledning vil forsøge at gøre op med nogle myter om open source samt bygge ovenpå tidligere vejledninger ved i højere grad at belyse hvad open source betyder i praksis og hvilke nuancer, og barrierer, man som offentlig myndighed skal holde sig for øje i anskaffelse og anvendelse af open source, samt bidrage med egentlige tjeklister som f.eks. projektledere og it-arkitekter kan benytte sig af.   
-
 ## Målgruppe
 
 Målgruppen for vejledningen er især projektledere/it-indkøbere, it-arkitekter og beslutningstagere i offentlige myndigheder der skal tage stilling til eventuel anskaffelse af software, og som ønsker viden, praktisk vejledning og anbefalinger og konkrete eksempler i forhold til open source, som er relevante i alle dele af anskaffelsesprocessen og ved efterfølgende drift og vedligeholdelse.
 
 Der er tidligere lavet vejledninger om open source til offentlige myndigheder, som er mere overordnede, men ikke har et praksisnært fokus. Vejledningen tilstræber at hjælpe alle, der overvejer eller ønsker at indkøbe software, og som ikke har et forhåndskendskab. 
 
-Samtidig ønskes med vejledningen at bringe projektledere og it-arkitekter i stand til at have en kvalificeret dialog med jurister samt beslutningstagerne i ledelseslaget, i forbindelse med beslutning om evt. anvendelse af open source. 
+Samtidig ønskes med vejledningen at bringe projektledere og it-arkitekter i stand til at have en kvalificeret dialog med jurister samt beslutningstagerne i ledelseslaget, i forbindelse med beslutning om evt. anvendelse af open source.
