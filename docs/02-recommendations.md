@@ -18,21 +18,3 @@ Open source-software kan bidrage til sammenhæng og fortsat digital udvikling p�
     Anvendelse af open source-software kan sikre, at skatteborgerne undgår at betale for udvikling af den samme software flere gange
 
 Som antydet i indledningen er der på den anden side dels en række myter forbundet med open source, og dels er der noget, der tyder på, at nogle offentlige myndigheder oplever en række barrierer, som gør det vanskeligt at vælge open source, selvom det havde været relevant for den pågældende it-løsning, der skulle anskaffes. Nedenfor analyseres mulige barrierer for anvendelse af open source, som man med fordel kan holde sig for øje.
-
-## Barrierer
-
-Der er en række barrierer og misforståelser knyttet til begrebet open source. I det følgende identificeres og besvares en række centrale spørgsmål og bekymringer vedr. open source. Fx hvordan open source påvirker sikkerheden i løsningen og omkostninger forbundet med indkøb og drift.  
-
-Myte nr. 1: Open source er en niche for primært computerkyndige, eller meget små løsninger, og ikke særlig udbredt
-
-Myte nr. 2: Man skal selv kunne kode for at anvende open source-løsninger, (og derfor er det svært at anvende for ikke-computerkyndige). 
-
-Myte nr. 3: Open source er gratis, og derfor dårligere kvalitet end proprietær software/closed source. At der som oftest ikke er licensomkostninger ved brug af open source-software, betyder, at der kan hentes nogle direkte besparelser. Men det er ikke gratis at anvende open source-software. De samlede omkostninger kan være de samme, selvom der ikke er licensomkostninger.
-
-Myte nr. 4: open source-løsninger er usikre/sårbare i forhold til proprietære løsninger, fordi der med open source, er fuld transparens om, hvordan løsningen fungerer.  
-
-Myte nr. 5: Det er sværere at vedligeholde og få support, hvis man har problemer med sin open source-software. 
-
-I forhold til myte nr. 5. Nogle af verdens største firmaer, fx Google og Facebook, er afhængige af open source-linuxservere for at opretholde deres platforme. Det vil derfor altid være kritisk for virksomhederne at opretholde den software på hvilken de baserer deres platforme og dermed deres virksomhed. Når der er tale om open source-software vil det desuden altid være muligt for en virksomhed at bringe en uafhængig tredjepart ind for at varetage support og rådgivning fremfor at afvente, at den proprietære udbyder har tid og mulighed for at adressere det problem man måtte have.
-
-Myte 6: Open source er uholdbart, fordi man kan ikke som virksomhed tjene penge på open source.
