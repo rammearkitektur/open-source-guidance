@@ -29,6 +29,7 @@ Open source bliver af og til forvekslet med åbne standarder, der ofte er en for
 Open source handler ikke om teknik, men kan snarere ses som en udviklingsmetode og forretningsmodel, der fremmer offentlige myndigheders medejerskab til deres løsninger og skaber flere og bedre muligheder for at dele dem med andre, fordi de er offentliggjort under en open source-licens.
 
 > **Eksempler på udbredelsen af open source**
+> 
 > Der findes mange kendte og udbredte open source-softwareprodukter. Distributioner af Linux-styresystemet understøtter omkring 70 % af internettets 10 mio. mest besøgte hjemmesider, der f.eks. hostes af webserversoftwaren Nginx (33 %) eller Apache HTTP Server (24 %). 42 % af internettet kører Wordpress, og de 6,5 mio. artikler på den engelsksprogede Wikipedia, kører MediaWiki. Omkring 65 % besøger internettet vha. Google Chrome, der også findes til smartphones, hvoraf 84 % kører det Linux-baserede styresystem Android. Danske offentlige myndigheder bruger f.eks. LibreOffice til teksbehandling og QGIS til geodatabehandling, og 82 kommuner bruger OS2kitos til at holde styr på deres it-portefølje.
 
 ## Internationale strømninger
