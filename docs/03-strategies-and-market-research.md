@@ -47,21 +47,25 @@ På markedet for open source-software har mange leverandører, herunder en rækk
 
 F.eks. har OS2-fællesskabet omkring 70 leverandørpartnere, der producerer og overleverer produkter til fællesskabet, leverer udviklingskraft og teknologividen, implementering, drift og support og er i aktiv dialog med fællesskabet om nye forretningsmuligheder.
 
-> OS2iot eksempel
+> OS2iot hæster gevinsterne ved open source
+> 
+> OS2iot er en løsning, der modtager og viderestiller data fra sensorer uanset transmissionsteknologi. Fordi software er anskaffet under en open source-licens, er offentlige mynndigheder, der ønsker at anvende OS2iot, frie til at vælge leverandør eller stå for det selv. Løsningen har derfor tilknyttet fem leverandører, der tilbyder drift og support, samt to fællesskaber, henholdvis [GovTech Midtjylland](https://govtechmidtjylland.dk/) og [Fællesskab for Dynamiske Data](https://www.gate21.dk/faelleskab-for-dynamiske-data/), hvor kunderne deles om driften af OS2iot.
+> 
+> Læs mere om gevinsterne i form af leverandøruafhængighed på [produktsiden for OS2iot](https://os2.eu/produkt/os2iot).
 
 Det er med til at validere open source som en udbredt og rentabel forretningsmodel på det danske leverandørmarked og viser med al tydelighed, at open source-software ikke er gratis, eller at en open source-strategi river tæppet væk under leverandørerne. Det er derimod en udviklingsmetode til at imødekomme udfordringer med at genbruge og videreudvikle digitale løsninger, der kommer af leverandøruafhængighed, teknisk gæld, kompetencetab og manglende ejerskab til kildekoden.
 
-Som tidligere beskrevet er open source ikke gratis, når man beregner en *Total Cost of Ownership* (TCO). Ligesom ved anvendelse af closed source-software er der omkostninger til implementering, videreudvikling og løbende drift, support og vedligeholdelse. Nogle myndigheder har kompetencer til selv at foretage tilpasninger eller vedligehold af et stykke software, eller en løsning. I de tilfælde er det en billigere løsning, da man ikke har den mulighed med priprietære løsninger. Da man med open source har uhindret adgang til koden vil det derfor ikke være nødvendigt at købe ydelsen hos en leverandør. Det er dog langt fra alle myndigheder, der har kompetencerne indenfor egen personalegruppe. 
+Som tidligere beskrevet er open source ikke gratis, når man beregner en *Total Cost of Ownership* (TCO). Ligesom ved anvendelse af closed source-software er der omkostninger til implementering, videreudvikling og løbende drift, support og vedligeholdelse. Det kræver samtidig også, at myndigheden har og kan allokere de nødvendige ressourcer til at stå for opgaverne. Dermed er der ikke blot tale om omkostninger til de faktiske opgaver, men også til at sikre, at organisationen har de rette kompetencer over tid.
 
 > **Vejledning om anskaffelse og genbrug af software**
 > 
 > I forbindelse med markedsafækdningen for henholdsvis open source-software og proprietære løsninger, har italiernerne i deres vejledning opstillet en model for beregning af omkostninger i hele softwarens livscyklus, ikke kun for anskaffelsesprocessen, som f.eks.:
 > 
->  * Omkostninger til anskaffelse af hardware og proprietære softwarelicenser, der er nødvendige for at Costs for the acquisition of hardware and proprietary software licences required for commissioning the software being acquired;
->  * Costs for software customisation;
->  * Maintenance costs (corrective and upgrading);
->  * Personnel training costs;
->  * Costs of data migration from previous solutions.
+>  * Omkostninger til hardware og softwarelicenser ved anskaffelse af proprietære løsninger
+>  * Omkostninger til softwaretilpasning
+>  * Omkostninger til vedligeholdelse (fejlrettelser, videreudvikling og opgradering mv.)
+>  * Omkostninger til oplæring af medarbejdere, der skal anvende løsningen
+>  * Omkostninger til migrering af data fra tidligere løsninger
 >  
 > Læs mere om beregning af [Total Cost of Ownership](https://docs.italia.it/italia/developers-italia/gl-acquisition-and-reuse-software-for-pa-docs/en/stabile/software-acquisition/total-cost-of-ownership.html) (TCO).
 
