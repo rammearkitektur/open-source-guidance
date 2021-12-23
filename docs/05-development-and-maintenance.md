@@ -24,6 +24,8 @@ Friheden til at ændre softwaren og til at gøre dette i strategiske samarbejder
  
 De enkelte myndigheder kan opleve en høste-så-problematik, som gør det svært at etablere nye open source-projekter. Med høste-så-problematik menes, at det ikke altid er den myndighed, der lægger alle ressourcerne i et projekt, som høster gevinsterne. Af den grund kan det være særligt relevant i nogle projekter at der mellem flere myndigheder indgås et samarbejde om at (videre)udvikle en løsning, som flere myndigheder kan få glæde af. På den måde deler man ressourcer og risici ved projektet.
 
+OS2-fællesskabet har udarbejdet en [tjekliste til governance](https://github.com/OS2offdig/Governance_Reports), der kan bruges til at belyse niveauet af en given løsning i open source-fællesskaber. Tjeklisten dokumenterer modenhedsniveauet ud fra relevans, formkrav, strategisk sammenhæng og governance.
+
 ## Tjekliste til udvikling og vedligeholdelse
 
 1. Offentlige myndigheder bør sikre, at tilbudsgiver leverer en veldokumenteret digital løsning, således at eventuel videreudvikling kan foretages af andre leverandører. Dette omfatter teknisk dokumentation, herunder systembeskrivelser og arkitekturtegninger. Dermed sikrer man også, at løsningen kan drives videre efter kontraktudløb.
@@ -34,3 +36,4 @@ De enkelte myndigheder kan opleve en høste-så-problematik, som gør det svært
 7. Offentlige myndigheder, der udvikler i fællesskab med andre, bør forholde sig til krav til vedligeholdelse af den fælles kodebase, efterlevelse af fællesskabets governancekrav, etablering af koordinationsorganer, videndeling mv. mellem brugere af løsningen, dialog med leverandører og promovering af løsningen.
 8. Offentlige myndigheder, der udvikler selv eller i fællesskab med andre, bør stille krav om koordinering og prioritering af videreudviklingsønsker, bestilling og styring af udviklingsopgaver og arkitekturstyring og governance for kodebasen.
 9. Offentlige myndigheder, der udvikler selv eller i fællesskab med andre og udliciterer driften til en ekstern leverandør, bør stille krav om en drifts- og serviceaftale, der indeholder oppetider, supportniveauer og sanktioneringsmuligheder mv., beskrivelse af releases og deployment og leverandørstyring.
+10. Offentlige myndigheder bør løbende evaluere modenheden af open source-komponenter, de anvender, og software, som de udvikler selv eller i fællesskab med andre med henblik på at træffe beslutning om at tilføre flere ressourcer, opgive brug af løsningen eller udbredelse af løsningen til andre myndigheder.
