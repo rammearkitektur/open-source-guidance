@@ -2,7 +2,7 @@
 
 ## Tjekliste til brug af open source
 
-Kommer snart.
+Samlet tjekliste.
 
 ## Katalog over open source-software
 
@@ -14,7 +14,7 @@ Ved at inkludere en metadatafil i roden af et offentligt *repository* (et sted t
 
 Standarden er udviklet til at være interoperabel på tværs af landegrænser, og hvert land kan tilføje nationale udvidelser til kernen.
 
-Standarden hedder publiccode.yml og kan findes på https://docs.italia.it/italia/developers-italia/publiccodeyml-en/en/master/index.html.
+Standarden hedder publiccode.yml og kan findes under [publiccode.yml](https://docs.italia.it/italia/developers-italia/publiccodeyml-en/en/master/index.html).
 
 ## Cases om brug af open source
 
@@ -22,7 +22,7 @@ I forbindelse med udarbejdelsen af vejledning om brug af open source har projekt
 
 Vejledningen inddrager undervejs casebeskrivelserne som konkrete eksempler på problemer, som brug af open source har bidraget til at løse, eller værdiskabelser, som brug af open source har bidraget til at realisere.
 
-Derudover bliver casebeskrivelserne løbende publiceret på [KL og KOMBITs videncenter for digitalisering og teknologi](https://videncenter.kl.dk/viden-og-vaerktoejer/innovation/open-source), der også fremover vil fungere som en fælles platform for deling af viden, værktøjer og cases om brug af open source i den offentlige sektor.
+Derudover bliver casebeskrivelserne løbende publiceret på [KL og KOMBITs videncenter for digitalisering og teknologi](https://videncenter.kl.dk/viden-og-vaerktoejer/innovation), der også fremover vil fungere som en fælles platform for deling af viden, værktøjer og cases om brug af open source i den offentlige sektor.
 
 ================
 
