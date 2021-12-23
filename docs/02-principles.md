@@ -41,3 +41,13 @@ Anskaffelse af open source-software involverer en strategi for anskaffelse, afd�
 **Licenser og implementering** beskriver myndighedernes overvejelser om brug af open source-licenser og implementering af open source, uanset om det eksisterende komponenter, der er genbrugt fra hylderne, eller softare udviklet selv eller i fællesskab med andre.
 
 **Udvikling og vedligeholdelse** beskriver overvejelser om udvikling og vedligeholdelse, herunder drift, af open source-software, der består af løbende opgaver, der alle stiller krav til kompetencer, hvorfor myndigheder med fordel kan deltage i open source-fællesskaber.
+
+> **Vejledning i anskaffelse af open source**
+> 
+> OS2-fællesskabet har med udgangspunkt i materiale overdraget fra Aarhus Kommune udarbejdet tre vejledninger, som supplerer denne vejledning. Vejledningerne indeholder relevant og vigtig viden omkring open source og anskaffelsen af open source software.
+> 
+> Formålet med vejledningerne er at afmystificere og hjælpe myndigheder med at indkøbe og bruge af open source. Det er at hjælpe til at benytte open source strategisk og hjælpe med at gøre kravspecificering, valg og indkøb af løsning så nemt som muligt.
+> 
+> Læs vejledninger om [licenser, jura, udbud og kontrakter](https://faq.os2.eu/open-source-anskaffelse-licenser-jura-udbud-og-kontrakter?collection=59).
+
+Der findes også andre vejledninger i genbrug af open source-software i den offentlige sektor. F.eks. har det [italienske ministerium for teknologisk innovation og digital omstilling](https://innovazione.gov.it/) beskrevet [retningslinjer for anskaffelse og genbrug af software for offentlige myndigheder](https://docs.italia.it/italia/developers-italia/gl-acquisition-and-reuse-software-for-pa-docs/en/stabile/index.html) og open source-organisation [Foundation for Public Code](https://publiccode.net/) har etableret en såkaldt [Standard for Public Code](https://standard.publiccode.net/), der skal hjælpe organisationer med at udvikle og genbruge open source-software.
