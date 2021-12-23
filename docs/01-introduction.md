@@ -51,7 +51,7 @@ Undersøgelsen fremhæver, hvordan brug af open source-software kan:
 
 Set fra EU's perspektiv kan open source dermed være en nøgle til et mere autonomt og teknologisk suverænt EU løsrevet fra techgiganter. Det er en stor del af forklaringen på, at der fra EU's side tilskyndes til anvendelse af open source samt, at der er udarbejdet anerkendte standarder for, hvorledes programmel deles og genanvendes, ud fra et ønske om anvendelse af færrest mulige ressourcer.
 
-> Faktaboks: I Italien er det fx indført ved lov, at open source-programmer gives fortrinsret i offentlige udbud og myndighederne forpligter sig til at offetliggøre koden til software, der er udviklet under en open source-licens, for at gøre den genanvendelig.
+> I Italien er det indført ved lov, at open source-software gives fortrinsret i offentlige udbud, og myndighederne forpligter sig til at offentliggøre koden til software, der er udviklet under en open source-licens, for at gøre den genanvendelig.
 
 Undersøgelsen fremhæver nogle anbefalinger, der skal skabe et mere uafhængigt og konkurrencedygtigt Europa. Herunder bl.a. at betragte open source som en grundlæggende komponent i den offentlige forvaltnings digitale transformation samt direkte finansiere udviklingen af open source -software og dens sikkerhed.
 
@@ -65,21 +65,19 @@ Den fællesoffentlige digitale arkitektur sætter de overordnede rammer for udvi
 
 > Den fælles digitale arkitektur omfatter fælles rammer for projekternes arkitekturarbejde, herunder governance med fora, mandater og processer for det fælles arkitekturarbejde, fælles arkitekturregler samt rammer for projekters dokumentation af arkitektur og kvalitetssikring gennem review. Den fælles digitale arkitektur indeholder desuden en rammearkitektur, der består af et antal referencearkitekturer, der definerer genbrugelige arkitekturbyggeblokke som projekterne skal tage bestik af i deres arbejde. 
 
-At basere software-løsninger på open source flugter specifikt med arkitekturregel 2.3 i den fællesoffentlige Digitale Arkitektur om at undgå afhængighed af leverandører og proprietære teknologier, og hvor det i forklaringen til reglen understreges, at ”hvor det er relevant anvendes bæredygtige open source-komponenter.”  Denne vejledning vil blandt andet belyse ”hvor det er relevant”. 
+At basere software-løsninger på open source flugter specifikt med arkitekturregel 2.3 i den fællesoffentlige digitale arkitektur om at undgå afhængighed af leverandører og proprietære teknologier, og hvor det i forklaringen til reglen understreges, at ”hvor det er relevant anvendes bæredygtige open source-komponenter.”  Denne vejledning vil blandt andet belyse ”hvor det er relevant”. 
 
 Statens it-projektmodel skal bidrage til at sikre, at staten ikke igangsætter unødigt risikofyldte it-projekter. Som princip 2 i modellen hedder det, at: ”Allerede indkøbte eller udviklede løsninger skal genbruges i videst muligt omfang.”[^3]
 
 [^3]: [Statens it-projektmodel](https://digst.dk/styring/projektstyring/statens-it-projektmodel/)
 
-Formålet er at analysere mulige barrierer for offentlige myndigheders anvendelse af open source i Danmark og at synliggøre hvordan og hvornår, det er relevant at anvende open source samt opstille anbefalinger, som offentlige myndigheder i Danmark kan læne sig op ad, når det gælder anvendelse af Open Source. Vejledningen skal tilvejebringe overblik over centrale overvejelser, gode råd og bidrage med helt praksisnær vejledning samt vejlede i, hvordan man gennemfører et udbud og indkøber på en open source-licens. 
+Formålet er at analysere mulige barrierer for offentlige myndigheders anvendelse af open source i Danmark og at synliggøre hvordan og hvornår, det er relevant at anvende open source samt opstille anbefalinger, som offentlige myndigheder i Danmark kan læne sig op ad, når det gælder anvendelse af open source. Vejledningen skal tilvejebringe overblik over centrale overvejelser, gode råd og bidrage med helt praksisnær vejledning samt vejlede i, hvordan man gennemfører et udbud og indkøber på en open source-licens. 
 
 Denne vejledning vil forsøge at gøre op med nogle myter om open source samt bygge ovenpå tidligere vejledninger ved i højere grad at belyse hvad open source betyder i praksis og hvilke nuancer, og barrierer, man som offentlig myndighed skal holde sig for øje i anskaffelse og anvendelse af open source, samt bidrage med egentlige tjeklister som fx projektledere og it-arkitekter kan benytte sig af.   
 
 ## Målgruppe
 
 Målgruppen for vejledningen er især projektledere/it-indkøbere, it-arkitekter og beslutningstagere i offentlige myndigheder der skal tage stilling til eventuel anskaffelse af software, og som ønsker viden, praktisk vejledning og anbefalinger og konkrete eksempler i forhold til open source, som er relevante i alle dele af anskaffelsesprocessen og ved efterfølgende drift og vedligeholdelse.
-
-> Faktaboks: Målgruppe: -Topledelsen: porteføljeansvarlige - projektlederen/it-indkøberen - it-arkitekten/udvikleren
 
 Der er tidligere lavet vejledninger om open source til offentlige myndigheder, som er mere overordnede, men ikke har et praksisnært fokus. Vejledningen tilstræber at hjælpe alle, der overvejer eller ønsker at indkøbe software, og som ikke har et forhåndskendskab. 
 
