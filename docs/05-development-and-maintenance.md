@@ -26,4 +26,11 @@ De enkelte myndigheder kan opleve en høste-så-problematik, som gør det svært
 
 ## Tjekliste til udvikling og vedligeholdelse
 
-...
+1. Offentlige myndigheder bør sikre, at tilbudsgiver leverer en veldokumenteret digital løsning, således at eventuel videreudvikling kan foretages af andre leverandører. Dette omfatter teknisk dokumentation, herunder systembeskrivelser og arkitekturtegninger. Dermed sikrer man også, at løsningen kan drives videre efter kontraktudløb.
+2. Offentlige myndigheder bør kræve, at den tekniske dokumentation og kildekoden overholder krav og standarder tilhørende den valgte open source-licens. 
+4. Offentlige myndigheder bør overveje, om de selv kan og vil løfte opgaven, eller om de har brug for at indgå kontrakt med en drifts- og supportleverandør.
+5. Offentlige myndigheder bør forholde sig til planer for videreudvikling, opgradering og udfasning af løsningen fra begyndelsen og udarbejde passende strategier.
+6. Offentlige myndigheder bør stille krav om, at ejerskab til alle data tilfalder myndigheden, hvis kontrakten ændres, udløber eller på anden måde bortfalder.
+7. Offentlige myndigheder, der udvikler i fællesskab med andre, bør forholde sig til krav til vedligeholdelse af den fælles kodebase, efterlevelse af fællesskabets governancekrav, etablering af koordinationsorganer, videndeling mv. mellem brugere af løsningen, dialog med leverandører og promovering af løsningen.
+8. Offentlige myndigheder, der udvikler selv eller i fællesskab med andre, bør stille krav om koordinering og prioritering af videreudviklingsønsker, bestilling og styring af udviklingsopgaver og arkitekturstyring og governance for kodebasen.
+9. Offentlige myndigheder, der udvikler selv eller i fællesskab med andre og udliciterer driften til en ekstern leverandør, bør stille krav om en drifts- og serviceaftale, der indeholder oppetider, supportniveauer og sanktioneringsmuligheder mv., beskrivelse af releases og deployment og leverandørstyring.
