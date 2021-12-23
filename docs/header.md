@@ -150,7 +150,7 @@ p.italic{font-style: italic!important;}
 </style>
 
 <pre class="metadata">
-Title: open-source-guidance 1.0.0-beta: Vejledning om brug af open source
+Title: open-source-guidance 1.0.0-rc: Vejledning om brug af open source i den offentlige sektor
 Status: LD
 URL: https://github.com/rammearkitektur/open-source-guidance/tree/main/
 Editor Term: Bidragyder, Bidragydere
@@ -169,8 +169,8 @@ Editor: Kriminalforsorgen
 Abstract: 'open-source-guidance 1.0.0' .
 Boilerplate: copyright no, conformance no, abstract no
 Shortname: open-source-guidance
-Revision: 1.0.0-beta
-Date: 2021-11-16
+Revision: 1.0.0-rc
+Date: 2021-12-24
 Max ToC Depth: 3
 Markup Shorthands: markdown yes
 Repository: rammearkitektur/open-source-guidance
@@ -179,4 +179,4 @@ Inline Github Issues: full
 Logo: rammearkitektur
 </pre>
 
-<h1>open-source-guidance 1.0.0-beta: Vejledning om brug af open source</h1>
+<h1>open-source-guidance 1.0.0-rc: Vejledning om brug af open source i den offentlige sektor</h1>
