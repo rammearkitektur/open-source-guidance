@@ -1,49 +1,48 @@
 # Anskaffelse
 
-Ved it-anskaffelser bør der først og fremmest udarbejdes en business case, der klargør de mulige gevinster, omkostninger og risici, der er forbundet med valg af forskellige produkter, uanset om det software baseret på open eller closed source. 
+Formålet med dette afsnit er at skitsere de forskellige strategier for anskaffelse af software hos offentlige myndigheder. Det er ikke et spørgsmål om enten-eller, men derimod om at vælge den anskaffelsesstrategi, der passer bedst til den konkrete situation. 
 
-Open source og closed source-løsninger kan godt sameksistere og det behøver ikke at være et spørgsmål om enten-eller, og processen vedrørende indkøb behøver heller ikke at være særligt forskellige.
+Processen for anskaffelse er inddelt i tre faser, der omfatter henholdsvis strategi og markedsafdækning, anskaffelse og implementering og vedligeholdelse og videreudvikling.
 
-## Forskellige scenarier
+> Figur: Proces for it-anskaffelser (DIGST)
 
-Overordnet er der tre forskellige scenarier, når det vedrører anvendelse af open source:
+Open source-software og proprietære løsninger kan sagtens sameksistere, hvis man vælger forskellige strategier fra gang til gang, og processen for anskaffelse er stort set den samme. Det kræver dog forskellige kompetencer, og valg af licenser er en af dem.
 
-  * Myndigheden udvikler selv open source-software 
-  * Myndigheden stiller krav til leverandører om anvendelse af open source-software, når disse leverer produkter og projekter til den offentlige sektor?
-  * Myndigheden ønsker genbrug af software og komponenter, som den offentlige sektor har investeret i på tværs af kommuner/regioner/staten
+## Strategier for brug af open source
 
-Med andre ord er det vigtigt at holde sig for øje, at der er forskel på køb af en open source-løsning der allerede eksisterer og en anskaffelse, der handler om udvikling af open source-software, mere eller mindre fra bunden. Myndigheder kan således både være brugere af eksisterende open source-software eller være licensgivere, som kan stille software til rådighed for andre myndigheder eller andre aktører.
-Det handler om hvad der skaber mest værdi og bedste business case i de enkelte situationer, men det er vigtigt at have de strategiske overvejer tidligt og allerede i idéfasen af projektet og måske allerede inden, der overhovedet er en projektleder. 
+Overordnet er der tre strategier for anskaffelse af open source, som offentlige myndigheder kan anvende:
 
-Derudover behøver indkøb af open source ikke at være ret meget anderledes end closed source. Det kan dog kræve, at man husker at lave gode drifts – og support aftaler med en leverandør i forbindelse med indkøb. At stille krav om open source, hvis det er relevant ift. markedet i et udbud, der vedrører it-anskaffelser, fremmer den åbne konkurrence, der er det grundlæggende formål med udbudsreglerne. 
+  * **Myndigheden genbruger fra hylderne**<br>
+    Offentlige myndigheder, der anvender denne strategi, genbruger eksisterende open source-software, hvor det er relevant. Det kan være komponenter eller enkeltstående applikationer, der er gode eller billige alternativer til proprietære løsninger. Denne strategi omfatter også myndigheder, der er mindre bevidste om, at de anvender open source.
+  * **Myndigheden udvikler selv**<br>
+    Offentlige myndigheder, der anvender denne strategi, udvikler selv løsninger, der foruden at anvende eksisterende open source-komponenter udgives under en open source-licens. Det kan være for at stille software til rådighed for andre myndigheder eller virksomheder for at øge anvendelsen eller få andre til at bidrage til vedligeholdelsen.
+  * **Myndigheden udvikler i fællesskab**<br>
+    Offentlige myndigheder, der anvender denne strategi, udvikler i fællesskab med andre løsninger, der lever op til ovenstående. Det kan være for at dele risici og omkostninger med andre myndigheder eller virksomheder og skabe et fællesskab omkring vedligeholdelse af løsningen eller en række løsninger i et økosystem.
 
-> Evt. boks med tegning her: Løsning fra bund til top: abstrakt tegning af, hvor der kan være open source i porteføljen 
+> Figur: Open source-anskaffelsesstrategier (DIGST)
 
-Der principielt ikke noget til hinder for, at ordregiver køber eller på anden vis betinger, at programmet kan benyttes, ændres og stilles til rådighed for almenheden under en open source-licens. 
+Med andre ord er der forskellige strategiske årsager til at genbruge eksisterende open source-software og udvikle open source-software selv eller i fællesskab med andre. De forskellige strategier har hver deres fordele, men kræver også noget af myndigherne i form af kompetencer.
 
-At kildekoden er åben og frit kan genbruges, betyder ikke blot at én myndighed kan videredistribuere sin open source-software til en anden myndighed. Det betyder også, at den anden myndighed kan forbedre softwaren og derefter igen dele det forbedrede produkt med den første myndighed eller med andre. På den måde kan der være flere om at forbedre softwaren og om at finansiere fremtidig udvikling.
+Det er også vigtigt at påpege, at open source-software findes på alle hylder i softwarestakken. Det kan være basisteknologi som styresystemer, hvor Linux er meget udbredt på servere, eller databasesoftware som MySQL. En af de mest populære softwarestakke til webapplikationer består af de fire komponenter Linux, Apache, MySQL og PHP, Perl og Python (LAMP).
 
-Med alle typer af it-anskaffelser kan der være mange elementer man skal huske i løbet af processen. Nedenfor er derfor opstillet en tjekliste til brug ved anskaffelse af open source. Herunder til afklaring i forhold til licenser.  
+> Figur: Open source findes på alle hylder i softwarestakken (DIGST)
 
-Licenser kan indeholde forskellige vilkår om f.eks. at publicerede videreudviklinger skal videregives under samme vilkår (såkaldte copyleft-vilkår). Dette element kan være vigtigt i henhold til at sikre, at produktet ikke senere hen overgår fra open til closed source.
-
-Under hensyn til gennemsigtigheden må det derfor i alle tilfælde kræves, at ordregiver specificerer, hvilke open source-(mindste)krav, der stilles til det programmel, som skal (videre)udvikles.
-
-> Faktaboks: Eksempel på open Source på de ”store tunge løsninger”? Fx eksempel på at der er en juridisk løsning på vendor lockin og ejerskab til IT; case kunne evt. være Digital Post vs. eboks.
+At kildekoden er åben og frit kan genbruges, betyder ikke kun, at en myndighed kan dele sin open source-software med en anden myndighed. Det betyder også, at den anden myndighed kan forbedre softwaren og derefter dele den forbedrede løsning med den første myndighed og med andre. På den måde kan der være flere om at forbedre softwaren og finansiere fremtidige ønsker til videreudvikling.
 
 ## Licenser
 
-Open source-licenser er softwarelicenser, der tillader, at software frit kan bruges, forbedres og deles. Open Source Initiative har godkendt en række licenser, men anbefaler, at man som udgangspunkt benytter de licenser, der er "populære og bredt anvendte eller med stærke fællesskaber", f.eks. Apache License 2.0, GNU General Public License (GPL), MIT License eller Mozilla Public License (MPL) 2.0.[^1]
+Open source-licenser er softwarelicenser, der tillader, at software frit kan bruges, forbedres og deles. Open Source Initiative har godkendt en række licenser, men anbefaler, at man som udgangspunkt benytter de licenser, der er "populære og bredt anvendte eller med stærke fællesskaber", f.eks. Apache License 2.0, GNU General Public License (GPL), MIT License eller Mozilla Public License (MPL) 2.0.
+
+Licenser kan indeholde forskellige vilkår, f.eks. at publicerede videreudviklinger skal videregives under samme vilkår (såkaldte *copyleft*-vilkår). Dette element kan være vigtigt i henhold til at sikre, at produktet ikke senere hen overgår fra open til closed source.
 
 > **OS2-fællesskabets brug af licenser**
 >
 > OS2-fællesskabet benytter open source-licenserne [MPL 2.0](https://www.mozilla.org/en-US/MPL/2.0/) til kildekode og [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) til dokumentation og andet materiale, der ikke er kildekode. MPL 2.0 er en "file scope"-licens, hvilket vil sige, at filerne og deres indhold er omfattet. I praksis betyder det, at hvis nogen ændrer i filerne, skal ændringerne gives tilbage til OS2.
 
-Læs mere om og find alle de godkendte open source-licenser på https://opensource.org/licenses.
+Læs mere om og find alle de godkendte open source-licenser under [Licenses & Standards](https://opensource.org/licenses).
 
-Det er også muligt at anvende EU-Kommissionens værktøj til at finde og sammenligne softwarelicenser på https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses.
-
-[^1]: [Open Source Licenses by Category - Open Source Initiative](https://opensource.org/licenses/category)
+Det er også muligt at anvende EU-Kommissionens værktøj til at finde og sammenligne softwarelicenser på [
+JLA - Find and compare software licenses](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses)
 
 ## Tjekliste til anskaffelse
 
