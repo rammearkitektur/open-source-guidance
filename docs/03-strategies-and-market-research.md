@@ -47,7 +47,7 @@ På markedet for open source-software har mange leverandører, herunder en rækk
 
 F.eks. har OS2-fællesskabet omkring 70 leverandørpartnere, der producerer og overleverer produkter til fællesskabet, leverer udviklingskraft og teknologividen, implementering, drift og support og er i aktiv dialog med fællesskabet om nye forretningsmuligheder.
 
-> OS2iot hæster gevinsterne ved open source
+> **OS2iot høster gevinsterne ved open source**
 > 
 > OS2iot er en løsning, der modtager og viderestiller data fra sensorer uanset transmissionsteknologi. Fordi software er anskaffet under en open source-licens, er offentlige mynndigheder, der ønsker at anvende OS2iot, frie til at vælge leverandør eller stå for det selv. Løsningen har derfor tilknyttet fem leverandører, der tilbyder drift og support, samt to fællesskaber, henholdvis [GovTech Midtjylland](https://govtechmidtjylland.dk/) og [Fællesskab for Dynamiske Data](https://www.gate21.dk/faelleskab-for-dynamiske-data/), hvor kunderne deles om driften af OS2iot.
 > 
