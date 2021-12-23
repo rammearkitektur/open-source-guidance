@@ -20,3 +20,14 @@ Visionen for den fællesoffentlige digitale arkitektur er en [digitalt sammenhæ
  Myndigheder skal satse på software, der opbygges i mindre dele, og som ved hjælp af åbne standarder er i stand til at kommunikere med andre typer software. Derved sikres det, at enkelte dele af systemet uafhængigt kan udskiftes til gavn for fleksibilitet, genbrug og konkurrence på området.
  * **Genbrug af software**<br>
  Anvendelse af open source-software kan sikre, at skatteborgerne undgår at betale for udvikling af den samme software flere gange.
+
+> **Googles open source-principper**
+> 
+> Googles har beskrevet tre principper eller perspektiver, der er grundlæggende for, hvordan de deltager i både egne og fællesskabsdrevne open source-projekter. Principperne giver noget at stræbe efter og kan bruges som rettesnor til at interagere med fællesskabet af skabere, bidragydere og brugere.
+> 
+> * **Respekter brugeren**<br>
+>   Skab og bidrag til open source-projekter med omtanke, formål og hensyn, skab klare forventninger for brugere af projekterne og kommuniker tydeligt til alle bidragydere og brugere.
+> * **Respekter muligheden**<br>
+>   Udvis forbilledlig opførsel, særligt i konkurrenceprægede situationer og interaktioner, behandl investeringer med omtanke og hjælp dem med at lykkes og bidrag positivt til fællesskaber ved at være en god open source-deltager.
+> * **Respekter hinanden**<br>
+>   Byd andre velkommen og vær inkluderende, sæt pris på fællesskabets medlemmer i ord og handling, stil tydelige krav til opførsel og håndhæv fælles retningslinjer og respekter projekternes retning.
