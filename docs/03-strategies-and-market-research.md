@@ -1,6 +1,6 @@
 # Strategier og markedsafdækning
 
-Formålet med dette afsnit er at beskrive de forskellige strategier for anskaffelse af software hos offentlige myndigheder. Det er ikke et spørgsmål om enten-eller, men derimod om at vælge den anskaffelsesstrategi, der passer bedst til den konkrete situation.
+Formålet med dette afsnit er at beskrive offentlige myndigheders overvjelser om strategier for anskaffelse af open source-software. Det er ikke et spørgsmål om enten-eller, men derimod om at vælge den strategi, der passer bedst til den konkrete situation.
 
 Open source-software og proprietære løsninger kan sagtens sameksistere, hvis man vælger forskellige strategier fra gang til gang, og processen for anskaffelse er stort set den samme. De kræver dog hver især forskellige kompetencer og krav til samarbejde.
 
@@ -47,20 +47,23 @@ På markedet for open source-software har mange leverandører, herunder en rækk
 
 F.eks. har OS2-fællesskabet omkring 70 leverandørpartnere, der producerer og overleverer produkter til fællesskabet, leverer udviklingskraft og teknologividen, implementering, drift og support og er i aktiv dialog med fællesskabet om nye forretningsmuligheder.
 
->
+> OS2iot eksempel
 
 Det er med til at validere open source som en udbredt og rentabel forretningsmodel på det danske leverandørmarked og viser med al tydelighed, at open source-software ikke er gratis, eller at en open source-strategi river tæppet væk under leverandørerne. Det er derimod en udviklingsmetode til at imødekomme udfordringer med at genbruge og videreudvikle digitale løsninger, der kommer af leverandøruafhængighed, teknisk gæld, kompetencetab og manglende ejerskab til kildekoden.
 
-
-
 Som tidligere beskrevet er open source ikke gratis, når man beregner en *Total Cost of Ownership* (TCO). Ligesom ved anvendelse af closed source-software er der omkostninger til implementering, videreudvikling og løbende drift, support og vedligeholdelse. Nogle myndigheder har kompetencer til selv at foretage tilpasninger eller vedligehold af et stykke software, eller en løsning. I de tilfælde er det en billigere løsning, da man ikke har den mulighed med priprietære løsninger. Da man med open source har uhindret adgang til koden vil det derfor ikke være nødvendigt at købe ydelsen hos en leverandør. Det er dog langt fra alle myndigheder, der har kompetencerne indenfor egen personalegruppe. 
 
-Open source kan bidrage til øget kontrol og en fleksibilitet i to henseender:
-
-  1. Fri tilrettelæggelse af softwaren til de præcise behov
-  2. Den frie adgang til kildekoden sikrer, at langt flere it-leverandører har mulighed for at tilbyde ydelser til softwaren, og det øger konkurrencen på markedet og mindsker risikoen for at blive ”låst” til én leverandør.
-
-Open source-software tillader udveksling og videreudvikling af software på frie vilkår. Det gør det muligt for mange forskellige it-virksomheder at tilbyde ydelser i forbindelse med softwaren, og at udvikle nye it-produkter. Samtidig kan offentlige myndigheder nemmere samarbejde om at lave sammenhængende it-systemer. Open source kan på den måde skabe dynamik og fremme innovation og konkurrence på markedet.
+> **Vejledning om anskaffelse og genbrug af software**
+> 
+> I forbindelse med markedsafækdningen for henholdsvis open source-software og proprietære løsninger, har italiernerne i deres vejledning opstillet en model for beregning af omkostninger i hele softwarens livscyklus, ikke kun for anskaffelsesprocessen, som f.eks.:
+> 
+>  * Omkostninger til anskaffelse af hardware og proprietære softwarelicenser, der er nødvendige for at Costs for the acquisition of hardware and proprietary software licences required for commissioning the software being acquired;
+>  * Costs for software customisation;
+>  * Maintenance costs (corrective and upgrading);
+>  * Personnel training costs;
+>  * Costs of data migration from previous solutions.
+>  
+> Læs mere om beregning af [Total Cost of Ownership](https://docs.italia.it/italia/developers-italia/gl-acquisition-and-reuse-software-for-pa-docs/en/stabile/software-acquisition/total-cost-of-ownership.html) (TCO).
 
 ## Tjekliste til markedsafdækning
 
