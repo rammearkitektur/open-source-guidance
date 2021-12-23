@@ -1,22 +1,16 @@
 # Indledning
 
-Danske myndigheder investerer mange penge i it og der er i stigende grad krav til at it-løsninger er fleksible, og kan arbejde sammen. Samtidig er der stadig stærkere krav til sikkerhed, privatlivsbeskyttelse og transparens. 
+Danske myndigheder investerer massivt i digitalisering, og der er et stort behov for, at digitale løsninger er fleksible, sammenhængende og bygget til genbrug og forandring, hvis [Danmark skal fastholde sin position som et digitalt foregangsland](https://fm.dk/udgivelser/2021/oktober/visioner-og-anbefalinger-til-danmark-som-et-digitalt-foregangsland) og skabe et robust og bæredygtigt grundlag for fortsat vækst, velstand, grøn omstilling og effektiv offentlig service.
 
-Højt på dagsordenen i det fællesoffentlige digitaliseringssamarbejde er også et ønske om at styrke tillid og trygheden ved borgernes og virksomhedernes brug af de offentlige digitale tjenester:
+Den digitale udvikling går hurtigere og hurtigere, og offentlige myndigheder skal derfor blive endnu bedre til løbende at udvikle den digitale service til gavn for borgere og virksomheder. Verdens bedste offentlige sektor understøtter en bæredygtig udvikling og kræver myndigheder, der er i stand til at udnytte nye teknologier og digitale muligheder, samarbejde med mange leverandører på et åbent marked og levere nye løsninger hurtigt og effektivt.
 
-”Danskernes høje tryghed og tillid til hinanden og til den offentlige sektor er fundamentet for vores velfærd” 
+Visionen for den fællesoffentlige digitale arkitektur er en [digitalt sammenhængende offentlig sektor](https://arkitektur.digst.dk/mandat-og-styring/hvidbog-om-faellesoffentlig-digital-arkitektur), der understøtter innovation, vækst og udvikling i samfundet. Offentlige myndigheder skal så vidt muligt undgå løsninger, der skaber afhængighed af specifikke leverandører og proprietære teknologier. Dermed udvikles et marked, hvor flere leverandører kan konkurrere om at levere systemer og services innovativt, billigt og fleksibelt, og der er plads til både standardløsninger og moduler fra flere leverandører baseret på åbne snitflader. [Hvor det er relevant, anvendes bæredygtige open source-komponenter](https://arkitektur.digst.dk/principper-og-regler/princip-2-arkitektur-fremmer-sammenhaeng-innovation-og-effektivitet-4).
 
-Den fællesoffentlige Digitale Arkitektur (FDA) peger også på brug af open source, som en vigtig tilgang til at undgå afhængighed af leverandører og proprietære teknologier, hvor det er relevant. 
+Både offentlige myndigheder og private virksomheder har en interesse i [bæredygtig digitalisering](https://www.digitalsme.eu/sustainable-digitalisation/). Nye samarbejdsmodeller og åbne, digitale økosystemer skaber agilitet og  digital selvbestemmelse. Grønne it-udbud og cirkulære forretningsmodeller, der sikrer genbrug og vedligeholdelse, sparer ressourcer og forlænger løsningernes levetid. Juridiske, administrative og tekniske rammer for åbenhed og interoperabilitet, så myndigheder og leverandører frit kan dele, genbruge, undersøge og forbedre data og løsninger, er en forudsætning for innovation. [Bæredygtighed er blevet en konkurrenceparameter for danske virksomheder](https://www.danskindustri.dk/arkiv/analyser/2021/8/baredygtighed--en-vigtig-konkurrenceparameter/).
 
-Denne vejledning vil blandt andet belyse, hvor det er relevant at vælge en open source baseret løsning, og fokusere på at give konkret vejledning til nogle af de vigtigste overvejelser, som man skal gennem, når man står i en anskaffelsessituation. Desuden giver vejledningen et overblik over de forhold, som er vigtige, når man først har anskaffet sig en eller flere open source-løsninger, og fx står over for opgaver som vedligehold, videreudvikling og genudbud. 
+Der er et stort potentiale i åbne og cirkulære forretningsmodeller og open source-software, der brugt på de rigtige områder kan bidrage til at understøtte bæredygtig udvikling, innovation og kvalitet, styrke danske virksomheders omstillingsparathed og konkurrenceevne og øge vækst og eksport af digitale løsninger. Derfor beskriver vejledningen en række **principper for anvendelse af open source** samt de tre overordnede **strategier for brug af open source**, deres forskellige bevæggrunde og værdiskabelser.
 
-Open source står også højt på dagsordenen i EU og i mange andre lande. EU har peget på øget brug af open source, som en oplagt vej til øget tillid og transparens mellem myndigheder og borgerne. 
-
-Der er i løbet af det sidste års tid kommet fokus på øgede samfundsgevinster i form af blandt andet sikkerhed, transparens, leverandøruafhængighed og interoperabilitet ved anvendelse af open source i offentlige myndigheder. Under overskriften ”Think Open” har EU-kommissionen præsenteret en vision for digital trans-formation, innovation og samarbejde med open source som løftestang for offentlige digitale løsninger.[^1] Open source skal sikre løsninger, der virker og kan deles på tværs af grænser og fremtidssikrer Europas og medlemslandenes teknologiske selvbestemmelse i kraft af øget leverandøruafhængighed.
-
-Formålet med denne vejledning er ikke at opsætte et modsætningsforhold mellem brug af open source og closed source. Der er ikke tale om et enten-eller, men vejledningen har til derimod hensigt at belyse hvor open source kan give værdi samt skabe grundlaget for en strategisk beslutning på baggrund af hvilke muligheder og overvejelser, der kan være relevant for den enkelte myndighed. 
-
-[^1]: [Open source software strategy (oktober 2021)](https://ec.europa.eu/info/departments/informatics/open-source-software-strategy_en)
+Formålet med denne vejledning er ikke at opsætte et modsætningsforhold mellem brug af open source-software og proprietære løsninger. Det er ikke et spørgsmål om enten-eller, men om at vælge den løsning, der skaber værdi på baggrund af de udfordringer og behov, der er relevante for den enkelte myndighed. Derfor beskriver vejledningen en række af de vigtigste overvejelser ved anskaffelse, herunder **strategi og markedsafdækning**, **anskaffelse og implementering** og **vedligeholdelse og videreudvikling**.
 
 ## Hvad er open source?
 
@@ -32,48 +26,67 @@ Open source bliver af og til forvekslet med åbne standarder, der ofte er en for
 > 
 > Læs mere i [Vejledning om anvendelse af obligatoriske, åbne standarder for software i det offentlige](https://www.digitaliser.dk/resource/3778907/artefact/Vejledning_om_abne_standarder.pdf?artefact=true&PID=3778930).
 
-Open source handler i virkeligheden ikke om teknik, men kan snarere ses som en forretningsmodel eller udviklingsmodel, der fremmer offentlige myndigheders medejerskab til deres løsninger og giver bedre muligheder for at dele dem med andre, fordi de er offentliggjort på en open source-licens.
+Open source handler ikke om teknik, men kan snarere ses som en udviklingsmetode og forretningsmodel, der fremmer offentlige myndigheders medejerskab til deres løsninger og skaber flere og bedre muligheder for at dele dem med andre, fordi de er offentliggjort under en open source-licens.
 
 > **Eksempler på udbredelsen af open source**
 > Der findes mange kendte og udbredte open source-softwareprodukter. Distributioner af Linux-styresystemet understøtter omkring 70 % af internettets 10 mio. mest besøgte hjemmesider, der f.eks. hostes af webserversoftwaren Nginx (33 %) eller Apache HTTP Server (24 %). 42 % af internettet kører Wordpress, og de 6,5 mio. artikler på den engelsksprogede Wikipedia, kører MediaWiki. Omkring 65 % besøger internettet vha. Google Chrome, der også findes til smartphones, hvoraf 84 % kører det Linux-baserede styresystem Android. Danske offentlige myndigheder bruger f.eks. LibreOffice til teksbehandling og QGIS til geodatabehandling, og 82 kommuner bruger OS2kitos til at holde styr på deres it-portefølje.
 
 ## Internationale strømninger
 
-En undersøgelse  er blevet offentliggjort i september 2021 fra EU-Kommissionen vedr. virkningen af open source-software og hardware på EU's økonomi. Dette med hensyn til innovation, konkurrenceevne, teknologisk uafhængighed og jobskabelse.[^2]
+Open source står også højt på dagsordenen i EU og i mange andre lande. EU har peget på øget brug af open source, som en oplagt vej til øget tillid og transparens mellem myndigheder og borgerne. 
 
-[^2]: [Study about the impact of open source software and hardware on technological independence, competitiveness and innovation in the EU economy (september 2021)](https://digital-strategy.ec.europa.eu/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and)
+Der er i løbet af det sidste års tid kommet fokus på øgede samfundsgevinster i form af blandt andet sikkerhed, gennemsigtighed, leverandøruafhængighed og interoperabilitet ved anvendelse af open source i offentlige myndigheder.
 
-Undersøgelsen fremhæver, hvordan brug af open source-software kan: 
+Under overskriften *Think Open* har EU-kommissionen i deres [open source-softwarestrategi](https://ec.europa.eu/info/departments/informatics/open-source-software-strategy_en) præsenteret en vision for digital transformation, innovation og samarbejde med open source som løftestang for offentlige digitale løsninger. Open source skal sikre løsninger, der virker og kan deles på tværs af grænser og fremtidssikrer Europas og medlemslandenes teknologiske selvbestemmelse i kraft af øget leverandøruafhængighed.
 
-  * Fremme den offentlige sektors uafhængighed i Unionen
-  * Reducere omkostninger 
-  * Begrænse fænomenet vendor lock-in (afhængighed af leverandører). 
+> **Principper for strategiens implementering**
+>
+> * **Tænk åbent**<br>
+>   Open source-løsninger er at foretrække, når de er tilsvarende i funktionalitet, total omkostninger og cybersikkerhed.
+> * **Transformér**<br>
+>   Vi udnytter principperne for open source: vi innoverer, vi samskaber, deler og genbruger, og bygger sammen brugercentrerede, datadrevne offentlige tjenester.
+> * **Del**<br>
+>   Vi deler vores kode and muliggør bidrag til relaterede open source-projekter.
+> * **Bidrag**<br>
+>   Vi stræber efter at være et aktivt medlem af det mangfoldige open source-økosystem.
+> * **Gør sikker**<br>
+>   Vi sørger for, at den kode, vi bruger, og den kode, vi deler, er fri for sårbarheder ved at teste sikkerheden løbende.
+> * **Bevar kontrol**<br>
+>   Vi fremmer åbne standarder og specifikationer, der er implementeret og distribueret i open source.
 
-Set fra EU's perspektiv kan open source dermed være en nøgle til et mere autonomt og teknologisk suverænt EU løsrevet fra techgiganter. Det er en stor del af forklaringen på, at der fra EU's side tilskyndes til anvendelse af open source samt, at der er udarbejdet anerkendte standarder for, hvorledes programmel deles og genanvendes, ud fra et ønske om anvendelse af færrest mulige ressourcer.
+En [undersøgelse om effekten af open source](https://digital-strategy.ec.europa.eu/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and) på teknologisk uafhængighed, konkurrenceevne og innovation i den europæiske økonomi fremhæver tre overordnede anbefalinger, hvor brug af open source kan bidrage til:
 
+ * En digitalt uafhængig offentlig sektor
+ * Åben forskning og udvikling som fundament for vækst
+ * Et digitaliseret og internationalt konkurrencedygtigt erhvervsliv
+
+I et europæisk perspektiv kan open source dermed være en nøgle til digital og teknologisk selvbestemmelse i EU og uafhængighed af de globale techgiganter. Det er en stor del af forklaringen på, at der fra EU-Kommissionens side tilskyndes anvendelse af open source, og at der er udarbejdet standarder for, hvordan software deles og genbruges.
+
+> **Italiensk for open source-begyndere**
+> 
 > I Italien er det indført ved lov, at open source-software gives fortrinsret i offentlige udbud, og myndighederne forpligter sig til at offentliggøre koden til software, der er udviklet under en open source-licens, for at gøre den genanvendelig.
+> 
+> Læs mere om italienske myndigheders [genbrug af åbne løsninger og standarder](https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2017-12-13/_rst/capo6_art69.html). 
 
-Undersøgelsen fremhæver nogle anbefalinger, der skal skabe et mere uafhængigt og konkurrencedygtigt Europa. Herunder bl.a. at betragte open source som en grundlæggende komponent i den offentlige forvaltnings digitale transformation samt direkte finansiere udviklingen af open source -software og dens sikkerhed.
+Undersøgelsen fremhæver nogle anbefalinger, der skal skabe et mere uafhængigt og konkurrencedygtigt Europa. Herunder at betragte open source som en grundlæggende komponent i den offentlige forvaltnings digitale transformation samt direkte finansiere udviklingen af open source-software og dens sikkerhed.
 
 ## Hvorfor open source?
 
 Open source er ikke noget nyt begreb, eller ny metode/forretningsmodel. Open source særligt aktuelt nu, da metoden eller forretningsmodellen understøtter mere modulbaserede og agile måder at udvikle, dele, og genbruge komponenter. Open Source kan være ét element i den aktuelle udvikling med krav om indbygget uafhængighed fremfor opbygning af siloløsninger. 
 
-Anvendelse af open source er som nævnt ovenfor i overensstemmelse med principperne i den fællesoffentlige Digitale Arkitektur og EU's vision for øget brug af open source, som nævnt i indledningen. Herunder en dagsorden om mere tillid mellem myndigheder og borgere samt styrkelse af EU’s digitale suverænitet og interoperabilitet mellem medlemslandene. 
+Anvendelse af open source er i overensstemmelse med principperne i den fællesoffentlige digitale arkitektur og EU-Kommissionens vision for øget brug af open source. Herunder en dagsorden om mere tillid mellem myndigheder og borgere samt styrkelse af EU’s digitale selvbestemmelse og interoperabilitet mellem medlemslandene digitale service.
 
-Den fællesoffentlige digitale arkitektur sætter de overordnede rammer for udviklingen af den digitalt sammenhængende offentlige sektor. Den skal understøtte digital sammenhæng i den offentlige sektor på flere niveauer: mellem stat, kommuner og regioner. På tværs af fagområder som fx sundhed, socialområdet, uddannelse og arbejdsmarked. Mellem den offentlige sektor og den private sektor. Og på tværs af landegrænser, ikke mindst i forhold til EU og det digitale indre marked. 
+Den fællesoffentlige digitale arkitektur sætter de overordnede rammer for udviklingen af den digitalt sammenhængende offentlige sektor. Den skal understøtte digital sammenhæng i den offentlige sektor på flere niveauer: mellem stat, kommuner og regioner. På tværs af fagområder som f.eks. sundheds-, social, uddannelses- og arbejdsmarkedsområderne. Mellem den offentlige sektor og den private sektor. Og på tværs af landegrænser, ikke mindst i forhold til EU og det digitale indre marked.
 
-> Den fælles digitale arkitektur omfatter fælles rammer for projekternes arkitekturarbejde, herunder governance med fora, mandater og processer for det fælles arkitekturarbejde, fælles arkitekturregler samt rammer for projekters dokumentation af arkitektur og kvalitetssikring gennem review. Den fælles digitale arkitektur indeholder desuden en rammearkitektur, der består af et antal referencearkitekturer, der definerer genbrugelige arkitekturbyggeblokke som projekterne skal tage bestik af i deres arbejde. 
+> **Den fælles digitale arkitektur** omfatter fælles rammer for projekternes arkitekturarbejde, herunder governance med fora, mandater og processer for det fælles arkitekturarbejde, fælles arkitekturregler samt rammer for projekters dokumentation af arkitektur og kvalitetssikring gennem review. Den fælles digitale arkitektur indeholder desuden en rammearkitektur, der består af et antal referencearkitekturer, der beskriver genbrugelige arkitekturbyggeblokke, som projekterne skal tage bestik af i deres arbejde. 
 
-At basere software-løsninger på open source flugter specifikt med arkitekturregel 2.3 i den fællesoffentlige digitale arkitektur om at undgå afhængighed af leverandører og proprietære teknologier, og hvor det i forklaringen til reglen understreges, at ”hvor det er relevant anvendes bæredygtige open source-komponenter.”  Denne vejledning vil blandt andet belyse ”hvor det er relevant”. 
+At basere digitale løsninger på open source er i overenstemmelse med arkitekturregel 2.3 om at undgå afhængighed af leverandører og proprietære teknologier og anvende bæredygtige open source-komponenter, hvor det er relevant. Denne vejledning vil blandt andet bidrage med overvejelser til, hvor det kan blive relevant.
 
-Statens it-projektmodel skal bidrage til at sikre, at staten ikke igangsætter unødigt risikofyldte it-projekter. Som princip 2 i modellen hedder det, at: ”Allerede indkøbte eller udviklede løsninger skal genbruges i videst muligt omfang.”[^3]
-
-[^3]: [Statens it-projektmodel](https://digst.dk/styring/projektstyring/statens-it-projektmodel/)
+[Statens it-projektmodel](https://digst.dk/styring/projektstyring/statens-it-projektmodel/), der skal bidrage til at sikre, at staten ikke igangsætter unødvendigt risikofyldte it-projekter, indeholder desuden et princip om, at allerede indkøbte eller udviklede løsninger skal genbruges i videst muligt omfang.
 
 Formålet er at analysere mulige barrierer for offentlige myndigheders anvendelse af open source i Danmark og at synliggøre hvordan og hvornår, det er relevant at anvende open source samt opstille anbefalinger, som offentlige myndigheder i Danmark kan læne sig op ad, når det gælder anvendelse af open source. Vejledningen skal tilvejebringe overblik over centrale overvejelser, gode råd og bidrage med helt praksisnær vejledning samt vejlede i, hvordan man gennemfører et udbud og indkøber på en open source-licens. 
 
-Denne vejledning vil forsøge at gøre op med nogle myter om open source samt bygge ovenpå tidligere vejledninger ved i højere grad at belyse hvad open source betyder i praksis og hvilke nuancer, og barrierer, man som offentlig myndighed skal holde sig for øje i anskaffelse og anvendelse af open source, samt bidrage med egentlige tjeklister som fx projektledere og it-arkitekter kan benytte sig af.   
+Denne vejledning vil forsøge at gøre op med nogle myter om open source samt bygge ovenpå tidligere vejledninger ved i højere grad at belyse hvad open source betyder i praksis og hvilke nuancer, og barrierer, man som offentlig myndighed skal holde sig for øje i anskaffelse og anvendelse af open source, samt bidrage med egentlige tjeklister som f.eks. projektledere og it-arkitekter kan benytte sig af.   
 
 ## Målgruppe
 
