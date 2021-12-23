@@ -17,7 +17,7 @@ Offentlige myndigheders brug af open source er ikke et spørgsmål om enten-elle
  * **Genbrug af software**<br>
  Anvendelse af open source-software kan sikre, at skatteborgerne undgår at betale for udvikling af den samme software flere gange.
  
-Det er nødvendigt at styre efter fælles principper, når flere offentlige myndigheder i deres enkelte projekter skal kunne arbejde sammen med hinanden og deres leverandører om en sammenhængende digitalisering af den offentlige sektor. Det gælder både i forhold til anskaffelsesstrategi, markedsafdækning, krav om licenser mv. ved anskaffelse og implementering og det løbende samarbejde omkring vedligeholdelse og videreudvikling af løsningen sammen med en leverandør eller i et open source-økosystem.
+Det er nødvendigt at styre efter fælles principper, når flere offentlige myndigheder overvejer at anskaffe open source-software eller skal kunne arbejde sammen om en sammenhængende digitalisering af den offentlige sektor.
 
 > **Googles open source-principper**
 > 
@@ -29,3 +29,15 @@ Det er nødvendigt at styre efter fælles principper, når flere offentlige mynd
 >   Udvis forbilledlig opførsel, særligt i konkurrenceprægede situationer og interaktioner, behandl investeringer med omtanke og hjælp dem med at lykkes og bidrag positivt til fællesskaber ved at være en god open source-deltager.
 > * **Respekter hinanden**<br>
 >   Byd andre velkommen og vær inkluderende, sæt pris på fællesskabets medlemmer i ord og handling, stil tydelige krav til opførsel og håndhæv fælles retningslinjer og respekter projekternes retning.
+
+## Overvejelser ved anskaffelse
+
+Anskaffelse af open source-software involverer en strategi for anskaffelse, afdækning af markedet, valg af licensformer, implementering i organisationen, (videre)udvikling og vedligeholdelse, herunder drift, af løsningen. Det gælder, uanset om det er open source-software eller en proprietær løsning.
+
+> Figur: Proces for it-anskaffelser (DIGST)
+
+**Strategier og markedsafækdning** beskriver myndighedernes overvejelser om strategier for anskaffelse af open source-software og afdækning af markedet for både eksisterende open source-komponenter og proprietære løsninger.
+
+**Licenser og implementering** beskriver myndighedernes overvejelser om brug af open source-licenser og implementering af open source, uanset om det eksisterende komponenter, der er genbrugt fra hylderne, eller softare udviklet selv eller i fællesskab med andre.
+
+**Udvikling og vedligeholdelse** beskriver overvejelser om udvikling og vedligeholdelse, herunder drift, af open source-software, der består af løbende opgaver, der alle stiller krav til kompetencer, hvorfor myndigheder med fordel kan deltage i open source-fællesskaber.
