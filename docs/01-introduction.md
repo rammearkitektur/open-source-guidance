@@ -6,11 +6,9 @@ Visionen for den fællesoffentlige digitale arkitektur er en [digitalt sammenhæ
 
 Både offentlige myndigheder og private virksomheder har en interesse i [bæredygtig digitalisering](https://www.digitalsme.eu/sustainable-digitalisation/). Nye samarbejdsmodeller og åbne, digitale økosystemer skaber agilitet og  digital selvbestemmelse. Grønne it-udbud og cirkulære forretningsmodeller, der sikrer genbrug og vedligeholdelse, sparer ressourcer og forlænger løsningernes levetid. Juridiske, administrative og tekniske rammer for åbenhed og interoperabilitet, så myndigheder og leverandører frit kan dele, genbruge, undersøge og forbedre data og løsninger, er en forudsætning for innovation. [Bæredygtighed er blevet en konkurrenceparameter for danske virksomheder](https://www.danskindustri.dk/arkiv/analyser/2021/8/baredygtighed--en-vigtig-konkurrenceparameter/).
 
-## Målgruppe
+## Målgruppe og læsevejledning
 
 Målgruppen for vejledningen er it-projektledere, -jurister og -arkitekter, indkøbere og contract managers samt it-chefer og andre strategiske beslutningstagere hos offentlige myndigheder, der skal tage stilling til anskaffelse af software, og som ønsker mere viden, konkrete eksempler og praktisk vejledning til brug af open source.
-
-## Læsevejledning
 
 Der er et stort potentiale i åbne og cirkulære forretningsmodeller og open source-software, der brugt på de rigtige områder kan bidrage til at understøtte bæredygtig udvikling, innovation og kvalitet, styrke danske virksomheders omstillingsparathed og konkurrenceevne og øge vækst og eksport af digitale løsninger. Derfor beskriver vejledningen en række **principper for anvendelse af open source** samt de tre overordnede **strategier for brug af open source**, deres forskellige bevæggrunde og værdiskabelser.
 
