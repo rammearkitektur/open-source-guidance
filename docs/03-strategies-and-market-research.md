@@ -1,5 +1,9 @@
 # Strategier og markedsafdækning
 
+Formålet med dette afsnit er at beskrive de forskellige strategier for anskaffelse af software hos offentlige myndigheder. Det er ikke et spørgsmål om enten-eller, men derimod om at vælge den anskaffelsesstrategi, der passer bedst til den konkrete situation.
+
+Open source-software og proprietære løsninger kan sagtens sameksistere, hvis man vælger forskellige strategier fra gang til gang, og processen for anskaffelse er stort set den samme. De kræver dog hver især forskellige kompetencer og krav til samarbejde.
+
 ## Strategier for anskaffelse af open source
 
 Overordnet findes der tre strategier for anskaffelse af open source, som offentlige myndigheder har i værktøjskassen og kan anvende i forbindelse med it-anskaffelser:
@@ -35,7 +39,7 @@ At kildekoden er åben og frit kan genbruges, betyder ikke kun, at en myndighed 
 4. Offentlige myndigheder bør danne sig et overblik over brug af open source-software på forskellige niveauer i softwarestakken og anvende en helhedsorienteret tilgang til anskaffelser, der udnytter synergier mellem software som f.eks. de populære open source-softwarestakke LAMP og MEAN.
 5. Offentlige myndigheder bør ved ny- eller videreudvikling overveje, om kildekoden skal offentliggøres på f.eks. [GitHub](https://github.com/).
 
-## Markedsafækdning
+## Afdækning af markedet
 
 Det fremgår af den fællesoffentlige digitale arkitektur, at den offentlige sektor skal bruge software, der understøtter sammenhængende digitalisering uden bindinger til leverandører og proprietære teknologier og udvikler et marked, hvor flere leverandører kan konkurrere om at levere systemer og services innovativt, billigt og fleksibelt, og der er plads til både standardløsninger og moduler fra flere leverandører baseret på åbne snitflader.
 
