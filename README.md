@@ -35,4 +35,4 @@ The guidance is expected to include:
 
 A draft version 1.0.0 of open-source-guidance is under development in close coordination and collaboration between Local Government Denmark and a reference group consisting of participants from municipalities, regions and state authorities.
 
-* Link to [open-source-guidance 1.0.0-beta](https://rammearkitektur.github.io/open-source-guidance/docs/) (under development)
+* Link to [open-source-guidance 1.0.0-rc](https://rammearkitektur.github.io/open-source-guidance/docs/) (release candidate)
