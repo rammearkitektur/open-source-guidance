@@ -33,7 +33,7 @@
 
 1.	Er der udarbejdet vejledning og dokumentation som kan vedlægges egen udvikling af open source-komponenter? 
 2.	Er mulighederne for at anvende standarder for indeksering af egen udvikling af open source-komponenter undersøgt? 
-3.	Er mulighederne for at få lavet kodereview af egen udvikling af open source komponenter undersøgt? 
+3.	Er mulighederne for at få lavet kodereview af egen udvikling af open source-komponenter undersøgt? 
 4.	Er mulighederne for at anvende åbne standarder og snitflader undersøgt? 
 5.	Er mulighederne for at anvende åbne frameworks og kodebiblioteker undersøgt? 
 6.	Er mulighederne for at anvende åben datamodel og omkostningsfri adgang og ejerskab for data undersøgt?
@@ -46,7 +46,7 @@
 1.	Er mulighederne for at leverandører af vedligehold og videreudvikling nemt kan udskiftes undersøgt? 
 2.	Er mulighederne for at varetage egen drift af implementeret open source undersøgt? 
 3.	Er muligheden for at have fælles krav til vedligeholdelse, governance, koordinationsorganer, videndeling i det tilhørende community for en given nyudviklet open source-komponent undersøgt? 
-4.	Er muligheden for at løbende evaluere modenheden af open source-komponenter, som er implementeret undersøgt?
+4.	Er muligheden for at løbende evaluere modenheden af open source-komponenter, som er implementeret, undersøgt?
 
 ## Cases om brug af open source
 
