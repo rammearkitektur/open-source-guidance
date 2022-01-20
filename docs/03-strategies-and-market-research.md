@@ -35,11 +35,11 @@ At kildekoden er åben og frit kan genbruges, betyder ikke kun, at en myndighed 
 
    Offentlige myndigheder bør sikre sig de rette kompetencer til at arbejde med open source, uanset om de genbruger eksisterende open source-komponenter, udvikler selv eller udvikler i fællesskab med andre.
    
-4.	Er de forskellige niveauer i softwarestakken identificeret med henblik på hvor open source giver mest værdi?
+4. Er de forskellige niveauer i softwarestakken identificeret med henblik på hvor open source giver mest værdi?
    
    Offentlige myndigheder kan danne sig et overblik over brug af open source-software på forskellige niveauer i softwarestakken og anvende en helhedsorienteret tilgang til   anskaffelser, der udnytter synergier mellem software som f.eks. de populære open source-softwarestakke LAMP og MEAN.
    
-5.	Er der valgt medie til offentliggørelse af kildekode? 
+5. Er der valgt medie til offentliggørelse af kildekode? 
    
    Offentlige myndigheder kan ved ny- eller videreudvikling overveje, om kildekoden kan offentliggøres på f.eks. [GitHub](https://github.com/).
 
@@ -53,30 +53,32 @@ F.eks. har OS2-fællesskabet omkring 70 leverandørpartnere, der producerer og o
 
 Dette er med til at validere open source som en udbredt og rentabel forretningsmodel på det danske leverandørmarked og viser med al tydelighed, at open source-software ikke er gratis, eller at en open source-strategi river tæppet væk under leverandørerne. Det er derimod en udviklingsmetode til at imødekomme udfordringer med at genbruge og videreudvikle digitale løsninger, der kommer af leverandøruafhængighed, teknisk gæld, kompetencetab og manglende ejerskab til kildekoden.
 
+> Figur: Overordnede strategiske valg (DIGST)
+
 Som tidligere beskrevet er open source ikke gratis, når man beregner en *Total Cost of Ownership* (TCO). Ligesom ved anvendelse af closed source-software er der omkostninger til implementering, videreudvikling og løbende drift, support og vedligeholdelse. Det kræver samtidig også, at myndigheden har og kan allokere de nødvendige ressourcer til at stå for opgaverne. Dermed er der ikke blot tale om omkostninger til de faktiske opgaver, men også til at sikre, at organisationen har de rette kompetencer over tid.
 
 ## Tjekliste til markedsafdækning
 
-1.	Er mulighederne for genbrug af eksisterende open source-komponenter undersøgt?
+1. Er mulighederne for genbrug af eksisterende open source-komponenter undersøgt?
    
    Offentlige myndigheder kan undersøge, om der findes eksisterende open source-komponenter, de kan genbruge. De kan f.eks. orientere sig på [SourceForge](https://sourceforge.net/), [GitHub](https://github.com/), [OS2 Produkter](https://os2.eu/produkter) eller [OSS Repositories](https://joinup.ec.europa.eu/collection/open-source-observatory-osor/oss-repositories), der udstiller open source-software på tværs af europæiske myndigheder. Danske myndigheder kan anvende [it-løsningerne i den fælles digitale infrastruktur](https://digst.dk/it-loesninger/), og statslige myndigheder kan orientere sig i [servicespecifikationen for GovCloud](https://govcloud.dk/media/11706/servicespecifikation-govclouddk.pdf), der beskriver de kundevendte komponenter hos Statens It. Kommunale myndigheder kan orientere sig i [Digitaliseringskataloget](https://digitaliseringskataloget.dk/) for anvendelse af fælleskommunal infrastruktur.
-      
-2.	Er *Total Cost of Ownership* for genbrug af eksisterende open source-komponenter og tilsvarende proprietære løsninger undersøgt?
+   
+2. Er *Total Cost of Ownership* for genbrug af eksisterende open source-komponenter og tilsvarende proprietære løsninger undersøgt?
    
    Offentlige myndigheder, der identificerer eksisterende open source-software, kan beregne *Total Cost of Ownership* for denne og tilsvarende proprietære løsninger med henblik på at vælge den løsning, der skaber værdi i den specifikke situation.
    
-3.	Er mulighederne for at få vejledning i genbrug af eksisterende open source-komponenter undersøgt?
+3. Er mulighederne for at få vejledning i genbrug af eksisterende open source-komponenter undersøgt?
 
    Offentlige myndigheder, der genbruger eksisterende open source-komponenter, kan undersøge, om der er tilstrækkelige vejledning og dokumentation til det pågældende projekt. Myndigheden kan kunne forstå og anvende kildekoden til at bygge og videreudvikle en digital løsning, der løser deres behov.
 
-4.	Er aktivitetsniveauet i det tilhørende community for en given eksisterende open source-komponent, som skal genbruges, undersøgt?
+4. Er aktivitetsniveauet i det tilhørende community for en given eksisterende open source-komponent, som skal genbruges, undersøgt?
 
    Offentlige myndigheder, der genbruger eksisterende open source-komponenter, kan undersøge aktivitetsniveauet i det pågældende projekt, f.eks. seneste commit eller release, med henblik på at sikre sig, at projektet ikke er stagnerende eller inaktivt.
 
-5.	Er kadencen for fejlretning og udvikling for en given eksisterende open source-komponent, som skal genbruges, undersøgt?
+5. Er kadencen for fejlretning og udvikling for en given eksisterende open source-komponent, som skal genbruges, undersøgt?
 
    Offentlige myndigheder, der genbruger eksisterende open source-komponenter, kan undersøge, om issues er offentligt tilgængelige, løses inden for en rimelig tidsperiode og primært er fejl eller ændringsønsker.
 
-6.	Er mulighederne for at bidrage til det tilhørende community for en given eksisterende open source-komponent, som skal genbruges, undersøgt?
+6. Er mulighederne for at bidrage til det tilhørende community for en given eksisterende open source-komponent, som skal genbruges, undersøgt?
 
    Offentlige myndigheder, der genbruger eksisterende open source-komponenter, kan investere tid og ressourcer i at bidrage til vejledning og dokumentation, kildekode og issues med henblik på at holde projektet aktivt og opdateret.
