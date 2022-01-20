@@ -22,14 +22,14 @@ De enkelte myndigheder kan opleve en høste-så-problematik, som gør det svært
 
    Offentlige myndigheder kan sikre, at tilbudsgiver leverer en veldokumenteret digital løsning, således at eventuel videreudvikling kan foretages af andre leverandører. Dette omfatter teknisk dokumentation, herunder systembeskrivelser og arkitekturtegninger. Dermed sikrer man også, at løsningen kan drives videre efter kontraktudløb. Offentlige myndigheder kan kræve, at den tekniske dokumentation og kildekoden overholder krav og standarder tilhørende den valgte open source-licens, samt forholde sig til planer for videreudvikling, opgradering og udfasning af løsningen fra begyndelsen og udarbejde passende strategier.
    
-2.	Er mulighederne for at varetage egen drift af implementeret open source undersøgt? 
+2. Er mulighederne for at varetage egen drift af implementeret open source undersøgt? 
 
    Offentlige myndigheder kan overveje, om de selv kan og vil løfte opgaven, eller om de har brug for at indgå kontrakt med en drifts- og supportleverandør.
 
-3.	Er muligheden for at have fælles krav til vedligeholdelse, governance, koordinationsorganer, videndeling i det tilhørende community for en given nyudviklet open source-komponent undersøgt? 
+3. Er muligheden for at have fælles krav til vedligeholdelse, governance, koordinationsorganer, videndeling i det tilhørende community for en given nyudviklet open source-komponent undersøgt? 
 
    Offentlige myndigheder, der udvikler i fællesskab med andre, kan forholde sig til krav til vedligeholdelse af den fælles kodebase, efterlevelse af fællesskabets governancekrav, etablering af koordinationsorganer, videndeling mv. mellem brugere af løsningen, dialog med leverandører og promovering af løsningen. Offentlige myndigheder, der udvikler selv eller i fællesskab med andre, kan stille krav om koordinering og prioritering af videreudviklingsønsker, bestilling og styring af udviklingsopgaver og arkitekturstyring og governance for kodebasen. Ved udlicitering af driften til en ekstern leverandør, kan der stilles krav om en drifts- og serviceaftale, der indeholder oppetider, supportniveauer og sanktioneringsmuligheder, beskrivelse af releases og deployment og leverandørstyring.
 
-4.	Er muligheden for at løbende evaluere modenheden af open source-komponenter, som er implementeret undersøgt?
+4. Er muligheden for at løbende evaluere modenheden af open source-komponenter, som er implementeret undersøgt?
 
    Offentlige myndigheder kan løbende evaluere modenheden af open source-komponenter, de anvender, og software, som de udvikler selv eller i fællesskab med andre med henblik på at træffe beslutning om at tilføre flere ressourcer, opgive brug af løsningen eller udbredelse af løsningen til andre myndigheder.
