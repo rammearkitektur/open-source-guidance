@@ -22,5 +22,3 @@ I en [undersøgelse om effekten af open source](https://digital-strategy.ec.euro
  * En digitalt uafhængig offentlig sektor
  * Åben forskning og udvikling som fundament for vækst
  * Et digitaliseret og internationalt konkurrencedygtigt erhvervsliv
-
-I et europæisk perspektiv er open source nøglen til digital og teknologisk selvbestemmelse i EU. Det er en stor del af forklaringen på, at der fra EU-Kommissionens side tilskyndes anvendelse af open source, og at der er udarbejdet standarder for, hvordan software deles og genbruges.
