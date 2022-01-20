@@ -13,7 +13,7 @@
 **Markedsafdækning**
 
 1.	Er mulighederne for genbrug af eksisterende open source-komponenter undersøgt?
-2.	Er Total Cost of Ownership for genbrug af eksisterende open source-komponenter og tilsvarende proprietære løsninger undersøgt?
+2.	Er *Total Cost of Ownership* for genbrug af eksisterende open source-komponenter og tilsvarende proprietære løsninger undersøgt?
 3.	Er mulighederne for at få vejledning i genbrug af eksisterende open source-komponenter undersøgt?
 4.	Er aktivitetsniveauet i det tilhørende community for en given eksisterende open source-komponent, som skal genbruges, undersøgt?
 5.	Er kadancen for fejlretning og udvikling for en given eksisterende open source-komponent, som skal genbruges, undersøgt?
@@ -22,7 +22,7 @@
 **Licenser**
 
 1.	Er mulighederne for at anvende populære og bredt anvendte licenser i egen udvikling af open source undersøgt? 
-2.	Er risici for licenser med copyleft undersøgt?.
+2.	Er risici for licenser med *copyleft* undersøgt?.
 3.	Er mulighederne for at vejlede andre myndigheder om licenser for open source undersøgt? 
 4.	Er licensen for en given eksisterende open source-komponent, som skal genbruges, undersøgt? 
 5.	Er mulighederne for at bruge EU-kommissionens værktøj til at sammenligne softwarelicenser undersøgt?
@@ -31,14 +31,15 @@
 
 **Implementering**
 
-1.	Er der udarbejdet vejledning og dokumentation som kan vedlægges egen udvikling af open source komponenter? 
-2.	Er mulighederne for at anvende standarder for indeksering af egen udvikling af open source komponenter undersøgt? 
+1.	Er der udarbejdet vejledning og dokumentation som kan vedlægges egen udvikling af open source-komponenter? 
+2.	Er mulighederne for at anvende standarder for indeksering af egen udvikling af open source-komponenter undersøgt? 
 3.	Er mulighederne for at få lavet kodereview af egen udvikling af open source komponenter undersøgt? 
 4.	Er mulighederne for at anvende åbne standarder og snitflader undersøgt? 
 5.	Er mulighederne for at anvende åbne frameworks og kodebiblioteker undersøgt? 
-6.	Er mulighederne for at anvende åben datamodel og omkostningsfri adgang og ejerskab for data undersøgt? 
-7.	Er mulighederne for at få løbende vedligeholdt datamodel undersøgt? 
-8.	Er mulighederne for at benytte data til ledelsesdata undersøgt? 
+6.	Er mulighederne for at anvende åben datamodel og omkostningsfri adgang og ejerskab for data undersøgt?
+7.	Er mulighederne for at sikre myndighedens ejerskab for data undersøgt?
+8.	Er mulighederne for at få løbende vedligeholdt datamodel undersøgt?
+9.	Er mulighederne for at benytte data til ledelsesdata undersøgt? 
 
 **Udvikling og vedligeholdelse**
 
