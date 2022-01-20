@@ -244,7 +244,7 @@ Med andre ord er der forskellige strategiske årsager til at genbruge eksisteren
 
 At kildekoden er åben og frit kan genbruges, betyder ikke kun, at en myndighed kan dele sin open source-software med en anden myndighed. Det betyder også, at den anden myndighed kan forbedre softwaren og derefter dele den forbedrede løsning med den første myndighed og med andre. På den måde kan der være flere om at forbedre softwaren og finansiere fremtidige ønsker til videreudvikling.
 
-### Tjekliste til strategier
+## Tjekliste til strategier
 
 1. Er fordele og ulemper ved anvendelse af open source undersøgt?
 
@@ -326,35 +326,35 @@ Der er mange forskellige licenser, og det er vigtigt at være bevidst om, at oms
 
 Offentlige myndigheder kan med fordel udarbejde egne, og gerne fælles, strategier for brug af licenser og anbefalinger om, hvilke open source-licenser, man ønsker at anvende, og hvilke man kan acceptere i open source-komponenter, man genbruger.
 
-### Tjekliste til licenser
+## Tjekliste til licenser
 
-1.	Er mulighederne for at anvende populære og bredt anvendte licenser i egen udvikling af open source undersøgt?
+1. Er mulighederne for at anvende populære og bredt anvendte licenser i egen udvikling af open source undersøgt?
 
-    Offentlige myndigheder, der udvikler selv eller i fællesskab med andre, kan anvende en af de [godkendte open source-licenser](https://opensource.org/licenses), der er populær og bredt anvendt eller med stærke fællesskaber, f.eks. Apache License 2.0, GNU General Public License (GPL), MIT License og Mozilla Public License (MPL) 2.0.
+   Offentlige myndigheder, der udvikler selv eller i fællesskab med andre, kan anvende en af de [godkendte open source-licenser](https://opensource.org/licenses), der er populær og bredt anvendt eller med stærke fællesskaber, f.eks. Apache License 2.0, GNU General Public License (GPL), MIT License og Mozilla Public License (MPL) 2.0.
     
-2.	Er risici for licenser med *copyleft* undersøgt?
+2. Er risici for licenser med *copyleft* undersøgt?
 
-    Offentlige myndigheder, der udvikler selv eller i fællesskab med andre, kan forholde sig til særligt *copyleft*, hvis de ikke ønsker, at kildekoden kan genbruges i proprietære løsninger.
+   Offentlige myndigheder, der udvikler selv eller i fællesskab med andre, kan forholde sig til særligt *copyleft*, hvis de ikke ønsker, at kildekoden kan genbruges i proprietære løsninger.
     
-3.	Er mulighederne for at vejlede andre myndigheder om licenser for open source undersøgt? 
+3. Er mulighederne for at vejlede andre myndigheder om licenser for open source undersøgt? 
 
-    Offentlige myndigheder kan udarbejde egne, og gerne fælles, strategier for brug af licenser og anbefalinger om, hvilke open source-licenser, man ønsker at anvende, og hvilke man kan acceptere i open source-komponenter, man genbruger.
+   Offentlige myndigheder kan udarbejde egne, og gerne fælles, strategier for brug af licenser og anbefalinger om, hvilke open source-licenser, man ønsker at anvende, og hvilke man kan acceptere i open source-komponenter, man genbruger.
     
-4.	Er licensen for en given eksisterende open source-komponent, som skal genbruges, undersøgt? 
+4. Er licensen for en given eksisterende open source-komponent, som skal genbruges, undersøgt? 
 
-    Offentlige myndigheder, der genbruger eksisterende open source-komponenter, kan være opmærksomme på, hvilken open source-licens, softwaren er offentliggjort under med henblik på mulighederne for at vedligeholde og dele eller overdrage kildekoden til andre.
+   Offentlige myndigheder, der genbruger eksisterende open source-komponenter, kan være opmærksomme på, hvilken open source-licens, softwaren er offentliggjort under med henblik på mulighederne for at vedligeholde og dele eller overdrage kildekoden til andre.
     
-5.	Er mulighederne for at bruge EU-kommissionens værktøj til at sammenligne softwarelicenser undersøgt?
+5. Er mulighederne for at bruge EU-kommissionens værktøj til at sammenligne softwarelicenser undersøgt?
 
-    Offentlige myndigheder kan bruge EU-kommissionens [værktøj til at finde og sammenligne softwarelicenser](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses) med henblik på at vælge en open source-licens, der passer til den konkrete situation.
+   Offentlige myndigheder kan bruge EU-kommissionens [værktøj til at finde og sammenligne softwarelicenser](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses) med henblik på at vælge en open source-licens, der passer til den konkrete situation.
 
-6.	Er retlige forpligtelser og omstændigheder for brug af open source-licenser undersøgt? 
+6. Er retlige forpligtelser og omstændigheder for brug af open source-licenser undersøgt? 
 
-    Offentlige myndigheder, der er i tvivl om mulighederne for at kræve eller prioritere brug af (bestemte) open source-licenser ved udbud og anskaffelse af digitale løsninger, kan orientere sig i OS2-fællesskabet og Kammeradvokatens [notat vedrørende OS2-fællesskabet og open source](https://os2.eu/sites/default/files/blog-files/notat_os2_open_source.pdf), der beskriver retlige forpligtelser og omstændigheder for brug af open source-licenser.
+   Offentlige myndigheder, der er i tvivl om mulighederne for at kræve eller prioritere brug af (bestemte) open source-licenser ved udbud og anskaffelse af digitale løsninger, kan orientere sig i OS2-fællesskabet og Kammeradvokatens [notat vedrørende OS2-fællesskabet og open source](https://os2.eu/sites/default/files/blog-files/notat_os2_open_source.pdf), der beskriver retlige forpligtelser og omstændigheder for brug af open source-licenser.
 
-7.	Er mulighederne for at frigive evt. leverandørers skriftlige dokumentation som open source undersøgt? 
+7. Er mulighederne for at frigive evt. leverandørers skriftlige dokumentation som open source undersøgt? 
 
-    Offentlige myndigheder kan sørge for, at skriftligt materiale, der udarbejdes af tilbudsgiver, herunder dokumentation, licenseres under en passende open source-licens, f.eks. en Creative Commons-licens. 
+   Offentlige myndigheder kan sørge for, at skriftligt materiale, der udarbejdes af tilbudsgiver, herunder dokumentation, licenseres under en passende open source-licens, f.eks. en Creative Commons-licens. 
 
 ## Implementering
 
@@ -370,41 +370,41 @@ Der er ved implementering også en lang række overvejelser, der knytter sig til
 
 ## Tjekliste til implementering
 
-1.	Er der udarbejdet vejledning og dokumentation som kan vedlægges egen udvikling af open source-komponenter?
+1. Er der udarbejdet vejledning og dokumentation som kan vedlægges egen udvikling af open source-komponenter?
 
-    Offentlige myndigheder kan ved offentliggørelse af kildekoden vedlægge vejledning og dokumentation, der forklarer, hvad løsningen kan bruges til, og hvordan man kan anvende kildekoden til at bygge og videreudvikle løsningen.
+   Offentlige myndigheder kan ved offentliggørelse af kildekoden vedlægge vejledning og dokumentation, der forklarer, hvad løsningen kan bruges til, og hvordan man kan anvende kildekoden til at bygge og videreudvikle løsningen.
 
-2.	Er mulighederne for at anvende standarder for indeksering af egen udvikling af open source-komponenter undersøgt? 
+2. Er mulighederne for at anvende standarder for indeksering af egen udvikling af open source-komponenter undersøgt? 
 
-    Offentlige myndigheder kan ved offentliggørelse af kildekoden anvende standarder som f.eks. beskriver kildekoden med henblik på automatisk indeksering af open source-software. Dette giver søgemuligheder på tværs af offentlige myndigheder, sektorer og landegrænser.
+   Offentlige myndigheder kan ved offentliggørelse af kildekoden anvende standarder som f.eks. beskriver kildekoden med henblik på automatisk indeksering af open source-software. Dette giver søgemuligheder på tværs af offentlige myndigheder, sektorer og landegrænser.
 
-3.	Er mulighederne for at få lavet kodereview af egen udvikling af open source-komponenter undersøgt? 
+3. Er mulighederne for at få lavet kodereview af egen udvikling af open source-komponenter undersøgt? 
 
-    Offentlige myndigheder kan sørge for, at der foretages kodereview af kildekoden. Kodereview kan med fordel foretages af en anden leverandør.
+   Offentlige myndigheder kan sørge for, at der foretages kodereview af kildekoden. Kodereview kan med fordel foretages af en anden leverandør.
 
-4.	Er mulighederne for at anvende åbne standarder og snitflader undersøgt? 
+4. Er mulighederne for at anvende åbne standarder og snitflader undersøgt? 
 
-    Offentlige myndigheder kan stille krav om, at løsningen understøtter åbne (og obligatoriske) standarder og anvender åbne, standardiserede snitflader, herunder at implementering af standarden ikke kræver nogen anden teknologi, der ikke opfylder kriterierne i dette krav, og tilbudsgiver kan redegøre for, hvordan systemet lever op til kravene i aftale om anvendelse af åbne standarder for software i det offentlige og de syv åbne, obligatoriske standarder.
+   Offentlige myndigheder kan stille krav om, at løsningen understøtter åbne (og obligatoriske) standarder og anvender åbne, standardiserede snitflader, herunder at implementering af standarden ikke kræver nogen anden teknologi, der ikke opfylder kriterierne i dette krav, og tilbudsgiver kan redegøre for, hvordan systemet lever op til kravene i aftale om anvendelse af åbne standarder for software i det offentlige og de syv åbne, obligatoriske standarder.
 
-5.	Er mulighederne for at anvende åbne frameworks og kodebiblioteker undersøgt?
+5. Er mulighederne for at anvende åbne frameworks og kodebiblioteker undersøgt?
 
-    Offentlige myndigheder kan stille krav om, at løsningens komponenter, herunder tekniske standarder, frameworks og kodebiblioteker, er åbne og kan anvendes uden økonomiske eller juridiske begrænsninger både nu og i fremtiden.
+   Offentlige myndigheder kan stille krav om, at løsningens komponenter, herunder tekniske standarder, frameworks og kodebiblioteker, er åbne og kan anvendes uden økonomiske eller juridiske begrænsninger både nu og i fremtiden.
 
-6.	Er mulighederne for at anvende en åben datamodel og omkostningsfri adgang til data undersøgt? 
+6. Er mulighederne for at anvende en åben datamodel og omkostningsfri adgang til data undersøgt? 
 
-    Offentlige myndigheder kan stille krav om, at løsningen leveres med en åben og fleksibel datamodel og med omkostningsfri adgang til samtlige data i løsningen. Dette betyder, at data gøres tilgængelige for ordregiver på en måde, som ikke forudsætter manuelle processer ud over opsætning og programmering. Desuden gøres  data tilgængelig i et standardiseret og maskinlæsbart databaseformat. Tilgængeligheden skal helst ikke, i mærkbar grad, påvirke den normale driftssituation på den tilbudte løsning. Herudover gøres data tilgængelige efter en aftalt frekvens, som fuld indlæsning eller deltaindlæsning og med metadata om status, tilføjelser og rettelser bestemt af myndighedens behov og informationernes karakter, ligesom at data er kontrolleret for overholdelse af konsistenskrav og valideret med hensyn til type og feltindhold.
+   Offentlige myndigheder kan stille krav om, at løsningen leveres med en åben og fleksibel datamodel og med omkostningsfri adgang til samtlige data i løsningen. Dette betyder, at data gøres tilgængelige for ordregiver på en måde, som ikke forudsætter manuelle processer ud over opsætning og programmering. Desuden gøres  data tilgængelig i et standardiseret og maskinlæsbart databaseformat. Tilgængeligheden skal helst ikke, i mærkbar grad, påvirke den normale driftssituation på den tilbudte løsning. Herudover gøres data tilgængelige efter en aftalt frekvens, som fuld indlæsning eller deltaindlæsning og med metadata om status, tilføjelser og rettelser bestemt af myndighedens behov og informationernes karakter, ligesom at data er kontrolleret for overholdelse af konsistenskrav og valideret med hensyn til type og feltindhold.
 
-7.	Er mulighederne for at sikre myndighedens ejerskab for data undersøgt?
+7. Er mulighederne for at sikre myndighedens ejerskab for data undersøgt?
 
-    Offentlige myndigheder kan stille krav om at leverandøren alene er berettiget til at anvende myndighedens data til brug for udførelse af de af kontrakten omfattede leverancer og ydelser. Leverandøren erhverver således hverken ejendomsret, ophavsret eller nogen anden rettighed til myndighedens data, uanset om disse data optræder elektronisk i systemet, i uddatamateriale eller som print. Desuden kan offentlige myndigheder  stille krav om, at ejerskab til alle data tilfalder myndigheden, hvis kontrakten ændres, udløber eller på anden måde bortfalder.
+   Offentlige myndigheder kan stille krav om at leverandøren alene er berettiget til at anvende myndighedens data til brug for udførelse af de af kontrakten omfattede leverancer og ydelser. Leverandøren erhverver således hverken ejendomsret, ophavsret eller nogen anden rettighed til myndighedens data, uanset om disse data optræder elektronisk i systemet, i uddatamateriale eller som print. Desuden kan offentlige myndigheder  stille krav om, at ejerskab til alle data tilfalder myndigheden, hvis kontrakten ændres, udløber eller på anden måde bortfalder.
 
-8.	Er mulighederne for at få løbende vedligeholdt datamodel undersøgt? 
+8. Er mulighederne for at få løbende vedligeholdt datamodel undersøgt? 
 
-    Offentlige myndigheder kan stille krav om, at dokumentation af datamodel (f.eks. E/R-diagram), nøgler, fortolkninger, opdateringsmetoder og tabelstrukturer kan være tilgængelige for ordregiver, og kan vedligeholdes af tilbudsgiver, så oplysninger til enhver tid er ajour.
+   Offentlige myndigheder kan stille krav om, at dokumentation af datamodel (f.eks. E/R-diagram), nøgler, fortolkninger, opdateringsmetoder og tabelstrukturer kan være tilgængelige for ordregiver, og kan vedligeholdes af tilbudsgiver, så oplysninger til enhver tid er ajour.
 
-9.	Er mulighederne for at benytte data til ledelsesdata undersøgt? 
+9. Er mulighederne for at benytte data til ledelsesdata undersøgt? 
 
-    Offentlige myndigheder kan aftale strukturering af indholdet i snitfladen med ordregivers datavarehusteam, herunder, at enhver ændring af datasnitfladen kan meddeles til ordregivers datavarehusteam i rimelig tid inden ændringen gennemføres, således ordregiver har mulighed for at tilrette de bagvedliggende processer.
+   Offentlige myndigheder kan aftale strukturering af indholdet i snitfladen med ordregivers datavarehusteam, herunder, at enhver ændring af datasnitfladen kan meddeles til ordregivers datavarehusteam i rimelig tid inden ændringen gennemføres, således ordregiver har mulighed for at tilrette de bagvedliggende processer.
 
 # Udvikling og vedligeholdelse
 
