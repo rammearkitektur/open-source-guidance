@@ -170,7 +170,7 @@ Abstract: 'open-source-guidance 1.0.0' .
 Boilerplate: copyright no, conformance no, abstract no
 Shortname: open-source-guidance
 Revision: 1.0.0-rc
-Date: 2021-12-24
+Date: 2022-01-20
 Max ToC Depth: 3
 Markup Shorthands: markdown yes
 Repository: rammearkitektur/open-source-guidance
